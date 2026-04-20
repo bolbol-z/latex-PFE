@@ -1,0 +1,222 @@
+% =============================================================================
+% CUSTOM COMMANDS — Professional PFE Thesis Template
+% =============================================================================
+
+% --- Cross-Reference Shortcuts ---
+\newcommand{\figref}[1]{\cref{fig:#1}}
+\newcommand{\tabref}[1]{\cref{tab:#1}}
+\newcommand{\chapref}[1]{\cref{chap:#1}}
+\newcommand{\secref}[1]{\cref{sec:#1}}
+\newcommand{\appref}[1]{\cref{app:#1}}
+
+% --- Text Shortcuts ---
+\newcommand{\ie}{\textit{i.e.}\xspace}
+\newcommand{\eg}{\textit{e.g.}\xspace}
+\newcommand{\etal}{\textit{et al.}\xspace}
+
+% --- Highlight Box ---
+\newtcolorbox{highlightbox}[1][]{%
+  colback=MidnightBlue!5,
+  colframe=MidnightBlue!60,
+  fonttitle=\bfseries,
+  title={#1},
+  arc=2mm,
+  boxrule=0.8pt,
+  left=8pt,
+  right=8pt,
+  top=6pt,
+  bottom=6pt
+}
+
+% --- Definition Box ---
+\newtcolorbox{definitionbox}[1][]{%
+  colback=ForestGreen!5,
+  colframe=ForestGreen!60,
+  fonttitle=\bfseries,
+  title={#1},
+  arc=2mm,
+  boxrule=0.8pt,
+  left=8pt,
+  right=8pt,
+  top=6pt,
+  bottom=6pt
+}
+
+% --- Warning / Important Box ---
+\newtcolorbox{importantbox}[1][]{%
+  colback=BrickRed!5,
+  colframe=BrickRed!60,
+  fonttitle=\bfseries,
+  title={#1},
+  arc=2mm,
+  boxrule=0.8pt,
+  left=8pt,
+  right=8pt,
+  top=6pt,
+  bottom=6pt
+}
+
+% =============================================================================
+% BUSINESS MODEL CANVAS ENVIRONMENT
+% =============================================================================
+\definecolor{bmcblue}{HTML}{3498DB}
+\definecolor{bmcgreen}{HTML}{2ECC71}
+\definecolor{bmcorange}{HTML}{E67E22}
+\definecolor{bmcred}{HTML}{E74C3C}
+\definecolor{bmcpurple}{HTML}{9B59B6}
+\definecolor{bmcgray}{HTML}{95A5A6}
+
+\newtcolorbox{bmcblock}[2][]{%
+  colback=#2!8,
+  colframe=#2!70,
+  fonttitle=\bfseries\small,
+  title={#1},
+  arc=1.5mm,
+  boxrule=0.6pt,
+  left=5pt,
+  right=5pt,
+  top=4pt,
+  bottom=4pt,
+  fontupper=\small
+}
+
+% --- BMC Section Command ---
+\newcommand{\bmcsection}[3]{%
+  \begin{bmcblock}[#1]{#2}
+    #3
+  \end{bmcblock}
+  \vspace{4pt}
+}
+
+% =============================================================================
+% LEAN CANVAS ENVIRONMENT
+% =============================================================================
+\definecolor{leanpink}{HTML}{E91E63}
+\definecolor{leanteal}{HTML}{009688}
+\definecolor{leanamber}{HTML}{FF9800}
+
+\newtcolorbox{leanblock}[2][]{%
+  colback=#2!8,
+  colframe=#2!70,
+  fonttitle=\bfseries\small,
+  title={#1},
+  arc=1.5mm,
+  boxrule=0.6pt,
+  left=5pt,
+  right=5pt,
+  top=4pt,
+  bottom=4pt,
+  fontupper=\small
+}
+
+\newcommand{\leansection}[3]{%
+  \begin{leanblock}[#1]{#2}
+    #3
+  \end{leanblock}
+  \vspace{4pt}
+}
+
+% =============================================================================
+% SPRINT TABLE COMMAND
+% =============================================================================
+\newcommand{\sprinttable}[5]{%
+  % #1 = Sprint number
+  % #2 = Duration
+  % #3 = Goal
+  % #4 = User stories (tabular content rows)
+  % #5 = Deliverables
+  \begin{table}[H]
+    \centering
+    \caption{Sprint #1 — #3}
+    \label{tab:sprint-#1}
+    \begin{tabularx}{\textwidth}{l X}
+      \toprule
+      \textbf{Sprint}       & #1 \\
+      \textbf{Duration}     & #2 \\
+      \textbf{Goal}         & #3 \\
+      \midrule
+      \textbf{User Stories} & #4 \\
+      \midrule
+      \textbf{Deliverables} & #5 \\
+      \bottomrule
+    \end{tabularx}
+  \end{table}
+}
+
+% =============================================================================
+% METRICS DASHBOARD PLACEHOLDER
+% =============================================================================
+\newcommand{\metriccard}[2]{%
+  \begin{tcolorbox}[
+    colback=bmcblue!5,
+    colframe=bmcblue!50,
+    width=0.48\textwidth,
+    arc=2mm,
+    boxrule=0.5pt,
+    halign=center
+  ]
+    \textbf{#1}\\[4pt]
+    {\Large\bfseries\color{MidnightBlue} #2}
+  \end{tcolorbox}
+}
+
+% =============================================================================
+% BLACK & WHITE CHAPTER OPENING PAGE — Times New Roman Style
+% =============================================================================
+% Add to packages.tex:
+%   \usepackage{mathptmx}   % Times New Roman for pdfLaTeX
+%   \usepackage{lmodern}
+%   \usepackage{letterspace} % for letter-spacing (from microtype — already loaded)
+
+\newlength{\chapteropeningnumwidth}
+\newlength{\chapiterheight}
+
+\newcommand{\chapteropening}[4]{%
+  \clearpage
+  \newgeometry{top=2cm, bottom=2cm, left=2.5cm, right=2cm}
+  \thispagestyle{empty}%
+
+  % ── 1. Measure width of number at 120pt ───────────────────────────────────
+  \settowidth{\chapteropeningnumwidth}{%
+    {\fontsize{120}{120}\selectfont\bfseries\rmfamily #1}}%
+
+  % ── 2. Chapter number (120pt, Times, bold) ────────────────────────────────
+  \noindent
+  {\fontsize{120}{120}\selectfont\bfseries\rmfamily #1\par}%
+  \vspace{4pt}%
+
+  % ── 3. CHAPITER — stretched to number width + letter-spacing ──────────────
+  \noindent\resizebox{\chapteropeningnumwidth}{!}{%
+    {\fontsize{11}{11}\selectfont\bfseries\rmfamily\textls[200]{CHAPITER}}%
+  }\par%
+
+  % ── 4. Measure height of CHAPITER label for rule start ────────────────────
+  \settototalheight{\chapiterheight}{%
+    {\fontsize{11}{11}\selectfont\bfseries\rmfamily CHAPITER}}%
+
+  % ── 5. Spacer — push title to lower half ──────────────────────────────────
+  \vspace*{\fill}
+
+  % ── 6. Title (60pt, Times, bold) ──────────────────────────────────────────
+  \noindent\hspace{20pt}%
+  \begin{minipage}[t]{0.85\textwidth}
+    {\fontsize{50}{62}\selectfont\bfseries\rmfamily #2\par}%
+  \end{minipage}
+
+  \vspace*{2cm}
+
+  % ── 7. Vertical rule: starts at middle of CHAPITER, ends at title bottom ──
+  \begin{tikzpicture}[remember picture, overlay]
+    \draw[line width=2pt, black]
+      % start: middle of CHAPITER label (top=2cm, number~120pt≈4.2cm, label~0.4cm → middle ≈ 6.4cm)
+      ($(current page.north west) + (2.5cm, -6.4cm)$)
+      --
+      % end: bottom of title block (~4cm from bottom)
+      ($(current page.south west) + (2.5cm, 4cm)$);
+  \end{tikzpicture}
+
+  \restoregeometry
+  \clearpage
+  \chapter{#3}
+  \label{#4}
+}

@@ -1,0 +1,457 @@
+% =============================================================================
+% CHAPTER 1 — Présentation du cadre de projet
+% =============================================================================
+
+\chapteropening{01}{Présentation\\du cadre\\de projet}{Présentation du cadre de projet}{chap:cadre-projet}
+
+% --- Chapter Heading (for TOC and headers) ---
+
+% ============================================
+% INTRODUCTION
+% ============================================
+\section*{1-Introduction}
+\addcontentsline{toc}{section}{1-Introduction}
+
+Dans ce premier chapitre, nous présentons le cadre général dans lequel s'inscrit ce projet,
+l'organisme d'accueil et les concepts clés qui seront utilisés ultérieurement. Par la suite, nous
+donnerons un aperçu des grandes lignes de la méthodologie adoptée pour mener à bien la
+réalisation de ce travail.
+
+
+% --------------------------------------------
+\subsection*{1.1-Cadre du projet}
+\addcontentsline{toc}{subsection}{1.1-Cadre du projet}
+\label{sec:cadre-projet}
+% --------------------------------------------
+
+Le présent projet s'inscrit dans le cadre du Programme d'Encouragement des Jeunes Chercheurs (PEJC) pour l'année 2025. Il est porté par l'Institut Supérieur de Gestion Industrielle de Sfax (ISGIS) en collaboration étroite avec la Fondation Djagora, qui assure l'appui technique et méthodologique en tant que partenaire socio-économique. Placé sous la direction de M.\ Faiez Ghorbel, agissant en qualité de chercheur et chef de projet, ce travail vise à concevoir un Produit Minimum Viable (MVP) d'une plateforme numérique dont le développement est structuré suivant la méthodologie Agile SCRUM. Le périmètre technique englobe le développement d'interfaces dédiées aux étudiants et à l'administration de l'ISGIS, avec un démarrage opérationnel prévu pour février 2026.
+
+
+% --------------------------------------------
+\subsection*{1.2-Objectives}
+\addcontentsline{toc}{subsection}{1.2-Objectives}
+\label{sec:objectifs}
+% --------------------------------------------
+
+La Fondation Djagora s'articule autour de deux axes stratégiques~: l'innovation et l'excellence opérationnelle. Le volet innovation consiste à instaurer un cadre favorable à la conception de solutions avant-gardistes répondant aux besoins du marché. Parallèlement, l'exécution se traduit par le déploiement d'un environnement stimulant permettant aux équipes de concrétiser leurs visions tout en garantissant le respect rigoureux des engagements envers les partenaires et clients.
+
+
+% --------------------------------------------
+\subsection*{1.3-Présentation de centre d'accueil de stage}
+\addcontentsline{toc}{subsection}{1.3-Présentation de centre d'accueil de stage}
+\label{sec:presentation-centre}
+% --------------------------------------------
+
+La Fondation Djagora structure son action autour d'une vision stratégique qui place le leadership et l'esprit d'entreprise au cœur de son modèle. Ses activités se déclinent en quatre piliers complémentaires~:
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{figures/Les programmes de la Fondation Djagora.png}
+  \caption{Les programmes de la Fondation Djagora}
+  \label{fig:programmes-djagora}
+\end{figure}
+
+
+% . . . . . . . . . . . . . . . . . . . . .
+\subsubsection*{Djagora Academy}
+\label{sec:djagora-academy}
+% . . . . . . . . . . . . . . . . . . . . .
+
+Véritable tremplin pour l'insertion professionnelle, ce programme s'adresse principalement aux étudiants en fin de cycle (Licence, Master professionnel, Ingénierie) ainsi qu'aux jeunes diplômés et porteurs de projets industriels. Pour ses sept éditions à Sfax, l'initiative se concentre sur l'accompagnement des mentorés. L'enjeu est double~: catalyser la création d'entreprises à haute valeur ajoutée dans le domaine des TIC et dynamiser l'écosystème technologique local pour booster l'employabilité des jeunes talents tunisiens.
+
+
+% . . . . . . . . . . . . . . . . . . . . .
+\subsubsection*{Djagora FabLab}
+% . . . . . . . . . . . . . . . . . . . . .
+
+Véritable écosystème d'innovation ouverte, ce laboratoire de fabrication numérique fait la jonction entre l'idéation et la réalisation concrète. Cet espace collaboratif offre aux créateurs et entrepreneurs l'accès à un parc technologique de pointe (impression 3D, découpe laser, CNC) ainsi qu'à une expertise technique multidisciplinaire. Au-delà du prototypage rapide, le FabLab assure un accompagnement structuré mêlant formation technique et coaching personnalisé, garantissant une précision industrielle dans le développement de solutions innovantes.
+
+
+% . . . . . . . . . . . . . . . . . . . . .
+\subsubsection*{Djagora Junior}
+% . . . . . . . . . . . . . . . . . . . . .
+
+Ce pôle sensibilise les talents de 12 à 17 ans aux fondamentaux de la fabrication numérique et des technologies émergentes. Par le biais de programmes structurés en robotique et en codage, les jeunes s'approprient les outils de l'innovation. Cette formation technique s'articule avec un parcours de développement personnel riche, intégrant l'expression théâtrale sous l'égide d'experts internationaux, l'initiation artisanale et le renforcement de l'intelligence émotionnelle.
+
+
+% . . . . . . . . . . . . . . . . . . . . .
+\subsubsection*{Djagora Maison Digitale}
+% . . . . . . . . . . . . . . . . . . . . .
+
+Inaugurée lors de la Journée internationale des droits des femmes, la Maison Digitale de Sfax est le fruit d'un partenariat entre Orange Tunisie, l'association Djagora et la Fondation Orange. Ce 23\textsuperscript{ème} centre du programme lancé en 2016 se consacre à l'autonomisation économique des femmes. Sa mission est de favoriser leur insertion professionnelle en facilitant l'accès aux outils numériques et en développant leurs compétences technologiques.
+
+
+% . . . . . . . . . . . . . . . . . . . . .
+\subsubsection*{NextGen Leaders}
+% . . . . . . . . . . . . . . . . . . . . .
+
+Un partenariat stratégique établi entre la Fondation Djagora et l'Association Tunisienne des Villages d'Enfants (SOS) en janvier 2025 repose sur une vision commune de renforcement des capacités entrepreneuriales et techniques. Ce programme privilégie l'acquisition de compétences en Business Intelligence (BI) et le développement personnel, tout en servant de phase pilote pour capitaliser sur les boucles d'apprentissage nécessaires à sa future expansion. Un axe majeur de cette collaboration réside dans la conception et le déploiement d'une plateforme SOS de e-learning, conçue pour pérenniser le renforcement des capacités stratégiques des villages. L'initiative s'appuie sur l'engagement de jeunes formateurs certifiés, favorisant une dynamique pédagogique et humaine forte. Le cycle de formation, dont les modalités sont validées en concertation avec l'administration, se conclura par un hackathon marquant la concrétisation des projets innovants développés par les participants.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{figures/fiche-identite-entreprise.png}
+  \caption{Fiche d'identité de l'entreprise}
+  \label{fig:fiche-identite}
+\end{figure}
+
+\subsubsection*{ISGIS}
+
+L'Institut Supérieur de Gestion Industrielle de Sfax (ISGIS) est un établissement public tunisien rattaché à l'Université de Sfax. Il propose à ses étudiants plusieurs formations dans des domaines variés tels que l'informatique de gestion, le génie logistique, le transport et l'automatique industrielle, avec des diplômes allant de la licence au master. Les étudiants peuvent y obtenir une licence en trois ans, puis continuer vers un master professionnel ou un master de recherche selon leur projet, et il est également possible de poursuivre jusqu'au doctorat. Les diplômés de cet institut acquièrent ainsi des compétences solides qui leur permettent de s'intégrer facilement dans le monde professionnel.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.45\textwidth]{figures/isgis-logo.png}
+  \caption{Logo de l'ISGIS}
+  \label{fig:isgis-logo}
+\end{figure}
+
+% --------------------------------------------
+\subsection*{1.4-Contexte général du projet}
+\addcontentsline{toc}{subsection}{1.4-Contexte général du projet}
+\label{sec:contexte-general}
+% --------------------------------------------
+
+Le secteur des transports vit aujourd'hui une transformation profonde, portée par l'essor des technologies avancées et l'intégration croissante de l'intelligence artificielle. Cette évolution rapide génère un écart de plus en plus visible entre les compétences enseignées dans les établissements académiques et les exigences réelles des métiers de transport. Ce décalage affecte directement l'insertion professionnelle des jeunes diplômés et limite la capacité des institutions d'enseignement à adapter efficacement leurs plans d'études aux nouvelles réalités du secteur.
+Pour répondre à ces enjeux, ce projet propose le développement d'une plateforme intelligente pilotée par un modèle d'intelligence artificielle. Cette solution vise à mesurer l'adéquation entre la formation et les besoins du marché de l'emploi, à évaluer le niveau de développement des compétences et à fournir à l'établissement des indicateurs clairs pour ajuster ses programmes d'enseignement et améliorer ses démarches pédagogiques.
+
+
+
+% --------------------------------------------
+\subsection*{1.5-Description du Domaine}
+\addcontentsline{toc}{subsection}{1.5-Description du Domaine}
+\label{sec:description-domaine}
+% --------------------------------------------
+
+Ce projet s'inscrit dans le cadre de la transition numérique et industrielle, à la croisée de l'intelligence artificielle et de l'ingénierie de la formation. Il cible spécifiquement les métiers de transport et de logistique, un domaine en pleine mutation, où les rôles professionnels évoluent rapidement sous l'effet de l'automatisation et des nouvelles technologies.
+L'enjeu central est de concevoir une plateforme capable d'analyser les compétences requises par les métiers de transport à partir d'un référentiel structuré. Grâce à la construction d'une matrice des compétences et à la mise en place de tableaux de bord décisionnels, ce projet vise à faciliter le développement stratégique des compétences, à proposer de nouveaux plans d'études adaptés aux besoins du secteur et à fournir à l'institution des outils objectifs pour piloter ses choix pédagogiques et améliorer l'employabilité de ses étudiants.
+
+
+
+\section*{2.Problématique et étude de l'existence}
+\addcontentsline{toc}{section}{2.Problématique et étude de l'existence}
+
+% --------------------------------------------
+\subsection*{2.1 Problématique}
+\addcontentsline{toc}{subsection}{2.1 Problématique}
+% --------------------------------------------
+
+L’inadéquation entre les compétences acquises par les étudiants et les exigences du marché de l’emploi constitue un enjeu majeur, particulièrement dans des secteurs spécifiques tels que le transport et la logistique. Ce décalage se traduit par une difficulté pour les étudiants à valoriser efficacement leurs profils et à se positionner sur des postes ciblés.
+En effet, en l’absence d’outils intelligents d’analyse, les étudiants ne disposent pas de moyens objectifs pour évaluer la qualité de leur CV, mesurer leur compatibilité avec les systèmes de tri automatisés (ATS) ou encore estimer leur niveau d’employabilité.
+De plus, ils peinent à identifier précisément les écarts entre leurs compétences actuelles et celles requises par les métiers visés.
+Par conséquent, ils rencontrent des difficultés à orienter leurs efforts d’amélioration de manière ciblée et stratégique.
+Du côté administratif, l’absence d’outils d’analyse et de suivi rend difficile l’évaluation de l’adéquation entre la formation et les besoins du marché. Les responsables pédagogiques manquent de visibilité sur les performances des étudiants, les écarts de compétences et le taux d’employabilité. Cela limite leur capacité à ajuster les programmes et à améliorer l’accompagnement. Ainsi, un besoin apparaît pour un système permettant un suivi global et une meilleure prise de décision.
+
+
+% --------------------------------------------
+\subsection*{2.2 Etude de l'existence}
+\addcontentsline{toc}{subsection}{2.2 Etude de l'existence}
+% --------------------------------------------
+
+L’analyse du marché international met en évidence l’existence de plateformes reconnues telles que Coursera for Campus, Forage, Jobscan ainsi que des plateformes de mentorat comme 1 Mentor, qui figurent aujourd’hui parmi les références majeures en matière d’insertion professionnelle.
+
+
+\subsubsection*{2.2.1 Plateforme « Coursera for Campus »}
+
+Coursera for Campus est une déclinaison institutionnelle de la plateforme Coursera destinée aux universités et aux écoles. Elle permet de mettre à disposition des étudiants un large catalogue de cours et de certifications issus d’universités et d’entreprises internationales, tout en offrant aux établissements des outils de gestion et de suivi.
+L’objectif principal de cette plateforme est d’améliorer l’employabilité des étudiants à travers l’accès à des contenus certifiants et orientés vers le marché du travail.
+ Elle s’adresse principalement aux établissements d’enseignement supérieur, aux étudiants et, dans certains cas, aux anciens diplômés.
+La plateforme propose des fonctionnalités complètes dédiées à l’apprentissage en ligne et au suivi académique :
+
+
+\begin{itemize}
+  \item Accès à un catalogue étendu de cours, spécialisations et certifications professionnelles.professionnelles.
+  \item Mise en place de parcours d’apprentissage orientés vers le développement de compétences.
+  \item Tableaux de bord permettant le suivi de la progression, de l’engagement et du taux de complétion.
+  \item Évaluations, quiz et délivrance de certificats.
+\end{itemize}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{figures/Coursera.png}
+  \caption{Site officiel de "Coursera for Campus"}
+  \label{fig:coursera}
+\end{figure}
+
+\subsubsection*{2.2.2 Plateforme « Forage »}
+
+Forage propose des expériences virtuelles (simulations de tâches) inspirées de situations réelles d’entreprises. L’objectif est de permettre aux étudiants de découvrir un métier et de pratiquer des activités proches du terrain.
+L’objectif principal de la plateforme est de rapprocher les étudiants du monde professionnel à travers des activités pratiques. Elle s’adresse principalement aux étudiants, aux jeunes diplômés ainsi qu’aux personnes en réorientation professionnelle.
+La plateforme propose des fonctionnalités orientées vers le développement des compétences et l’insertion professionnelle :
+
+
+\begin{itemize}
+  \item Programmes courts composés de modules pratiques et de livrables.
+  \item Attestations de complétion valorisables dans le parcours professionnel.
+  \item Mise en avant de métiers et d'entreprises partenaires.
+\end{itemize}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{figures/forage.png}
+  \caption{Site officiel de "Forage"}
+  \label{fig:forage}
+\end{figure}
+
+\subsubsection*{2.2.3 Plateforme « Jobscan »}
+
+Le Jobscan est une plateforme en ligne dédiée à l’optimisation des CV pour les systèmes de tri automatisés (ATS) utilisés par les recruteurs. Elle permet d’analyser un CV en le comparant à une offre d’emploi, afin d’identifier les écarts et proposer des améliorations pour renforcer sa pertinence dans un contexte de recrutement digital.
+Cette plateforme vise à améliorer la compatibilité des CV avec les exigences des ATS, afin d’augmenter les chances de sélection. Elle s’adresse aux chercheurs d’emploi, notamment les étudiants, jeunes diplômés et professionnels, ainsi qu’à toute personne souhaitant adapter son CV aux standards du recrutement moderne.
+La plateforme propose des fonctionnalités essentielles pour optimiser efficacement les CV :
+
+
+\begin{itemize}
+  \item Analyse du CV et comparaison avec une offre d'emploi, avec génération d'un score de compatibilité (\textit{match rate}).
+  \item Identification des mots-clés et compétences manquants, ainsi qu'analyse du contenu (expériences, compétences, formation).
+\end{itemize}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{figures/jobscane.png}
+  \caption{Site officiel de "Jobscan"}
+  \label{fig:jobscan}
+\end{figure}
+
+\subsubsection*{2.2.4 Plateformes de mentorat telles que « 1Mentor »}
+
+Les plateformes de mentorat mettent en relation des étudiants ou jeunes diplômés avec des professionnels expérimentés afin de les accompagner dans leur orientation et leur insertion professionnelle.
+L’objectif principal est de proposer un accompagnement individualisé visant à améliorer le projet professionnel, la qualité du CV et la préparation aux entretiens.
+Ces plateformes s’adressent aux étudiants, aux jeunes diplômés et aux personnes en reconversion.
+La plateforme propose des fonctionnalités dédiées à l’accompagnement personnalisé et au développement professionnel :
+
+
+\begin{itemize}
+  \item Mise en relation entre mentor et mentoré selon des critères de compatibilité.
+  \item Organisation de sessions d'accompagnement et suivi des objectifs.
+  \item Accès à des ressources telles que des modèles de CV et des guides d'entretien.
+\end{itemize}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{figures/1mentor.png}
+  \caption{Site officiel de "1Mentor"}
+  \label{fig:1mentor}
+\end{figure}
+
+% --------------------------------------------
+\subsection*{2.3 Critique de l'existence}
+\addcontentsline{toc}{subsection}{2.3 Critique de l'existence}
+% --------------------------------------------
+
+\subsubsection*{2.3.1 Plateforme « Coursera for Campus »}
+
+\textbf{Orientation exclusivement pédagogique :} la plateforme se concentre uniquement sur l'acquisition de connaissances. Elle ne propose aucune analyse du CV permettant d'évaluer la qualité du profil dans un contexte de recrutement réel.\\
+\textbf{Absence de stratégie d'insertion :} Les recommandations sont strictement limitées aux contenus de formation internes et ne guident pas l'étudiant vers une démarche globale de recherche d'emploi ou de projection de carrière.
+
+
+\subsubsection*{2.3.2 Plateforme « Forage »}
+
+\textbf{Exploration manuelle prédominante :} Le choix des programmes et des simulations repose sur la navigation de l’utilisateur. Il n'existe pas de moteur de recommandation intelligent capable de suggérer des expériences en fonction du profil spécifique de l'étudiant.\\
+\textbf{Évaluation limitée :} bien qu'elle offre des simulations professionnelles, la plateforme ne fournit aucun score d'employabilité permettant de situer l'étudiant par rapport aux standards du marché.
+
+\subsubsection*{2.3.3 Plateforme « Jobscan »}
+
+\textbf{Approche technique restrictive :} la plateforme est quasi exclusivement centrée sur l'optimisation des mots-clés pour franchir les filtres des systèmes ATS. Cette vision mécanique néglige les dimensions plus profondes du profil, telles que la cohérence du parcours académique.\\
+\textbf{Absence de levier de progression :} le système se limite à corriger le CV existant sans proposer de parcours de formation complémentaire pour combler réellement les lacunes de compétences identifiées.
+
+\subsubsection*{2.3.4 Plateformes de mentorat telles que « 1Mentor »}
+
+\textbf{Dépendance au facteur humain :} l'efficacité du suivi repose essentiellement sur l'expérience du mentor. Ce manque de standardisation entraîne des résultats inégaux d'un étudiant à l'autre.\\
+\textbf{Absence d'automatisation :} l'analyse des compétences et l'orientation professionnelle restent manuelles et subjectives. La plateforme ne dispose pas d'algorithmes capables d'évaluer de manière objective et massive les données des parcours académiques.
+
+\subsubsection*{2.3.5 Synthèse}
+
+L'examen global des plateformes Coursera for Campus, Forage, 1Mentor et Jobscan révèle des insuffisances majeures qui impactent la préparation des candidats. Bien que ces outils remplissent des fonctions distinctes, ils partagent les lacunes suivantes :
+
+\begin{table}[H]
+\centering
+\footnotesize % استخدام حجم خط أصغر قليلاً ليتناسب مع طول الكلمات
+
+\renewcommand{\arraystretch}{2.2}
+\setlength{\tabcolsep}{3pt} % تقليل المسافة الفارغة بين النص وجدار الخانة لتوفير مساحة للكلمات
+
+\makebox[0pt][c]{%
+\begin{tabular}{|>{\raggedright\arraybackslash}m{3.5cm}|
+                >{\centering\arraybackslash}m{1.8cm}|
+                >{\centering\arraybackslash}m{2.5cm}| % زيادة عرض هذا العمود للكلمة
+                >{\centering\arraybackslash}m{2.5cm}|
+                >{\centering\arraybackslash}m{2.2cm}|
+                >{\centering\arraybackslash}m{3.2cm}|} % زيادة عرض هذا العمود للكلمة
+\hline
+\centering \textbf{Plateforme} & 
+\textbf{Score ATS} & 
+\textbf{Score employabilité} & 
+\textbf{Matching} & 
+\textbf{Gaps} & 
+\textbf{Recommandation automatisée} \\ \hline
+
+% الصف الأول
+\textbf{Coursera for Campus} \newline \scriptsize Plateforme pédagogique & 
+Absent & 
+Absent & 
+Absent & 
+Non détecté & 
+Contenu pédagogique seulement \\ \hline
+
+% الصف الثاني
+\textbf{Forage} \newline \scriptsize Simulations professionnelles & 
+Absent & 
+Absent & 
+Absent & 
+Non détecté & 
+Absent \\ \hline
+
+% الصف الثالث
+\textbf{Jobscan} \newline \scriptsize Optimisation CV / ATS & 
+Présent & 
+Absent & 
+CV / offre d'emploi & 
+Mots-clés manquants. & 
+Mots-clés manquants \\ \hline
+
+% الصف الرابع
+\textbf{1Mentor} \newline \scriptsize Mentorat individualisé & 
+Absent & 
+Absent & 
+Profil / Métiers & 
+Manuel & 
+Manuel \\ \hline
+\end{tabular}
+}
+
+\end{table}
+
+% --------------------------------------------
+\subsection*{2.5 Solution proposée}
+\addcontentsline{toc}{subsection}{2.5 Solution proposée}
+% --------------------------------------------
+
+Afin de répondre à ces insuffisances, nous proposons la solution \textbf{LogiLink}, une plateforme innovante basée sur l'intelligence artificielle et spécifiquement destinée aux secteurs du transport et de la logistique. Ce système intelligent vise à réduire le décalage entre la formation académique et les exigences du marché.
+
+Plus précisément, LogiLink évalue les profils des étudiants à travers le calcul d'un score de compatibilité avec les systèmes de tri automatisés (score ATS), reposant sur des algorithmes avancés de traitement du langage naturel (NLP) afin d'analyser en profondeur le CV par rapport au poste visé.
+
+En complément, la plateforme détermine un score global d'employabilité, calculé de manière objective à partir des matières académiques étudiées par l'étudiant en fonction des exigences des métiers. Cette double évaluation permet de réaliser une analyse intelligente de correspondance (matching) pour identifier avec précision les écarts de compétences (\textit{skills gap}), déclenchant ensuite des recommandations stratégiques, notamment la suggestion de certificats ciblés, pour réduire ces lacunes et faciliter l'intégration sur le marché du travail.
+
+Enfin, pour assurer un suivi complet, les résultats sont présentés via des tableaux de bord interactifs spécifiquement adaptés aux étudiants de troisième année de licence, aux étudiants de deuxième année de master, ainsi qu'à l'administration de l'établissement, permettant d'une part aux étudiants de piloter leur progression individuelle, et d'autre part aux responsables pédagogiques d'avoir une visibilité globale sur les performances, l'employabilité des promotions et le suivi de leur insertion professionnelle, intégrant des mécanismes de retour d'expérience (feedback), afin d'améliorer continuellement le système de recommandation et de score.
+
+
+\section*{3 Méthodologie de Gestion de Projet}
+\addcontentsline{toc}{section}{3 Méthodologie de Gestion de Projet}
+
+La réussite d'un projet informatique ne dépend pas uniquement des compétences techniques de l'équipe. Elle dépend aussi de la manière dont le projet est organisé et piloté. Le choix d'une bonne méthodologie de gestion de projet est donc une décision importante, qui influence directement la qualité du produit final, le respect des délais et la satisfaction du client.
+
+Dans cette section, nous présentons les principales méthodologies de gestion de projet, nous justifions notre choix d'adopter la méthodologie Agile SCRUM, et nous décrivons comment elle a été appliquée tout au long de notre projet.
+
+% --------------------------------------------
+\subsection*{3.1 Présentation des méthodologies de gestion de projet}
+\addcontentsline{toc}{subsection}{3.1 Présentation des méthodologies de gestion de projet}
+% --------------------------------------------
+
+Il existe deux grandes familles de méthodes de gestion de projet : les méthodes traditionnelles et les méthodes agiles.
+
+\subsubsection*{3.1.1 Les méthodes traditionnelles}
+
+Les méthodes traditionnelles reposent sur une planification complète et détaillée du projet dès le départ. Deux exemples bien connus sont le modèle en cascade (\textit{Waterfall}) et le cycle en V.
+
+Le modèle Waterfall est une approche séquentielle~[1]. Chaque phase du projet (analyse, conception, développement, tests, livraison) se déroule l'une après l'autre, sans retour en arrière possible. Cette méthode est simple à comprendre, mais elle manque de flexibilité. Si les besoins du client changent en cours de route, il est difficile d'adapter le projet sans repartir du début.
+
+Le cycle en V est une évolution du modèle Waterfall~[2]. Il ajoute une dimension de validation : chaque phase de développement est associée à une phase de test correspondante. Par exemple, la phase de conception détaillée est liée à la phase de tests unitaires. Cette approche est rigoureuse, mais elle reste peu adaptée aux projets dont les besoins évoluent fréquemment.
+
+Ces deux méthodes conviennent bien aux projets dont les exigences sont clairement définies dès le début et ne changent pas au fil du temps.
+
+\subsubsection*{3.1.2 Méthodologies Agile}
+
+Les méthodes agiles~[3] ont été conçues pour répondre aux limites des méthodes traditionnelles. Elles sont basées sur un développement itératif et incrémental, c'est-à-dire que le projet avance par petites étapes successives. À chaque étape, on livre une version fonctionnelle du produit, et on recueille les retours du client pour améliorer la version suivante.
+
+Les méthodes agiles les plus connues sont :
+
+\begin{itemize}
+  \item \textbf{SCRUM (1996)} : méthode itérative structurée en sprints, privilégiant la flexibilité opérationnelle et une coordination continue entre les parties prenantes.
+  \item \textbf{Extreme Programming (XP, 1999)} : approche centrée sur la qualité technique via des pratiques rigoureuses comme les tests automatisés et l'intégration continue.
+  \item \textbf{RAD (Rapid Application Development, 1991)} : stratégie axée sur le prototypage rapide et une implication utilisateur intensive pour accélérer le cycle de livraison.
+  \item \textbf{DSDM (1995)} : cadre agile visant à assurer une livraison rapide et régulière des fonctionnalités, tout en respectant les contraintes de temps, de coût et de qualité.
+\end{itemize}
+
+% --------------------------------------------
+\subsection*{3.2 Choix de la méthodologie}
+\addcontentsline{toc}{subsection}{3.2 Choix de la méthodologie}
+% --------------------------------------------
+
+Scrum est une méthodologie agile qui repose sur une équipe cohérente et alignée pilotant le projet au fur et à mesure de sa progression vers un objectif~[4]. Cette approche est à la fois dynamique et productive, permettant la réalisation de fonctionnalités par itération avec l'implication du client. Chaque itération, ou sprint, peut durer de une à trois semaines, et à la fin de chaque sprint, un produit fonctionnel doit être livré. Scrum définit trois rôles, comme illustré dans la figure ci-dessous :
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{figures/scrum.png}
+  \caption{Cycle de vie de la méthodologie Scrum}
+  \label{fig:scrum-cycle-vie}
+\end{figure}
+
+\subsubsection*{3.2.1 Justification du choix}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{figures/Agil.png}
+  \caption{Méthodologie Agile}
+  \label{fig:methodologie-agile}
+\end{figure}
+
+\begin{itemize}
+  \item \textbf{Un projet évolutif par nature :} notre projet s'inscrit dans un domaine où les besoins peuvent changer au fur et à mesure de l'avancement du développement. La méthodologie SCRUM nous permet d'intégrer facilement ces changements sans remettre en cause l'ensemble du travail déjà réalisé.
+  \item \textbf{Un travail itératif et progressif :} SCRUM organise le projet en cycles courts appelés sprints. À la fin de chaque sprint, une version fonctionnelle du produit est livrée. Cela nous permet de valider régulièrement notre avancement et de corriger rapidement les problèmes identifiés.
+  \item \textbf{Une implication continue du client :} dans SCRUM, le Product Owner représente le client et participe activement au projet. Il peut suivre l'évolution du travail, donner ses retours et ajuster les priorités. Cela garantit que le produit final correspond bien aux attentes réelles.
+  \item \textbf{Une amélioration continue :} à la fin de chaque sprint, l'équipe tient une rétrospective pour identifier ce qui a bien fonctionné et ce qui peut être amélioré. Cette pratique encourage l'équipe à progresser tout au long du projet.
+  \item \textbf{Une meilleure gestion des risques :} en livrant des fonctionnalités de manière régulière, on détecte les problèmes tôt et on évite les mauvaises surprises en fin de projet.
+\end{itemize}
+
+Pour toutes ces raisons, la méthodologie SCRUM est la plus adaptée à la structure de notre projet de fin d'études. Elle nous offre la flexibilité et l'organisation nécessaires pour mener à bien notre travail dans les meilleures conditions.
+
+\subsubsection*{3.2.2 Présentation détaillée}
+
+\begin{itemize}
+  \item \textbf{Product Owner :} le Product Owner est responsable du produit de l'équipe projet client et représente les utilisateurs finaux. Son rôle consiste à :
+  \begin{itemize}
+    \item Définir la liste des fonctionnalités du produit (Product Backlog).
+    \item Prioriser les fonctionnalités en fonction de leur importance et de la valeur ajoutée pour l'entreprise.
+    \item Choisir la date de livraison des versions ainsi que leur contenu.
+    \item Valider les incréments livrés avec l'équipe de développement.
+    \item Clarifier les besoins auprès de l'équipe de développement si nécessaire.
+  \end{itemize}
+
+  \item \textbf{Scrum Master :} le Scrum Master accomplit les tâches suivantes :
+  \begin{itemize}
+    \item S'assurer que Scrum est correctement appliqué et respecté.
+    \item Encourager l'équipe à apprendre et à progresser afin qu'elle soit fonctionnelle, productive et créative durant le projet.
+    \item Lever les obstacles qui pourraient perturber l'avancement du travail.
+  \end{itemize}
+
+  \item \textbf{L'équipe de Développement :} composée généralement de 2 à 10 membres, cette équipe regroupe l'ensemble des compétences nécessaires à la réalisation du projet (designers, développeurs, testeurs, etc.). Elle fonctionne en auto-organisation et sa composition reste stable durant toute la période du sprint. Sa mission principale consiste à :
+  \begin{itemize}
+    \item Transformer les exigences sélectionnées dans le Sprint Backlog en fonctionnalités opérationnelles.
+    \item Assurer la livraison régulière d'une version fonctionnelle et exploitable du produit.
+  \end{itemize}
+\end{itemize}
+
+Le cadre Scrum s'appuie sur quatre rituels majeurs :
+
+\begin{itemize}
+  \item \textbf{Sprint Planning :} cette session de planification permet à l'équipe d'identifier et de sélectionner les éléments prioritaires du Product Backlog à réaliser.
+  \item \textbf{Sprint Review :} organisée en fin de cycle, cette réunion sert à présenter le travail accompli afin de recueillir les retours du Product Owner et des utilisateurs finaux.
+  \item \textbf{Sprint Retrospective :} intervenant après la revue, ce point fait le bilan du fonctionnement interne de l'équipe pour optimiser les processus en se basant sur l'expérience du dernier sprint.
+  \item \textbf{Daily Scrum :} cette synchronisation quotidienne de 15 minutes maximum se fait debout (\textit{stand-up meeting}). Chaque collaborateur fait le point sur ses avancées, ses objectifs de la journée et signale d'éventuels points de blocage.
+\end{itemize}
+
+La figure ci-dessous illustre le processus de gestion de projet à l'aide de Scrum :
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{figures/Scrum Process.png}
+  \caption{Processus Scrum}
+  \label{fig:processus-scrum}
+\end{figure}
+
+Ces rituels s'appuient sur trois supports clés, appelés artefacts :
+
+\begin{itemize}
+  \item \textbf{Product Backlog :} c'est le cœur du projet, géré par le Product Owner. Il centralise l'ensemble des besoins clients et des fonctionnalités à réaliser (User Stories). Ce réservoir de tâches évolue constamment et sert de base à la planification de chaque sprint.
+  \item \textbf{Sprint Backlog :} il liste les tâches spécifiques à accomplir durant le sprint en cours. Les tâches y sont courtes et précises, permettant à chaque membre de l'équipe de s'en saisir librement selon ses compétences.
+  \item \textbf{Tableau de Bord (Task Board) :} un outil visuel partagé qui affiche l'état d'avancement du travail en temps réel, généralement structuré en trois colonnes : à faire (To-do), en cours (Doing) et terminé (Done).
+\end{itemize}

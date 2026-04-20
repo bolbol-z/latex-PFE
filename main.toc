@@ -1,0 +1,87 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Bibliographie}{1}{Doc-Start}%
+\contentsline {chapter}{Remerciements}{2}{chapter*.1}%
+\contentsline {chapter}{Résumé}{3}{chapter*.2}%
+\contentsline {chapter}{Abstract}{4}{chapter*.3}%
+\contentsline {chapter}{Introduction Générale}{1}{chapter*.7}%
+\contentsline {chapter}{\numberline {1}Présentation du cadre de projet}{3}{chapter.1}%
+\contentsline {section}{1-Introduction}{3}{section*.8}%
+\contentsline {subsection}{1.1-Cadre du projet}{3}{section*.8}%
+\contentsline {subsection}{1.2-Objectives}{3}{section*.8}%
+\contentsline {subsection}{1.3-Présentation de centre d'accueil de stage}{4}{section*.8}%
+\contentsline {subsection}{1.4-Contexte général du projet}{7}{figure.caption.11}%
+\contentsline {subsection}{1.5-Description du Domaine}{7}{figure.caption.11}%
+\contentsline {section}{2.Problématique et étude de l'existence}{7}{figure.caption.11}%
+\contentsline {subsection}{2.1 Problématique}{7}{section*.12}%
+\contentsline {subsection}{2.2 Etude de l'existence}{8}{section*.12}%
+\contentsline {subsection}{2.3 Critique de l'existence}{12}{figure.caption.16}%
+\contentsline {subsection}{2.5 Solution proposée}{13}{table.caption.17}%
+\contentsline {section}{3 Méthodologie de Gestion de Projet}{14}{table.caption.17}%
+\contentsline {subsection}{3.1 Présentation des méthodologies de gestion de projet}{14}{section*.18}%
+\contentsline {subsection}{3.2 Choix de la méthodologie}{15}{section*.18}%
+\contentsline {chapter}{\numberline {2}Analyse et spécification des exigences }{20}{chapter.2}%
+\contentsline {section}{Introduction}{20}{section*.22}%
+\contentsline {section}{\numberline {2.1}Analyse et spécification des besoins}{20}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Définition d'une Startup}{20}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Types de Startups}{20}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Cycle de Vie d'une Startup}{21}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Business Model Canvas (BMC)}{21}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Présentation du BMC}{21}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}Lean Canvas}{21}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Présentation du Lean Canvas}{21}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Les Blocs du Lean Canvas}{21}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Métriques Startup}{21}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Importance des Métriques}{21}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Types de Métriques}{21}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Framework AARRR (Pirate Metrics)}{21}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}Plateformes et Outils}{22}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Outils de Gestion de Projet}{22}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Outils d'Analyse et de Dashboarding}{22}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Technologies de Développement}{22}{subsection.2.5.3}%
+\contentsline {section}{\numberline {2.6}Méthodologie SCRUM}{22}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Présentation de SCRUM}{22}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Rôles SCRUM}{22}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Artefacts SCRUM}{22}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}Événements SCRUM}{22}{subsection.2.6.4}%
+\contentsline {section}{Conclusion}{22}{subsection.2.6.4}%
+\contentsline {chapter}{\numberline {3}Étude Entrepreneuriale et Réalisation}{24}{chapter.3}%
+\contentsline {section}{Introduction}{24}{section*.23}%
+\contentsline {section}{\numberline {3.1}Planification Agile — Sprints SCRUM}{24}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Product Backlog}{24}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Sprint 1}{25}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Sprint 2}{25}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Sprint 3}{25}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Étude de Cas : KooraTime}{26}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Présentation de KooraTime}{26}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Business Model Canvas — KooraTime}{26}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Lean Canvas — KooraTime}{27}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Métriques — KooraTime}{27}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Tableau de Bord — KooraTime}{28}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Analyse Marketing — KooraTime}{28}{subsection.3.2.6}%
+\contentsline {section}{\numberline {3.3}Étude de Cas : StartupsDjagora.tn}{28}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Présentation de StartupsDjagora.tn}{28}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Business Model Canvas — StartupsDjagora.tn}{28}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Lean Canvas — StartupsDjagora.tn}{29}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Métriques — StartupsDjagora.tn}{30}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Tableau de Bord — StartupsDjagora.tn}{30}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.6}Analyse Marketing — StartupsDjagora.tn}{30}{subsection.3.3.6}%
+\contentsline {section}{\numberline {3.4}Étude de Cas : Recapify}{30}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Présentation de Recapify}{30}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Business Model Canvas — Recapify}{31}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Lean Canvas — Recapify}{31}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Métriques — Recapify}{32}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Tableau de Bord — Recapify}{32}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.6}Analyse Marketing — Recapify}{33}{subsection.3.4.6}%
+\contentsline {section}{\numberline {3.5}Analyse Comparative}{33}{section.3.5}%
+\contentsline {section}{Conclusion}{33}{table.caption.34}%
+\contentsline {chapter}{Conclusion Générale}{34}{chapter*.35}%
+\contentsline {chapter}{\numberline {A}Documents Complémentaires}{35}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Cahier des Charges}{35}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Questionnaires et Sondages}{35}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Captures d'Écran Supplémentaires}{35}{section.A.3}%
+\contentsline {chapter}{\numberline {B}Documentation Technique}{36}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Architecture Technique}{36}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Diagrammes UML}{36}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Extraits de Code}{36}{section.B.3}%
+\contentsline {section}{\numberline {B.4}Guide d'Installation}{37}{section.B.4}%
+\contentsline {chapter}{Bibliographie}{38}{appendix*.38}%

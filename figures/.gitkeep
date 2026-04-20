@@ -1,0 +1,4 @@
+% This directory contains all thesis figures.
+% Place your image files here (PNG, JPG, PDF, etc.)
+% Reference them in your chapters using:
+%   \includegraphics[width=0.8\textwidth]{figures/your-image}

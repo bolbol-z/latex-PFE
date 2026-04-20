@@ -1,0 +1,165 @@
+% =============================================================================
+%
+%   PROFESSIONAL PFE THESIS TEMPLATE
+%   ──────────────────────────────────
+%   Architecture: Modular LaTeX Report
+%   Target: VS Code + LaTeX Workshop + TeX Live / MiKTeX
+%
+% =============================================================================
+
+\documentclass[12pt,a4paper]{report}
+
+% --- Load Packages ---
+\input{config/packages}
+
+% --- Load Settings ---
+\input{config/settings}
+
+% --- Load Custom Commands ---
+\input{config/commands}
+
+% =============================================================================
+% DOCUMENT BEGIN
+% =============================================================================
+\begin{document}
+
+% ─────────────────────────────────────────────────────────────────────────────
+% FRONT MATTER
+% ─────────────────────────────────────────────────────────────────────────────
+\section*{Bibliographie}
+\addcontentsline{toc}{chapter}{Bibliographie}
+
+\begin{enumerate}
+  \item Coursera for Campus, \url{https://www.coursera.org/campus}
+  
+  \item Forage, \url{https://www.theforage.com/}
+  
+  \item Jobscan, \url{https://www.jobscan.co/}
+  
+  \item 1Mentor, \url{https://www.1mentor.io/}
+  
+  \item Le modèle Waterfall, \url{https://www.techtarget.com/searchsoftwarequality/definition/waterfall-model?utm_source=openai}
+  
+  \item Le cycle en V, \url{https://improjet.fr/cycle-en-v-1/?utm_source=openai}
+  
+  \item Les méthodes agiles, \url{https://web.maths.unsw.edu.au/~lafaye/CCM/genie-logiciel/methodes-agiles.htm?utm_source=openai}
+  
+  \item Scrum, \url{https://scrumguides.org/scrum-guide.html}
+\end{enumerate}
+
+% --- Cover Page ---
+\input{frontmatter/cover}
+
+% --- Dedication ---
+\input{frontmatter/dedication}
+
+% --- Acknowledgements ---
+\input{frontmatter/acknowledgements}
+
+% --- Abstract ---
+\input{frontmatter/abstract}
+
+% --- Table of Contents ---
+\tableofcontents
+\newpage
+
+% --- List of Figures ---
+\listoffigures
+\newpage
+
+% --- List of Tables ---
+\listoftables
+\newpage
+
+% ─────────────────────────────────────────────────────────────────────────────
+% MAIN MATTER
+% ─────────────────────────────────────────────────────────────────────────────
+\pagenumbering{arabic}
+
+% --- Introduction Générale ---
+\chapter*{Introduction Générale}
+\addcontentsline{toc}{chapter}{Introduction Générale}
+\markboth{Introduction Générale}{}
+
+Ce rapport présente le travail réalisé dans le cadre du projet de fin d'études effectué au sein de Djagora. Le stage a porté sur l'accompagnement entrepreneurial de startups, l'étude de modèles économiques, et le développement de produits minimaux viables (MVP).
+
+\vspace{12pt}
+
+Le présent rapport est structuré en trois chapitres :
+
+\begin{itemize}[leftmargin=*]
+  \item \textbf{Chapitre 1} présente le cadre général du stage, l'organisme d'accueil et l'écosystème entrepreneurial.
+  \item \textbf{Chapitre 2} expose le cadre théorique : startup, Business Model Canvas, Lean Canvas, métriques et méthodologie SCRUM.
+  \item \textbf{Chapitre 3} détaille la réalisation pratique à travers les études de cas des startups accompagnées.
+\end{itemize}
+
+[Write your full general introduction here]
+
+\newpage
+
+% --- Chapter 1 ---
+\input{chapters/chapter1}
+
+% --- Chapter 2 ---
+\input{chapters/chapter2}
+
+% --- Chapter 3 ---
+\input{chapters/chapter3}
+
+% ─────────────────────────────────────────────────────────────────────────────
+% CONCLUSION GÉNÉRALE
+% ─────────────────────────────────────────────────────────────────────────────
+\chapter*{Conclusion Générale}
+\addcontentsline{toc}{chapter}{Conclusion Générale}
+\markboth{Conclusion Générale}{}
+
+Ce projet de fin d'études a permis de mettre en pratique les connaissances acquises durant la formation académique dans un contexte entrepreneurial réel. Le travail a couvert l'étude des modèles économiques, l'analyse des métriques de performance, et la planification agile pour le développement de produits minimaux viables.
+
+\vspace{12pt}
+
+[Write your full general conclusion here]
+
+\vspace{12pt}
+
+\textbf{Perspectives :}
+\begin{itemize}[leftmargin=*]
+  \item [Perspective 1]
+  \item [Perspective 2]
+  \item [Perspective 3]
+\end{itemize}
+
+\newpage
+
+% ─────────────────────────────────────────────────────────────────────────────
+% APPENDICES
+% ─────────────────────────────────────────────────────────────────────────────
+\appendix
+
+\input{appendices/appendixA}
+\input{appendices/appendixB}
+
+% ─────────────────────────────────────────────────────────────────────────────
+% BIBLIOGRAPHY
+% ─────────────────────────────────────────────────────────────────────────────
+\chapter*{Bibliographie}
+\addcontentsline{toc}{chapter}{Bibliographie}
+
+\begin{enumerate}
+  \item Coursera for Campus, \url{https://www.coursera.org/campus}
+
+  \item Forage, \url{https://www.theforage.com/}
+
+  \item Jobscan, \url{https://www.jobscan.co/}
+
+  \item 1Mentor, \url{https://www.1mentor.io/}
+
+  \item Le modèle Waterfall, \url{https://www.techtarget.com/searchsoftwarequality/definition/waterfall-model?utm_source=openai}
+
+  \item Le cycle en V, \url{https://improjet.fr/cycle-en-v-1/?utm_source=openai}
+
+  \item Les méthodes agiles, \url{https://web.maths.unsw.edu.au/~lafaye/CCM/genie-logiciel/methodes-agiles.htm?utm_source=openai}
+
+  \item Scrum, \url{https://scrumguides.org/scrum-guide.html}
+\end{enumerate}
+
+\end{document}
