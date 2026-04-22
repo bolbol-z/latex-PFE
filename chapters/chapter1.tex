@@ -159,7 +159,7 @@ La plateforme propose des fonctionnalités complètes dédiées à l’apprentis
 
 
 \begin{itemize}
-  \item Accès à un catalogue étendu de cours, spécialisations et certifications professionnelles.professionnelles.
+  \item Accès à un catalogue étendu de cours, spécialisations et certifications professionnelles.
   \item Mise en place de parcours d’apprentissage orientés vers le développement de compétences.
   \item Tableaux de bord permettant le suivi de la progression, de l’engagement et du taux de complétion.
   \item Évaluations, quiz et délivrance de certificats.
@@ -262,75 +262,66 @@ La plateforme propose des fonctionnalités dédiées à l’accompagnement perso
 
 L'examen global des plateformes Coursera for Campus, Forage, 1Mentor et Jobscan révèle des insuffisances majeures qui impactent la préparation des candidats. Bien que ces outils remplissent des fonctions distinctes, ils partagent les lacunes suivantes :
 
+
 \begin{table}[H]
 \centering
-\footnotesize % استخدام حجم خط أصغر قليلاً ليتناسب مع طول الكلمات
-
-\renewcommand{\arraystretch}{2.2}
-\setlength{\tabcolsep}{3pt} % تقليل المسافة الفارغة بين النص وجدار الخانة لتوفير مساحة للكلمات
-
-\makebox[0pt][c]{%
-\begin{tabular}{|>{\raggedright\arraybackslash}m{3.5cm}|
-                >{\centering\arraybackslash}m{1.8cm}|
-                >{\centering\arraybackslash}m{2.5cm}| % زيادة عرض هذا العمود للكلمة
-                >{\centering\arraybackslash}m{2.5cm}|
-                >{\centering\arraybackslash}m{2.2cm}|
-                >{\centering\arraybackslash}m{3.2cm}|} % زيادة عرض هذا العمود للكلمة
+\caption{Analyse comparative des plateformes d'insertion professionnelle}
+\label{tab:analyse-comparative-plateformes}
+\small
+\renewcommand{\arraystretch}{1.0}
+\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\textwidth}{|>{\RaggedRight\arraybackslash}X|
+                           >{\centering\arraybackslash}m{1.3cm}|
+                           >{\centering\arraybackslash}m{2.2cm}|
+                           >{\centering\arraybackslash}m{2.2cm}|
+                           >{\centering\arraybackslash}m{1.6cm}|
+                           >{\centering\arraybackslash}m{2.8cm}|}
 \hline
-\centering \textbf{Plateforme} & 
+\multicolumn{1}{|c|}{\textbf{Plateforme}} & 
 \textbf{Score ATS} & 
-\textbf{Score employabilité} & 
+\textbf{\shortstack[c]{Score\\employabilité}} & 
 \textbf{Matching} & 
 \textbf{Gaps} & 
-\textbf{Recommandation automatisée} \\ \hline
+\multicolumn{1}{c|}{\textbf{\shortstack[c]{Recommandation\\automatisée}}} \\ \hline
 
-% الصف الأول
-\textbf{Coursera for Campus} \newline \scriptsize Plateforme pédagogique & 
+\textbf{\mbox{Coursera for Campus}} \newline {\footnotesize \mbox{Plateforme pédagogique}} & 
 Absent & 
 Absent & 
 Absent & 
 Non détecté & 
-Contenu pédagogique seulement \\ \hline
+{\footnotesize Contenu pédagogique seulement} \\ \hline
 
-% الصف الثاني
-\textbf{Forage} \newline \scriptsize Simulations professionnelles & 
+\textbf{Forage} \newline {\footnotesize \mbox{Simulations professionnelles}} & 
 Absent & 
 Absent & 
 Absent & 
 Non détecté & 
 Absent \\ \hline
 
-% الصف الثالث
-\textbf{Jobscan} \newline \scriptsize Optimisation CV / ATS & 
+\textbf{Jobscan} \newline {\footnotesize Optimisation CV / ATS} & 
 Présent & 
 Absent & 
-CV / offre d'emploi & 
-Mots-clés manquants. & 
-Mots-clés manquants \\ \hline
+{\footnotesize CV / offre d'emploi} & 
+{\footnotesize Mots-clés manquants} & 
+{\footnotesize Mots-clés manquants} \\ \hline
 
-% الصف الرابع
-\textbf{1Mentor} \newline \scriptsize Mentorat individualisé & 
+\textbf{1Mentor} \newline {\footnotesize Mentorat individualisé} & 
 Absent & 
 Absent & 
-Profil / Métiers & 
+{\footnotesize Profil / Métiers} & 
 Manuel & 
 Manuel \\ \hline
-\end{tabular}
-}
 
+\end{tabularx}
 \end{table}
-
 % --------------------------------------------
 \subsection*{2.5 Solution proposée}
 \addcontentsline{toc}{subsection}{2.5 Solution proposée}
 % --------------------------------------------
 
 Afin de répondre à ces insuffisances, nous proposons la solution \textbf{LogiLink}, une plateforme innovante basée sur l'intelligence artificielle et spécifiquement destinée aux secteurs du transport et de la logistique. Ce système intelligent vise à réduire le décalage entre la formation académique et les exigences du marché.
-
 Plus précisément, LogiLink évalue les profils des étudiants à travers le calcul d'un score de compatibilité avec les systèmes de tri automatisés (score ATS), reposant sur des algorithmes avancés de traitement du langage naturel (NLP) afin d'analyser en profondeur le CV par rapport au poste visé.
-
 En complément, la plateforme détermine un score global d'employabilité, calculé de manière objective à partir des matières académiques étudiées par l'étudiant en fonction des exigences des métiers. Cette double évaluation permet de réaliser une analyse intelligente de correspondance (matching) pour identifier avec précision les écarts de compétences (\textit{skills gap}), déclenchant ensuite des recommandations stratégiques, notamment la suggestion de certificats ciblés, pour réduire ces lacunes et faciliter l'intégration sur le marché du travail.
-
 Enfin, pour assurer un suivi complet, les résultats sont présentés via des tableaux de bord interactifs spécifiquement adaptés aux étudiants de troisième année de licence, aux étudiants de deuxième année de master, ainsi qu'à l'administration de l'établissement, permettant d'une part aux étudiants de piloter leur progression individuelle, et d'autre part aux responsables pédagogiques d'avoir une visibilité globale sur les performances, l'employabilité des promotions et le suivi de leur insertion professionnelle, intégrant des mécanismes de retour d'expérience (feedback), afin d'améliorer continuellement le système de recommandation et de score.
 
 
@@ -338,7 +329,6 @@ Enfin, pour assurer un suivi complet, les résultats sont présentés via des ta
 \addcontentsline{toc}{section}{3 Méthodologie de Gestion de Projet}
 
 La réussite d'un projet informatique ne dépend pas uniquement des compétences techniques de l'équipe. Elle dépend aussi de la manière dont le projet est organisé et piloté. Le choix d'une bonne méthodologie de gestion de projet est donc une décision importante, qui influence directement la qualité du produit final, le respect des délais et la satisfaction du client.
-
 Dans cette section, nous présentons les principales méthodologies de gestion de projet, nous justifions notre choix d'adopter la méthodologie Agile SCRUM, et nous décrivons comment elle a été appliquée tout au long de notre projet.
 
 % --------------------------------------------

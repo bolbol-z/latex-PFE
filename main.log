@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.24)  20 APR 2026 15:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.24)  22 APR 2026 10:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1450,11 +1450,11 @@ l.98 \newpage
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(71.13188pt, 469.47049pt, 56.9055pt)
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
 * v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=469.47049pt
+* \textwidth=455.24411pt
 * \textheight=731.23584pt
 * \oddsidemargin=-1.1381pt
 * \evensidemargin=-1.1381pt
@@ -1511,7 +1511,7 @@ l.40 ...rÃ©sentation de centre d'accueil de stage}
 
 
 ]
-<figures/Les programmes de la Fondation Djagora.png, id=592, 513.92pt x 255.95625pt>
+<figures/Les programmes de la Fondation Djagora.png, id=593, 513.92pt x 255.95625pt>
 File: figures/Les programmes de la Fondation Djagora.png Graphic file (type png)
 <use figures/Les programmes de la Fondation Djagora.png>
 Package pdftex.def Info: figures/Les programmes de la Fondation Djagora.png  used on input line 49.
@@ -1524,7 +1524,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has b
                    \relax 
 l.75 
       [4 <./figures/Les programmes de la Fondation Djagora.png>]
-<figures/fiche-identite-entreprise.png, id=596, 513.92pt x 351.3125pt>
+<figures/fiche-identite-entreprise.png, id=597, 513.92pt x 351.3125pt>
 File: figures/fiche-identite-entreprise.png Graphic file (type png)
 <use figures/fiche-identite-entreprise.png>
 Package pdftex.def Info: figures/fiche-identite-entreprise.png  used on input line 92.
@@ -1537,7 +1537,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has b
                    \relax 
 l.96 
       [5]
-<figures/isgis-logo.png, id=600, 371.3875pt x 250.9375pt>
+<figures/isgis-logo.png, id=601, 371.3875pt x 250.9375pt>
 File: figures/isgis-logo.png Graphic file (type png)
 <use figures/isgis-logo.png>
 Package pdftex.def Info: figures/isgis-logo.png  used on input line 103.
@@ -1562,11 +1562,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has b
                    \relax 
 l.143 
        [7]
-Overfull \hbox (52.60988pt too wide) in paragraph at lines 162--163
-[]\T1/ptm/m/n/12 (-20) Accès à un cat-a-logue étendu de cours, spé-cial-i-sa-tions et cer-ti-fi-ca-tions pro-fes-sion-nelles.professionnelles. 
- []
-
-<figures/Coursera.png, id=610, 513.92pt x 253.94875pt>
+<figures/Coursera.png, id=611, 513.92pt x 253.94875pt>
 File: figures/Coursera.png Graphic file (type png)
 <use figures/Coursera.png>
 Package pdftex.def Info: figures/Coursera.png  used on input line 170.
@@ -1579,7 +1575,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has b
                    \relax 
 l.174 
        [8]
-<figures/forage.png, id=614, 513.92pt x 255.95625pt>
+<figures/forage.png, id=615, 513.92pt x 255.95625pt>
 File: figures/forage.png Graphic file (type png)
 <use figures/forage.png>
 Package pdftex.def Info: figures/forage.png  used on input line 190.
@@ -1592,7 +1588,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has b
                    \relax 
 l.194 
        [9 <./figures/Coursera.png>]
-<figures/jobscane.png, id=618, 513.92pt x 226.8475pt>
+<figures/jobscane.png, id=619, 513.92pt x 226.8475pt>
 File: figures/jobscane.png Graphic file (type png)
 <use figures/jobscane.png>
 Package pdftex.def Info: figures/jobscane.png  used on input line 209.
@@ -1605,7 +1601,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has 
                    \relax 
 l.213 
        [10 <./figures/forage.png>]
-<figures/1mentor.png, id=622, 513.92pt x 254.9525pt>
+<figures/1mentor.png, id=623, 513.92pt x 254.9525pt>
 File: figures/1mentor.png Graphic file (type png)
 <use figures/1mentor.png>
 Package pdftex.def Info: figures/1mentor.png  used on input line 230.
@@ -1622,12 +1618,16 @@ Overfull \hbox (0.85234pt too wide) in paragraph at lines 253--255
 \T1/ptm/b/n/12 (-20) Approche tech-nique re-stric-tive : \T1/ptm/m/n/12 (-20) la plate-forme est quasi ex-clu-sive-ment cen-trée sur l'optimisation
  []
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 319.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 319.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 319.
+
+Overfull \hbox (0.67227pt too wide) in paragraph at lines 315--315
+ []|[]| 
+ []
+
+
+Overfull \hbox (1.26587pt too wide) in paragraph at lines 315--315
+[]|  
+ []
+
 
 
 [12]
@@ -1635,20 +1635,20 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 [13]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 346.
+(hyperref)                be the same. Added a new anchor on input line 336.
 
 
 
 [14]
-<figures/scrum.png, id=640, 513.92pt x 266.9975pt>
+<figures/scrum.png, id=641, 513.92pt x 266.9975pt>
 File: figures/scrum.png Graphic file (type png)
 <use figures/scrum.png>
-Package pdftex.def Info: figures/scrum.png  used on input line 383.
+Package pdftex.def Info: figures/scrum.png  used on input line 373.
 (pdftex.def)             Requested size: 364.19667pt x 189.21509pt.
-<figures/Agil.png, id=641, 513.92pt x 513.92pt>
+<figures/Agil.png, id=642, 513.92pt x 513.92pt>
 File: figures/Agil.png Graphic file (type png)
 <use figures/Agil.png>
-Package pdftex.def Info: figures/Agil.png  used on input line 392.
+Package pdftex.def Info: figures/Agil.png  used on input line 382.
 (pdftex.def)             Requested size: 318.66948pt x 318.67415pt.
 
 
@@ -1657,10 +1657,10 @@ Package pdftex.def Info: figures/Agil.png  used on input line 392.
 [16 <./figures/Agil.png>]
 
 [17]
-<figures/Scrum Process.png, id=655, 513.92pt x 297.11pt>
+<figures/Scrum Process.png, id=656, 513.92pt x 297.11pt>
 File: figures/Scrum Process.png Graphic file (type png)
 <use figures/Scrum Process.png>
-Package pdftex.def Info: figures/Scrum Process.png  used on input line 446.
+Package pdftex.def Info: figures/Scrum Process.png  used on input line 436.
 (pdftex.def)             Requested size: 409.71692pt x 236.87228pt.
 ) (./chapters/chapter2.tex
 
@@ -1671,11 +1671,11 @@ Package pdftex.def Info: figures/Scrum Process.png  used on input line 446.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(71.13188pt, 469.47049pt, 56.9055pt)
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
 * v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=469.47049pt
+* \textwidth=455.24411pt
 * \textheight=731.23584pt
 * \oddsidemargin=-1.1381pt
 * \evensidemargin=-1.1381pt
@@ -1725,11 +1725,11 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(71.13188pt, 469.47049pt, 56.9055pt)
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
 * v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=469.47049pt
+* \textwidth=455.24411pt
 * \textheight=731.23584pt
 * \oddsidemargin=-1.1381pt
 * \evensidemargin=-1.1381pt
@@ -1903,21 +1903,21 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46020 strings out of 473190
- 910944 string characters out of 5715800
- 1803755 words of memory out of 5000000
- 67950 multiletter control sequences out of 15000+600000
- 686772 words of font info for 411 fonts, out of 8000000 for 9000
+ 46001 strings out of 473190
+ 910820 string characters out of 5715800
+ 1803892 words of memory out of 5000000
+ 67949 multiletter control sequences out of 15000+600000
+ 680733 words of font info for 399 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 93i,13n,99p,1245b,2346s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,15n,99p,1245b,2346s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{cite.0@maurya2012} has been referenced but does not exist, replaced by a fixed one
 
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (50 pages, 1144824 bytes).
+Output written on main.pdf (50 pages, 1145071 bytes).
 PDF statistics:
- 825 PDF objects out of 1000 (max. 8388607)
- 721 compressed objects within 8 object streams
+ 826 PDF objects out of 1000 (max. 8388607)
+ 722 compressed objects within 8 object streams
  155 named destinations out of 1000 (max. 500000)
- 151423 words of extra memory for PDF output out of 154059 (max. 10000000)
+ 143231 words of extra memory for PDF output out of 154059 (max. 10000000)
 
