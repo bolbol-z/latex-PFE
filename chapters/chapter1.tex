@@ -314,6 +314,8 @@ Manuel \\ \hline
 
 \end{tabularx}
 \end{table}
+
+
 % --------------------------------------------
 \subsection*{2.5 Solution proposée}
 \addcontentsline{toc}{subsection}{2.5 Solution proposée}
@@ -440,3 +442,384 @@ Ces rituels s'appuient sur trois supports clés, appelés artefacts :
   \item \textbf{Sprint Backlog :} il liste les tâches spécifiques à accomplir durant le sprint en cours. Les tâches y sont courtes et précises, permettant à chaque membre de l'équipe de s'en saisir librement selon ses compétences.
   \item \textbf{Tableau de Bord (Task Board) :} un outil visuel partagé qui affiche l'état d'avancement du travail en temps réel, généralement structuré en trois colonnes : à faire (To-do), en cours (Doing) et terminé (Done).
 \end{itemize}
+
+
+\section*{4-Analyse et spécification des besoins}
+\addcontentsline{toc}{section}{4-Analyse et spécification des besoins}
+
+La définition des besoins est une étape déterminante du cycle de vie du projet. Elle offre une vision claire des enjeux en traduisant les attentes des utilisateurs en objectifs techniques précis. Pour garantir la pertinence de la solution, nous avons structuré cette étude autour de deux axes :
+
+\begin{itemize}
+  \item \textbf{Les exigences fonctionnelles :} elles définissent les missions spécifiques et les services que l'application doit impérativement rendre.
+  \item \textbf{Les exigences non fonctionnelles :} elles regroupent les contraintes de performance, de sécurité et d'ergonomie nécessaires à la viabilité et à la qualité du système.
+\end{itemize}
+
+
+\subsection*{4.1 Exigences fonctionnelles}
+\addcontentsline{toc}{subsection}{4.1 Exigences fonctionnelles}
+
+Le système LogiLink vise à améliorer l'employabilité des étudiants de l'ISGIS dans les filières Transport et Logistique à travers une plateforme intelligente intégrant des mécanismes d'analyse, de recommandation et d'aide à la décision. Les exigences fonctionnelles sont réparties selon deux modules principaux : le module Étudiant et le module Administrateur.
+
+
+\subsubsection*{4.1.1 Authentification et gestion des accès}
+
+Ce module définit les processus d'identification et la distribution des privilèges d'accès pour chaque profil utilisateur.
+
+\begin{itemize}
+  \item Le système doit permettre aux utilisateurs (Étudiant et Administrateur) de se connecter via un identifiant et un mot de passe.
+  \item Le système doit récupérer automatiquement les informations d'authentification depuis le système du site ISGIS.
+  \item Le système doit gérer différents rôles utilisateurs avec des droits d'accès spécifiques à chaque module.
+  \item Le système doit permettre à l'utilisateur de se déconnecter de manière sécurisée.
+\end{itemize}
+
+
+\subsubsection*{4.1.2 Module Étudiant}
+
+Cette section offre à l'étudiant les outils nécessaires pour valoriser son profil académique et professionnel via une analyse intelligente de son employabilité.
+
+\subsubsection*{4.1.2.1 Création de CV}
+Le système doit permettre à l'étudiant de créer un CV optimisé à travers les fonctionnalités suivantes :
+
+\begin{itemize}
+  \item Saisie manuelle des informations personnelles, académiques et professionnelles.
+  \item Importation automatique des données académiques depuis le système interne de l'ISGIS.
+  \item Extraction automatique des compétences techniques à partir des relevés de notes, avec conversion des matières validées en compétences métier.
+  \item Génération d'un CV structuré et compatible avec les systèmes ATS.
+\end{itemize}
+
+\subsubsection*{4.1.2.2 Calcul du score CV ATS}
+Le système doit évaluer la qualité du CV à l'aide d'une intelligence artificielle via l'API Gemini, en se basant sur :
+
+\begin{itemize}
+  \item L'adéquation entre le CV et le poste visé renseigné par l'étudiant.
+  \item La structure et la lisibilité globale du document.
+  \item L'analyse sémantique du contenu.
+  \item La présence et la pertinence des mots-clés liés au domaine Transport \& Logistique.
+\end{itemize}
+
+\subsubsection*{4.1.2.3 Calcul du score d'employabilité}
+Le système doit calculer un score d'employabilité en exploitant les données académiques et professionnelles de l'étudiant à partir de :
+
+\begin{itemize}
+  \item La matrice de couverture construite à partir du référentiel de compétences métier et du parcours académique.
+  \item Les résultats académiques.
+  \item Les certifications acquises.
+\end{itemize}
+
+\subsubsection*{4.1.2.4 Matching poste / métier}
+Le système doit proposer une analyse de correspondance entre le profil de l'étudiant et les métiers du secteur :
+
+\begin{itemize}
+  \item Affichage d'un score d'adéquation pour le poste visé ainsi que pour les métiers similaires accessibles selon le profil de l'étudiant.
+  \item Présentation détaillée des compétences déjà maîtrisées pour chaque métier identifié.
+\end{itemize}
+
+\subsubsection*{4.1.2.5 Analyse des gaps (écarts)}
+Le système doit identifier automatiquement les lacunes du profil de l'étudiant :
+
+\begin{itemize}
+  \item Comparaison entre les compétences acquises et celles exigées par le référentiel métier.
+  \item Mise en évidence des compétences manquantes ou insuffisantes.
+\end{itemize}
+
+\subsubsection*{4.1.2.6 Recommandations personnalisées}
+Le système doit générer des recommandations adaptées pour améliorer l'employabilité :
+
+\begin{itemize}
+  \item Recommandation des compétences techniques et des certifications à acquérir.
+\end{itemize}
+
+\subsubsection*{4.1.2.7 Ingestion (en cours)}
+
+
+\subsubsection*{4.1.3 Module Administrateur (ISGIS)}
+
+Ce module permet à l'administration de piloter et d'optimiser l'adéquation entre la formation et les besoins du marché.
+
+\subsubsection*{4.1.3.1 Adéquation Formation -- Emploi}
+Le système doit fournir des outils d'analyse stratégique :
+
+\begin{itemize}
+  \item Visualisation d'une matrice de couverture entre les modules enseignés et les métiers Transport \& Logistique existants dans le marché.
+  \item Identification des écarts pédagogiques et proposition de recommandations académiques automatisées.
+\end{itemize}
+
+\subsubsection*{4.1.3.2 Monitoring de l'employabilité}
+Le système doit permettre un suivi global des performances :
+
+\begin{itemize}
+  \item Calcul et affichage du score moyen d'employabilité par filière et par promotion.
+  \item Tableaux de bord analytiques pour faciliter la prise de décision.
+\end{itemize}
+
+\subsubsection*{4.1.3.3 Métiers par parcours}
+Le système doit offrir une vision claire des débouchés :
+
+\begin{itemize}
+  \item Visualisation du taux de correspondance entre chaque parcours académique et les métiers du secteur Transport \& Logistique.
+\end{itemize}
+
+\subsubsection*{4.1.3.4 Analyse globale des gaps (profil -- modules -- compétences -- marché)}
+
+\subsubsection*{4.1.3.5 Référentiel de compétences}
+Le système doit permettre :
+
+\begin{itemize}
+  \item La consultation des référentiels de compétences métiers.
+\end{itemize}
+
+\subsubsection*{4.1.3.6 Recommandations personnalisées}
+L'administrateur reçoit des recommandations automatisées afin de pouvoir proposer des recommandations personnalisées aux étudiants.
+
+\subsubsection*{4.1.3.7 Suivi des étudiants}
+Le système doit fournir une interface de suivi détaillée :
+
+\begin{itemize}
+  \item Accès à la liste des étudiants.
+  \item Consultation des scores (CV ATS, employabilité).
+  \item Visualisation des résultats de matching, des gaps et des recommandations.
+\end{itemize}
+
+
+\subsection*{4.2 Exigences non fonctionnelles}
+\addcontentsline{toc}{subsection}{4.2 Exigences non fonctionnelles}
+
+Les exigences non fonctionnelles définissent les critères de qualité, de performance et de fiabilité que doit respecter la plateforme LogiLink afin d'assurer une expérience utilisateur optimale, une sécurité renforcée et une exploitation efficace du système. Elles constituent un pilier essentiel garantissant la viabilité et la robustesse de la solution.
+
+\subsubsection*{4.2.1 Performance}
+Le système doit garantir un temps de réponse rapide afin d'assurer une interaction fluide avec les utilisateurs :
+
+\begin{itemize}
+  \item Le temps de réponse des opérations principales (authentification, génération de CV, calcul des scores) ne doit pas dépasser 3 secondes dans des conditions normales d'utilisation.
+  \item Le système doit supporter un nombre élevé d'utilisateurs simultanés (scalabilité), notamment lors des périodes critiques.
+  \item Le chargement des tableaux de bord analytiques doit être rapide et fluide.
+\end{itemize}
+
+\subsubsection*{4.2.2 Sécurité}
+La sécurité est un aspect critique compte tenu de la sensibilité des données manipulées :
+
+\begin{itemize}
+  \item Le système doit garantir la confidentialité des données des étudiants et administrateurs.
+  \item Les mots de passe doivent être stockés de manière sécurisée.
+  \item Le système doit être protégé contre les attaques courantes.
+  \item L'intégration avec le système ISGIS doit respecter des mécanismes sécurisés d'authentification.
+\end{itemize}
+
+\subsubsection*{4.2.3 Disponibilité et fiabilité}
+Le système doit répondre à des exigences strictes en matière de disponibilité et de fiabilité, notamment :
+
+\begin{itemize}
+  \item Il doit être disponible 24h/24 et 7j/7, avec un taux de disponibilité minimal de 99\%.
+  \item Il doit garantir la fiabilité des calculs.
+  \item Il doit assurer la sauvegarde régulière des données (backup automatique).
+\end{itemize}
+
+\subsubsection*{4.2.4 Ergonomie et expérience utilisateur (UX/UI)}
+Le système doit garantir une bonne ergonomie et une expérience utilisateur optimale, notamment :
+
+\begin{itemize}
+  \item L'interface doit être intuitive, simple et ergonomique, adaptée aux étudiants et au personnel administratif.
+  \item Le système doit être responsive.
+  \item La navigation doit être fluide avec une hiérarchisation claire des informations.
+  \item Les résultats doivent être présentés de manière visuelle et compréhensible.
+  \item Le système doit minimiser le nombre d'actions nécessaires pour atteindre une fonctionnalité.
+\end{itemize}
+
+\subsubsection*{4.2.5 Maintenabilité et évolutivité}
+Le système doit être conçu pour être facilement maintenable et évolutif, en particulier :
+
+\begin{itemize}
+  \item L'architecture du système doit être modulaire afin de faciliter les évolutions futures.
+  \item Le code doit être structuré, documenté et respecter les bonnes pratiques de développement.
+  \item Le système doit permettre l'ajout futur de nouvelles fonctionnalités.
+  \item Les mises à jour doivent pouvoir être effectuées sans interruption majeure du service.
+\end{itemize}
+
+\subsubsection*{4.2.6 Compatibilité et portabilité}
+Le système doit assurer une compatibilité et une portabilité optimales via :
+
+\begin{itemize}
+  \item Il doit être compatible avec les principaux navigateurs web tels que Chrome, Firefox et Edge.
+  \item Il doit fonctionner indépendamment des systèmes d'exploitation (Windows, Linux, macOS).
+  \item L'application doit être accessible via une interface web, sans nécessiter d'installation spécifique.
+  \item L'intégration avec les systèmes existants de l'ISGIS doit être assurée.
+\end{itemize}
+
+\subsubsection*{4.2.7 Qualité des données et intelligence du système}
+Le système doit garantir la qualité des données ainsi que la pertinence des résultats en assurant :
+
+\begin{itemize}
+  \item Les données utilisées pour le calcul des scores doivent être fiables, cohérentes et à jour.
+  \item Les algorithmes d'analyse doivent produire des résultats pertinents et explicables.
+  \item Le système doit éviter les biais dans les recommandations générées.
+  \item Les résultats fournis doivent être interprétables par les utilisateurs.
+\end{itemize}
+
+\subsubsection*{4.2.8 Contraintes techniques}
+Le système doit respecter des contraintes techniques spécifiques via :
+
+\begin{itemize}
+  \item L'exploitation de technologies modernes adaptées aux applications intelligentes (IA, API externes).
+  \item Une intégration optimisée de l'API Gemini en termes de latence et de coût.
+  \item Une base de données capable de gérer un volume important de données académiques.
+  \item Un déploiement possible sur une infrastructure cloud ou un serveur institutionnel.
+\end{itemize}
+
+\subsubsection*{4.2.9 Journalisation et suivi}
+Le système doit assurer la journalisation et le suivi des activités, notamment :
+
+\begin{itemize}
+  \item L'enregistrement des activités importantes (connexions, calculs, erreurs).
+  \item La mise en place d'outils de monitoring pour surveiller les performances.
+  \item La traçabilité des erreurs afin de faciliter la maintenance et le débogage.
+\end{itemize}
+
+
+\section*{5-Gestion de projet avec la méthode SCRUM}
+\addcontentsline{toc}{section}{5-Gestion de projet avec la méthode SCRUM}
+
+Scrum repose sur un ensemble de concepts structurants pour garantir une gestion de projet efficace : les rôles, les artefacts, les sprints et les réunions.
+
+
+\subsection*{5.1 Identification de l'équipe}
+\addcontentsline{toc}{subsection}{5.1 Identification de l'équipe}
+
+La méthodologie Scrum repose sur une organisation structurée (rôles, artefacts, sprints et rituels). L'équipe en est le moteur : elle garantit productivité et flexibilité grâce à son auto-organisation et à la réunion de toutes les compétences nécessaires. Pour notre projet LogiLink, l'équipe se compose comme suit :
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.85\textwidth]{figures/Équipe et rôles..png}
+  \caption{Équipe et rôles}
+  \label{fig:equipe-roles}
+\end{figure}
+
+
+\subsection*{5.2 Décomposition du projet}
+\addcontentsline{toc}{subsection}{5.2 Décomposition du projet}
+
+La structuration consiste à diviser le projet en plusieurs lots d'activités distinctes. Cette approche permet de gérer des sous-composants dont la complexité est plus facile à maîtriser. La figure suivante illustre la structure de notre projet :
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{figures/Décomposition du projet en sprints.png}
+  \caption{Décomposition du Projet en Sprints}
+  \label{fig:decomposition-sprints}
+\end{figure}
+
+
+\subsection*{5.3 Product Backlog}
+\addcontentsline{toc}{subsection}{5.3 Product Backlog}
+
+Le Product Backlog permet de recenser et d'affiner les fonctionnalités du produit. Il regroupe les User Stories (besoins fonctionnels) et les Technical Stories (exigences techniques) nécessaires à la réalisation de l'application.
+
+Une User Story suit la structure suivante :
+
+\begin{quote}
+En tant que \textless rôle\textgreater, je veux \textless réaliser une action\textgreater.
+\end{quote}
+Pour chaque élément, nous identifions son EPIC (thématique), son ID, son type, sa priorité, sa valeur, ainsi que l'effort estimé en Story Points. Le tableau suivant détaille le Product Backlog de notre application.
+
+\begin{table}[H]
+\centering
+\caption{Product Backlog de l'application LogiLink }
+\label{tab:product-backlog-1}
+\small
+\renewcommand{\arraystretch}{1.0}
+\setlength{\tabcolsep}{3pt}
+\begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}m{3.0cm}|
+                           >{\centering\arraybackslash}m{0.8cm}|
+                           >{\RaggedRight\arraybackslash}X|
+                           >{\centering\arraybackslash}m{0.8cm}|
+                           >{\centering\arraybackslash}m{1.5cm}|
+                           >{\centering\arraybackslash}m{1.5cm}|
+                           >{\centering\arraybackslash}m{1.0cm}|}
+\hline
+\textbf{EPIC} & \textbf{ID} & \multicolumn{1}{c|}{\textbf{User Story}} & \textbf{Type} & \textbf{Priorité} & \textbf{Valeur} & \textbf{Story Points} \\ \hline
+
+\multirow[b]{6}{*}{\begin{tabular}[c]{@{}c@{}}\textbf{EPIC 1 --}\\\textbf{Référentiel de}\\\textbf{Compétences}\\\textbf{Transport \&}\\\textbf{Logistique}\end{tabular}}
+& 1,1 & En tant qu'administrateur ISGIS, je veux définir un référentiel de compétences TL v1 afin d'avoir une base standardisée pour l'analyse IA & F/D & P1 & ISGIS & 3 \\ \cline{2-7}
+& 1,2 & En tant que système, je veux normaliser les compétences saisies afin d'éviter les doublons et incohérences & D & P1 & Étudiant / ISGIS & 4 \\ \cline{2-7}
+& 1,3 & En tant qu'admin, je veux pouvoir enrichir le référentiel avec des soft skills & F & P2 & ISGIS & 2 \\ \cline{2-7}
+& 1,4 & En tant que moteur IA, je veux disposer d'un mapping compétences $\leftrightarrow$ métiers afin de permettre le matching & D & P1 & Étudiant & 5 \\ \hline
+
+\multirow[b]{5}{*}{\shortstack[c]{\textbf{EPIC 2 --}\\\textbf{Gestion des}\\\textbf{Profils Étudiants}}}
+& 2,1 & En tant qu'étudiant, je veux créer mon profil académique et professionnel & F & P1 & Étudiant & 2 \\ \cline{2-7}
+& 2,2 & En tant qu'étudiant, je veux ajouter mes compétences et expériences & F & P1 & Étudiant & 2 \\ \cline{2-7}
+& 2,3 & En tant que système, je veux authentifier les utilisateurs & T & P1 & ISGIS & 3 \\ \cline{2-7}
+& 2,4 & En tant qu'étudiant, je veux exporter mon CV ATS & F & P3 & Étudiant & 2 \\ \cline{2-7}
+& 2,5 & En tant que système, je veux stocker les profils dans une base structurée & T & P1 & ISGIS & 2 \\ \hline
+
+\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+\centering
+\small
+\renewcommand{\arraystretch}{1.0}
+\setlength{\tabcolsep}{3pt}
+\begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}m{3.0cm}|
+                           >{\centering\arraybackslash}m{0.8cm}|
+                           >{\RaggedRight\arraybackslash}X|
+                           >{\centering\arraybackslash}m{0.8cm}|
+                           >{\centering\arraybackslash}m{1.5cm}|
+                           >{\centering\arraybackslash}m{1.5cm}|
+                           >{\centering\arraybackslash}m{1.0cm}|}
+\hline
+\textbf{EPIC} & \textbf{ID} & \multicolumn{1}{c|}{\textbf{User Story}} & \textbf{Type} & \textbf{Priorité} & \textbf{Valeur} & \textbf{Story Points} \\ \hline
+
+\multirow[b]{5}{*}{\shortstack[c]{\textbf{EPIC 3 --}\\\textbf{Score}\\\textbf{D'Employabilité}\\\textbf{Explicable}}}
+& 3,1 & En tant qu'étudiant, je veux lancer une analyse de mon profil & F & P1 & Étudiant & 2 \\ \cline{2-7}
+& 3,2 & En tant que système, je veux calculer un score d'employabilité & D & P1 & Étudiant & 5 \\ \cline{2-7}
+& 3,3 & En tant qu'étudiant, je veux comprendre les facteurs influençant mon score & D & P1 & Étudiant & 4 \\ \cline{2-7}
+& 3,4 & En tant que ISGIS, je veux analyser la distribution des scores & F/D & P2 & ISGIS & 3 \\ \cline{2-7}
+& 3,5 & En tant que système, je veux historiser les scores & T & P2 & ISGIS & 2 \\ \hline
+
+\multirow[b]{5}{*}{\shortstack[c]{\textbf{EPIC 4 --}\\\textbf{Matching}\\\textbf{Métiers \& Gaps}\\\textbf{de Compétences}}}
+& 4,1 & En tant qu'étudiant, je veux voir les métiers compatibles avec mon profil & F/D & P1 & Étudiant & 3 \\ \cline{2-7}
+& 4,2 & En tant que système, je veux détecter les compétences manquantes & D & P1 & Étudiant & 4 \\ \cline{2-7}
+& 4,3 & En tant qu'étudiant, je veux voir une priorisation de mes gaps & F/D & P2 & Étudiant & 3 \\ \cline{2-7}
+& 4,4 & En tant que ISGIS, je veux visualiser les gaps par filière & F & P2 & ISGIS & 3 \\ \hline
+
+\multirow[b]{4}{*}{\shortstack[c]{\textbf{EPIC 5 --}\\\textbf{Recommandations}\\\textbf{Formations \&}\\\textbf{Parcours}}}
+& 5,1 & En tant qu'étudiant, je veux recevoir des recommandations de formations & F/D & P1 & Étudiant & 4 \\ \cline{2-7}
+& 5,2 & En tant que système, je veux relier gaps $\leftrightarrow$ modules ISGIS & D & P1 & ISGIS & 5 \\ \cline{2-7}
+& 5,3 & En tant qu'admin, je veux identifier les formations à renforcer & F & P1 & ISGIS & 3 \\ \hline
+
+\multirow[b]{5}{*}{\shortstack[c]{\textbf{EPIC 6 --}\\\textbf{Dashboard}\\\textbf{Institutionnel}\\\textbf{ISGIS}}}
+& 6,1 & En tant que ISGIS, je veux voir les tendances marché & F/D & P2 & ISGIS & 4 \\ \cline{2-7}
+& 6,2 & En tant que ISGIS, je veux analyser la couverture des compétences & F & P1 & ISGIS & 3 \\ \cline{2-7}
+& 6,3 & En tant que ISGIS, je veux identifier les métiers cibles & F & P2 & ISGIS & 3 \\ \cline{2-7}
+& 6,4 & En tant que ISGIS, je veux exporter les rapports & T & P3 & ISGIS & 2 \\ \hline
+
+\multirow[b]{5}{*}{\shortstack[c]{\textbf{EPIC 7 --}\\\textbf{Sécurité,}\\\textbf{Gouvernance et}\\\textbf{Conformité}}}
+& 7,1 & En tant qu'étudiant, je veux gérer mon consentement & F & P1 & Étudiant & 2 \\ \cline{2-7}
+& 7,2 & En tant que système, je veux tracer les calculs IA & T/D & P1 & ISGIS & 5 \\ \cline{2-7}
+& 7,3 & En tant qu'admin, je veux gérer les droits d'accès & T & P1 & ISGIS & 3 \\ \cline{2-7}
+& 7,4 & En tant qu'auditeur, je veux consulter les logs décisionnels & T & P2 & ISGIS & 2 \\ \hline
+
+\end{tabularx}
+\end{table}
+\noindent\textbf{Légende}
+
+\begin{itemize}
+  \item \textbf{Type :} Fonctionnel (F) / Technique (T) / Data--IA (D).
+  \item \textbf{Priorité :}
+  \begin{itemize}
+    \item P1 (critique MVP) : fonctionnalité indispensable pour la première version du produit.
+    \item P2 (important) : fonctionnalité nécessaire mais pouvant être implémentée après le MVP.
+    \item P3 (complément) : fonctionnalité additionnelle visant à améliorer le produit.
+  \end{itemize}
+  \item \textbf{Valeur :}
+  \begin{itemize}
+    \item ISGIS : utile pour ISGIS.
+    \item Étudiant : utile pour l'étudiant.
+    \item Étudiant / ISGIS : utile pour l'étudiant et pour ISGIS.
+  \end{itemize}
+  \item \textbf{Story Points :} unité d'estimation relative de l'effort d'une User Story, basée sur une échelle de 1 à 5, où une valeur plus élevée indique une complexité plus importante.
+\end{itemize}
+
+
+\section*{6-Conclusion}
+\addcontentsline{toc}{section}{6-Conclusion}
+
+Ce premier chapitre a permis de définir le cadre de référence de notre projet de fin d'études, mené en collaboration avec l'ISGIS Sfax et la Fondation Djagora. L'analyse approfondie du secteur du transport et de la logistique a mis en lumière un décalage critique entre les compétences académiques et les exigences réelles du marché de l'emploi, une situation accentuée par l'absence d'outils d'évaluation automatisés pour les étudiants. L'étude comparative des solutions existantes, telles que Coursera for Campus ou Jobscan, a révélé des lacunes majeures en termes de diagnostic personnalisé et de contextualisation sectorielle. Pour y répondre, nous avons conçu la solution LogiLink : une plateforme automatisée visant à fournir des scores de compatibilité ATS et d'employabilité, ainsi que des fonctionnalités de matching et de recommandation destinées aussi bien aux étudiants qu'aux administrateurs. Enfin, l'adoption de la méthodologie Agile SCRUM garantit une approche itérative et flexible, rigoureusement centrée sur la satisfaction des besoins des utilisateurs finaux. Cette base solide nous permet d'aborder avec clarté la phase de spécification et de conception qui fera l'objet du chapitre suivant.
