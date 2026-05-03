@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.24)  22 APR 2026 13:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.24)  3 MAY 2026 20:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/bilelzghal/Desktop/Stage-PFE-2026/PFE-Raport/pfe-thesis/main.tex
-(/Users/bilelzghal/Desktop/Stage-PFE-2026/PFE-Raport/pfe-thesis/main.tex
+**/Users/bilelzghal/Desktop/Stage-PFE-2026/PFE-Raport-2/main.tex
+(/Users/bilelzghal/Desktop/Stage-PFE-2026/PFE-Raport-2/main.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/report.cls
@@ -1494,24 +1494,11 @@ l.5 ...tion du cadre de projet}{chap:cadre-projet}
 
 
 ]
-Chapter 1.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 13.
 
-
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.40 ...résentation de centre d'accueil de stage}
-                                                   [3
-
-
-
-]
-<figures/Les programmes de la Fondation Djagora.png, id=634, 513.92pt x 255.95625pt>
+<figures/Les programmes de la Fondation Djagora.png, id=628, 513.92pt x 255.95625pt>
 File: figures/Les programmes de la Fondation Djagora.png Graphic file (type png)
 <use figures/Les programmes de la Fondation Djagora.png>
 Package pdftex.def Info: figures/Les programmes de la Fondation Djagora.png  used on input line 49.
@@ -1519,12 +1506,22 @@ Package pdftex.def Info: figures/Les programmes de la Fondation Djagora.png  use
 
 
 
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.53 
+      [3
+
+
+]
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.75 
+l.82 
       [4 <./figures/Les programmes de la Fondation Djagora.png>]
-<figures/fiche-identite-entreprise.png, id=638, 513.92pt x 351.3125pt>
+<figures/fiche-identite-entreprise.png, id=635, 513.92pt x 351.3125pt>
 File: figures/fiche-identite-entreprise.png Graphic file (type png)
 <use figures/fiche-identite-entreprise.png>
 Package pdftex.def Info: figures/fiche-identite-entreprise.png  used on input line 92.
@@ -1535,9 +1532,9 @@ Package pdftex.def Info: figures/fiche-identite-entreprise.png  used on input li
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.96 
-      [5]
-<figures/isgis-logo.png, id=642, 371.3875pt x 250.9375pt>
+l.100 
+       [5 <./figures/fiche-identite-entreprise.png>]
+<figures/isgis-logo.png, id=639, 371.3875pt x 250.9375pt>
 File: figures/isgis-logo.png Graphic file (type png)
 <use figures/isgis-logo.png>
 Package pdftex.def Info: figures/isgis-logo.png  used on input line 103.
@@ -1548,8 +1545,8 @@ Package pdftex.def Info: figures/isgis-logo.png  used on input line 103.
 pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.116 
-       [6 <./figures/fiche-identite-entreprise.png> <./figures/isgis-logo.png>]
+l.127 
+       [6 <./figures/isgis-logo.png>]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 135.
@@ -1560,9 +1557,9 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.143 
+l.159 
        [7]
-<figures/Coursera.png, id=653, 513.92pt x 253.94875pt>
+<figures/Coursera.png, id=650, 513.92pt x 253.94875pt>
 File: figures/Coursera.png Graphic file (type png)
 <use figures/Coursera.png>
 Package pdftex.def Info: figures/Coursera.png  used on input line 170.
@@ -1573,22 +1570,14 @@ Package pdftex.def Info: figures/Coursera.png  used on input line 170.
 pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.174 
-       [8]
-<figures/forage.png, id=657, 513.92pt x 255.95625pt>
+l.186 \end{itemize}
+                    [8 <./figures/Coursera.png>]
+<figures/forage.png, id=654, 513.92pt x 255.95625pt>
 File: figures/forage.png Graphic file (type png)
 <use figures/forage.png>
 Package pdftex.def Info: figures/forage.png  used on input line 190.
 (pdftex.def)             Requested size: 386.96027pt x 192.72829pt.
-
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.194 
-       [9 <./figures/Coursera.png>]
-<figures/jobscane.png, id=661, 513.92pt x 226.8475pt>
+<figures/jobscane.png, id=655, 513.92pt x 226.8475pt>
 File: figures/jobscane.png Graphic file (type png)
 <use figures/jobscane.png>
 Package pdftex.def Info: figures/jobscane.png  used on input line 209.
@@ -1596,19 +1585,24 @@ Package pdftex.def Info: figures/jobscane.png  used on input line 209.
 
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.213 
-       [10 <./figures/forage.png>]
-<figures/1mentor.png, id=665, 513.92pt x 254.9525pt>
+       [9 <./figures/forage.png>]
+<figures/1mentor.png, id=659, 513.92pt x 254.9525pt>
 File: figures/1mentor.png Graphic file (type png)
 <use figures/1mentor.png>
 Package pdftex.def Info: figures/1mentor.png  used on input line 230.
 (pdftex.def)             Requested size: 386.96027pt x 191.97249pt.
 
 
-[11 <./figures/jobscane.png> <./figures/1mentor.png>]
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.240 ...3.1 Plateforme « Coursera for Campus »}
+                                                   [10 <./figures/jobscane.png> <./figures/1mentor.png>]
 Overfull \hbox (7.60558pt too wide) in paragraph at lines 242--244
 \T1/ptm/b/n/12 (-20) Orientation ex-clu-sive-ment p�d-a-gogique : \T1/ptm/m/n/12 (-20) la plate-forme se con-cen-tre unique-ment sur l'acquisition
  []
@@ -1630,9 +1624,9 @@ Overfull \hbox (1.26587pt too wide) in paragraph at lines 315--315
 
 
 
-[12]
+[11]
 
-[13]
+[12]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 338.
@@ -1649,88 +1643,88 @@ Underfull \hbox (badness 10000) in paragraph at lines 344--348
 
 
 
-[14]
-<figures/scrum.png, id=683, 513.92pt x 266.9975pt>
+[13]
+<figures/scrum.png, id=676, 513.92pt x 266.9975pt>
 File: figures/scrum.png Graphic file (type png)
 <use figures/scrum.png>
 Package pdftex.def Info: figures/scrum.png  used on input line 371.
 (pdftex.def)             Requested size: 364.19667pt x 189.21509pt.
-<figures/Agil.png, id=684, 513.92pt x 513.92pt>
+<figures/Agil.png, id=677, 513.92pt x 513.92pt>
 File: figures/Agil.png Graphic file (type png)
 <use figures/Agil.png>
 Package pdftex.def Info: figures/Agil.png  used on input line 380.
 (pdftex.def)             Requested size: 318.66948pt x 318.67415pt.
 
 
-[15 <./figures/scrum.png>]
+[14 <./figures/scrum.png>]
 
-[16 <./figures/Agil.png>]
+[15 <./figures/Agil.png>]
 
-[17]
-<figures/Scrum Process.png, id=697, 513.92pt x 297.11pt>
+[16]
+<figures/Scrum Process.png, id=690, 513.92pt x 297.11pt>
 File: figures/Scrum Process.png Graphic file (type png)
 <use figures/Scrum Process.png>
 Package pdftex.def Info: figures/Scrum Process.png  used on input line 433.
 (pdftex.def)             Requested size: 409.71692pt x 236.87228pt.
 
 
-[18 <./figures/Scrum Process.png>]
+[17 <./figures/Scrum Process.png>]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 459.
 
 
 
+[18]
+
 [19]
 
 [20]
 
 [21]
-
-[22]
 Overfull \hbox (14.94403pt too wide) in paragraph at lines 605--606
 []\T1/ptm/m/n/12 (-20) L'int�gration avec le sys-t�me IS-GIS doit re-specter des m�-can-ismes s�curis�s d'authentification. 
  []
 
 
 
-[23]
+[22]
 
-[24]
+[23]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 685.
 
 
 
-[25]
-<figures/Équipe et rôles..png, id=733, 513.92pt x 405.515pt>
+[24]
+<figures/Équipe et rôles..png, id=725, 513.92pt x 405.515pt>
 File: figures/Équipe et rôles..png Graphic file (type png)
 <use figures/Équipe et rôles..png>
 Package pdftex.def Info: figures/Équipe et rôles..png  used on input line 691.
 (pdftex.def)             Requested size: 386.96027pt x 305.34207pt.
-<figures/Décomposition du projet en sprints.png, id=734, 513.92pt x 128.48pt>
+<figures/Décomposition du projet en sprints.png, id=726, 513.92pt x 128.48pt>
 File: figures/Décomposition du projet en sprints.png Graphic file (type png)
 <use figures/Décomposition du projet en sprints.png>
 Package pdftex.def Info: figures/Décomposition du projet en sprints.png  used on input line 704.
 (pdftex.def)             Requested size: 409.71692pt x 102.43124pt.
 
 
-[26 <./figures/Équipe et rôles..png> <./figures/Décomposition du projet en sprints.png>]
+[25 <./figures/Équipe et rôles..png> <./figures/Décomposition du projet en sprints.png>]
 Overfull \hbox (1.6277pt too wide) in paragraph at lines 800--800
  []|[]| 
  []
 
 
 
-[27]
+[26]
 Overfull \vbox (25.75179pt too high) has occurred while \output is active []
 
 
 
-[28]) (./chapters/chapter2.tex
+[27]) (./chapters/chapter2.tex
 
-[29]
+[28]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1765,26 +1759,24 @@ Overfull \vbox (25.75179pt too high) has occurred while \output is active []
 
 
 
-[30
+[29
 
 
 ]
-Chapter 2.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 12.
 
 
 
-[31
-
+[30
 
 
 ]
 
-[32]) (./chapters/chapter3.tex
+[31]) (./chapters/chapter3.tex
 
-[33]
+[32]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1824,22 +1816,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--5
 
 
 
-[34
+[33
 
 
 ]
-Chapter 3.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 9.
 
 
 
-[35
 
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 15.13202pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.13202pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.13202pt}.
+
+[34
 
 
 ]
+
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 15.13202pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.13202pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.13202pt}.
+
+[35]
 
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1894,6 +1900,11 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.13202pt}.
 
 [41]
+Overfull \hbox (0.96167pt too wide) in paragraph at lines 456--456
+[]|\T1/ptm/b/n/12 (-20) StartupsDjagora.tn| 
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1902,7 +1913,7 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.13202pt}.
 
-[42]
+[42])
 
 
 Package fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -1912,38 +1923,24 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-0.13202pt}.
 
 [43]
-Overfull \hbox (0.96167pt too wide) in paragraph at lines 456--456
-[]|\T1/ptm/b/n/12 (-20) StartupsDjagora.tn| 
- []
 
-)
-
-
-Package fancyhdr Warning: \headheight is too small (15.0pt): 
-(fancyhdr)                Make it at least 15.13202pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.13202pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-0.13202pt}.
-
-[44]
-
-[45
+[44
 
 ] (./appendices/appendixA.tex
 Appendix A.
 ) (./appendices/appendixB.tex
 
-[46
+[45
 
 ]
 Appendix B.
 )
 
-[47
+[46
 
 ]
 
-[48]
+[47]
 Overfull \hbox (43.43846pt too wide) in paragraph at lines 156--157
 []\T1/ptm/m/n/12 (-20) Le mod-�le Wa-ter-fall, [][]$\T1/cmtt/m/n/12 https : / / www . techtarget . com / searchsoftwarequality / definition /
  []
@@ -1955,7 +1952,7 @@ Overfull \hbox (24.55751pt too wide) in paragraph at lines 160--161
 
 
 
-[49
+[48
 
 ] (./main.aux)
  ***********
@@ -1963,27 +1960,27 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 327608E02D258816D5921EF7E083A4F7;17466.
+(rerunfilecheck)             Checksum: 861E1D24E2BF11D62CBB5F69CC8652D3;17597.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46068 strings out of 473190
- 912146 string characters out of 5715800
- 1845211 words of memory out of 5000000
- 67977 multiletter control sequences out of 15000+600000
+ 46061 strings out of 473190
+ 912052 string characters out of 5715800
+ 1845052 words of memory out of 5000000
+ 67974 multiletter control sequences out of 15000+600000
  682322 words of font info for 415 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 93i,19n,99p,1365b,2321s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,19n,99p,1356b,2321s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{cite.0@maurya2012} has been referenced but does not exist, replaced by a fixed one
 
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (61 pages, 1214554 bytes).
+Output written on main.pdf (60 pages, 1214132 bytes).
 PDF statistics:
- 926 PDF objects out of 1000 (max. 8388607)
- 804 compressed objects within 9 object streams
- 172 named destinations out of 1000 (max. 500000)
+ 916 PDF objects out of 1000 (max. 8388607)
+ 796 compressed objects within 8 object streams
+ 168 named destinations out of 1000 (max. 500000)
  143305 words of extra memory for PDF output out of 154059 (max. 10000000)
 

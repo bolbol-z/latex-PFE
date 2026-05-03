@@ -1,8 +1,8 @@
-PWD /Users/bilelzghal/Desktop/Stage-PFE-2026/PFE-Raport/pfe-thesis
+PWD /Users/bilelzghal/Desktop/Stage-PFE-2026/PFE-Raport-2
 INPUT /usr/local/texlive/2025/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/bilelzghal/Desktop/Stage-PFE-2026/PFE-Raport/pfe-thesis/main.tex
+INPUT /Users/bilelzghal/Desktop/Stage-PFE-2026/PFE-Raport-2/main.tex
 OUTPUT main.log
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/report.cls
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/report.cls
@@ -628,11 +628,11 @@ INPUT ./figures/Les programmes de la Fondation Djagora.png
 INPUT ./figures/Les programmes de la Fondation Djagora.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT ./figures/fiche-identite-entreprise.png
 INPUT ./figures/fiche-identite-entreprise.png
 INPUT ./figures/fiche-identite-entreprise.png
