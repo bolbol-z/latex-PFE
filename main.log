@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.24)  4 MAY 2026 09:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.24)  5 MAY 2026 16:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1716,38 +1716,37 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 [22]
 
 [23]
-Overfull \hbox (14.94403pt too wide) in paragraph at lines 636--637
+
+[24]
+Overfull \hbox (14.94403pt too wide) in paragraph at lines 652--653
 []\T1/ptm/m/n/12 (-20) L'int�gration avec le sys-t�me IS-GIS doit re-specter des m�-can-ismes s�curis�s d'authentification. 
  []
 
 
-
-[24]
 
 [25]
 
 [26]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 716.
+(hyperref)                be the same. Added a new anchor on input line 721.
 
-<figures/Équipe et rôles..png, id=560, 513.92pt x 405.515pt>
+<figures/Équipe et rôles..png, id=561, 513.92pt x 405.515pt>
 File: figures/Équipe et rôles..png Graphic file (type png)
 <use figures/Équipe et rôles..png>
-Package pdftex.def Info: figures/Équipe et rôles..png  used on input line 722.
+Package pdftex.def Info: figures/Équipe et rôles..png  used on input line 727.
 (pdftex.def)             Requested size: 386.96027pt x 305.34207pt.
-
-
-[27 <./figures/Équipe et rôles..png>]
-<figures/Décomposition du projet en sprints.png, id=566, 513.92pt x 128.48pt>
+<figures/Décomposition du projet en sprints.png, id=562, 513.92pt x 128.48pt>
 File: figures/Décomposition du projet en sprints.png Graphic file (type png)
 <use figures/Décomposition du projet en sprints.png>
-Package pdftex.def Info: figures/Décomposition du projet en sprints.png  used on input line 735.
+Package pdftex.def Info: figures/Décomposition du projet en sprints.png  used on input line 740.
 (pdftex.def)             Requested size: 409.71692pt x 102.43124pt.
 
 
+[27 <./figures/Équipe et rôles..png>]
+
 [28 <./figures/Décomposition du projet en sprints.png>]
-Overfull \hbox (1.6277pt too wide) in paragraph at lines 831--831
+Overfull \hbox (1.6277pt too wide) in paragraph at lines 836--836
  []|[]| 
  []
 
@@ -1853,18 +1852,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45842 strings out of 473190
- 907848 string characters out of 5715800
+ 45849 strings out of 473190
+ 907893 string characters out of 5715800
  1834900 words of memory out of 5000000
  67802 multiletter control sequences out of 15000+600000
- 682987 words of font info for 416 fonts, out of 8000000 for 9000
+ 684169 words of font info for 422 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  93i,19n,99p,1251b,2321s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{cite.0@maurya2012} has been referenced but does not exist, replaced by a fixed one
 
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (51 pages, 1205847 bytes).
+Output written on main.pdf (51 pages, 1205861 bytes).
 PDF statistics:
  703 PDF objects out of 1000 (max. 8388607)
  592 compressed objects within 6 object streams

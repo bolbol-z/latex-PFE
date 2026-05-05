@@ -24,7 +24,7 @@
 \contentsline {subsection}{4.2 Exigences non fonctionnelles}{24}{section*.21}%
 \contentsline {section}{5-Gestion de projet avec la méthode SCRUM}{27}{section*.21}%
 \contentsline {subsection}{5.1 Identification de l'équipe}{27}{section*.22}%
-\contentsline {subsection}{5.2 Décomposition du projet}{28}{figure.caption.23}%
+\contentsline {subsection}{5.2 Décomposition du projet}{27}{figure.caption.23}%
 \contentsline {subsection}{5.3 Product Backlog}{28}{figure.caption.24}%
 \contentsline {section}{6-Conclusion}{31}{table.caption.26}%
 \contentsline {chapter}{\numberline {3}Analyse et spécification des exigences }{33}{table.caption.26}%
