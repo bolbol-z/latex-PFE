@@ -185,14 +185,14 @@
   {\fontsize{120}{120}\selectfont\bfseries\rmfamily #1\par}%
   \vspace{4pt}%
 
-  % ── 3. CHAPITER — stretched to number width + letter-spacing ──────────────
+  % ── 3. CHAPITRE — stretched to number width + letter-spacing ──────────────
   \noindent\resizebox{\chapteropeningnumwidth}{!}{%
-    {\fontsize{11}{11}\selectfont\bfseries\rmfamily\textls[200]{CHAPITER}}%
+    {\fontsize{11}{11}\selectfont\bfseries\rmfamily\textls[200]{CHAPITRE}}%
   }\par%
 
-  % ── 4. Measure height of CHAPITER label for rule start ────────────────────
+  % ── 4. Measure height of CHAPITRE label for rule start ────────────────────
   \settototalheight{\chapiterheight}{%
-    {\fontsize{11}{11}\selectfont\bfseries\rmfamily CHAPITER}}%
+    {\fontsize{11}{11}\selectfont\bfseries\rmfamily CHAPITRE}}%
 
   % ── 5. Spacer — push title to lower half ──────────────────────────────────
   \vspace*{\fill}
@@ -219,6 +219,6 @@
   \clearpage
   \stepcounter{chapter}%
   \addcontentsline{toc}{chapter}{\protect\numberline{\thechapter}#3}%
-  \chaptermark{Chapiter #1. #3}%
+  \chaptermark{Chapitre #1. #3}%
   \label{#4}%
 }

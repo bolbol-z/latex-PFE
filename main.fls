@@ -633,18 +633,18 @@ INPUT ./figures/Les programmes de la Fondation Djagora.png
 INPUT ./figures/Les programmes de la Fondation Djagora.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT ./figures/fiche-identite-entreprise.png
-INPUT ./figures/fiche-identite-entreprise.png
-INPUT ./figures/fiche-identite-entreprise.png
-INPUT ./figures/fiche-identite-entreprise.png
-INPUT ./figures/fiche-identite-entreprise.png
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT ./figures/fiche d'identite de la fondation .png
+INPUT ./figures/fiche d'identite de la fondation .png
+INPUT ./figures/fiche d'identite de la fondation .png
+INPUT ./figures/fiche d'identite de la fondation .png
+INPUT ./figures/fiche d'identite de la fondation .png
 INPUT ./figures/isgis-logo.png
 INPUT ./figures/isgis-logo.png
 INPUT ./figures/isgis-logo.png
@@ -666,13 +666,13 @@ INPUT ./figures/jobscane.png
 INPUT ./figures/jobscane.png
 INPUT ./figures/jobscane.png
 INPUT ./figures/jobscane.png
-INPUT ./figures/1mentor.png
-INPUT ./figures/1mentor.png
-INPUT ./figures/1mentor.png
-INPUT ./figures/1mentor.png
-INPUT ./figures/1mentor.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
+INPUT ./figures/1mentor.png
+INPUT ./figures/1mentor.png
+INPUT ./figures/1mentor.png
+INPUT ./figures/1mentor.png
+INPUT ./figures/1mentor.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/zptmcm7t.tfm
@@ -710,30 +710,30 @@ INPUT ./figures/Agil.png
 INPUT ./figures/Agil.png
 INPUT ./figures/Agil.png
 INPUT ./figures/Agil.png
-INPUT ./figures/Scrum Process.png
-INPUT ./figures/Scrum Process.png
-INPUT ./figures/Scrum Process.png
-INPUT ./figures/Scrum Process.png
-INPUT ./figures/Scrum Process.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7m.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/psyro.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT ./figures/Déroulement des événements Scrum.png
+INPUT ./figures/Déroulement des événements Scrum.png
+INPUT ./figures/Déroulement des événements Scrum.png
+INPUT ./figures/Déroulement des événements Scrum.png
+INPUT ./figures/Déroulement des événements Scrum.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7y.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./figures/Équipe et rôles..png
-INPUT ./figures/Équipe et rôles..png
-INPUT ./figures/Équipe et rôles..png
-INPUT ./figures/Équipe et rôles..png
-INPUT ./figures/Équipe et rôles..png
-INPUT ./figures/Décomposition du projet en sprints.png
-INPUT ./figures/Décomposition du projet en sprints.png
-INPUT ./figures/Décomposition du projet en sprints.png
-INPUT ./figures/Décomposition du projet en sprints.png
-INPUT ./figures/Décomposition du projet en sprints.png
+INPUT ./figures/Équipe et rôles-2 .png
+INPUT ./figures/Équipe et rôles-2 .png
+INPUT ./figures/Équipe et rôles-2 .png
+INPUT ./figures/Équipe et rôles-2 .png
+INPUT ./figures/Équipe et rôles-2 .png
+INPUT ./figures/ Décomposition du Projet en Sprints-2.png
+INPUT ./figures/ Décomposition du Projet en Sprints-2.png
+INPUT ./figures/ Décomposition du Projet en Sprints-2.png
+INPUT ./figures/ Décomposition du Projet en Sprints-2.png
+INPUT ./figures/ Décomposition du Projet en Sprints-2.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7y.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
