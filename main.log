@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.24)  17 MAY 2026 17:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.24)  18 MAY 2026 10:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1679,12 +1679,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 340--344
 <figures/scrum.png, id=501, 513.92pt x 266.9975pt>
 File: figures/scrum.png Graphic file (type png)
 <use figures/scrum.png>
-Package pdftex.def Info: figures/scrum.png  used on input line 370.
+Package pdftex.def Info: figures/scrum.png  used on input line 371.
 (pdftex.def)             Requested size: 318.66948pt x 165.56117pt.
 <figures/Agil.png, id=502, 513.92pt x 513.92pt>
 File: figures/Agil.png Graphic file (type png)
 <use figures/Agil.png>
-Package pdftex.def Info: figures/Agil.png  used on input line 380.
+Package pdftex.def Info: figures/Agil.png  used on input line 381.
 (pdftex.def)             Requested size: 182.09486pt x 182.0939pt.
 
 
@@ -1694,14 +1694,14 @@ Package pdftex.def Info: figures/Agil.png  used on input line 380.
 <figures/Déroulement des événements Scrum.png, id=512, 1361.085pt x 786.94pt>
 File: figures/Déroulement des événements Scrum.png Graphic file (type png)
 <use figures/Déroulement des événements Scrum.png>
-Package pdftex.def Info: figures/Déroulement des événements Scrum.png  used on input line 431.
+Package pdftex.def Info: figures/Déroulement des événements Scrum.png  used on input line 432.
 (pdftex.def)             Requested size: 318.66948pt x 184.24648pt.
 
 
 [17 <./figures/Déroulement des événements Scrum.png>]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 457.
+(hyperref)                be the same. Added a new anchor on input line 458.
 
 
 
@@ -1716,7 +1716,7 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 [22]
 
 [23]
-Overfull \hbox (14.94403pt too wide) in paragraph at lines 642--643
+Overfull \hbox (14.94403pt too wide) in paragraph at lines 643--644
 []\T1/ptm/m/n/12 (-20) L'int�gration avec le sys-t�me IS-GIS doit re-specter des m�-can-ismes s�curis�s d'authentification. 
  []
 
@@ -1727,24 +1727,24 @@ Overfull \hbox (14.94403pt too wide) in paragraph at lines 642--643
 [25]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 711.
+(hyperref)                be the same. Added a new anchor on input line 712.
 
-<figures/Équipe et rôles-2 .png, id=552, 1220.56pt x 899.36pt>
-File: figures/Équipe et rôles-2 .png Graphic file (type png)
-<use figures/Équipe et rôles-2 .png>
-Package pdftex.def Info: figures/Équipe et rôles-2 .png  used on input line 717.
+<figures/Équipe et rôles-3.png, id=552, 1220.56pt x 899.36pt>
+File: figures/Équipe et rôles-3.png Graphic file (type png)
+<use figures/Équipe et rôles-3.png>
+Package pdftex.def Info: figures/Équipe et rôles-3.png  used on input line 718.
 (pdftex.def)             Requested size: 386.96027pt x 285.12508pt.
 <figures/ Décomposition du Projet en Sprints-2.png, id=553, 2055.68pt x 513.92pt>
 File: figures/ Décomposition du Projet en Sprints-2.png Graphic file (type png)
 <use figures/ Décomposition du Projet en Sprints-2.png>
-Package pdftex.def Info: figures/ Décomposition du Projet en Sprints-2.png  used on input line 730.
+Package pdftex.def Info: figures/ Décomposition du Projet en Sprints-2.png  used on input line 731.
 (pdftex.def)             Requested size: 409.71692pt x 102.42929pt.
 
 
-[26 <./figures/Équipe et rôles-2 .png>]
+[26 <./figures/Équipe et rôles-3.png>]
 
 [27 <./figures/ Décomposition du Projet en Sprints-2.png>]
-Overfull \hbox (1.6277pt too wide) in paragraph at lines 826--826
+Overfull \hbox (1.6277pt too wide) in paragraph at lines 827--827
  []|[]| 
  []
 
@@ -1851,8 +1851,8 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  45840 strings out of 473190
- 908048 string characters out of 5715800
- 1834880 words of memory out of 5000000
+ 908041 string characters out of 5715800
+ 1835880 words of memory out of 5000000
  67800 multiletter control sequences out of 15000+600000
  683912 words of font info for 418 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1861,7 +1861,7 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{cite.0@maurya2012} has been referenced but does not exist, replaced by a fixed one
 
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (50 pages, 7374882 bytes).
+Output written on main.pdf (50 pages, 7375062 bytes).
 PDF statistics:
  695 PDF objects out of 1000 (max. 8388607)
  585 compressed objects within 6 object streams

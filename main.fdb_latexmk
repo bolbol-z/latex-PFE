@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1777835903.63417 "main.bcf" "main.bbl" "main" 1779033818.881 0
+["biber main"] 1777835903.63417 "main.bcf" "main.bbl" "main" 1779097407.03411 0
   "bibliography/references.bib" 1777835071.17043 2812 c02a2c0df306bcb4476d20011fbc824c ""
-  "main.bcf" 1779033818.73755 108169 2e9e69d6117d9d01f9c669dfdcc7e5c9 "pdflatex"
+  "main.bcf" 1779097406.87435 108169 2e9e69d6117d9d01f9c669dfdcc7e5c9 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1779033810.83898 "/Users/bilelzghal/Desktop/Stage-PFE-2026/PFE-Raport-2/main.tex" "main.pdf" "main" 1779033818.88126 0
+["pdflatex"] 1779097399.06006 "/Users/bilelzghal/Desktop/Stage-PFE-2026/PFE-Raport-2/main.tex" "main.pdf" "main" 1779097407.03439 0
   "/Users/bilelzghal/Desktop/Stage-PFE-2026/PFE-Raport-2/main.tex" 1777836214.0923 6011 5f42a1e7fbba8e2fedd9e400f5e4be98 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
@@ -278,7 +278,7 @@
   "appendices/appendixA.tex" 1777835071.17015 933 7d461fb55cda6d1c480b8db0d6706d52 ""
   "appendices/appendixB.tex" 1777835071.17025 1093 0e2edbade8a1cf28ca1f23e7e9905703 ""
   "chapters/chapter1.tex" 1777836214.0922 1998 31cb4e2cd72b6a90f9bf1caba756025c ""
-  "chapters/chapter2.tex" 1779033798.89453 57637 b95346af908c3889455228b54808e73f ""
+  "chapters/chapter2.tex" 1779097345.12194 57636 0a84dcf7e761b279fe605b6cacd7e2d9 ""
   "chapters/chapter3.tex" 1777835071.17095 4742 0e3b75f96279fde50cb518c1c306274d ""
   "config/commands.tex" 1779026453.39034 6586 bd0fbff3c0ef13c94182fcdbe2f4daf9 ""
   "config/packages.tex" 1777835071.17161 1808 0893a4708573a3fce964e257b5059860 ""
@@ -294,19 +294,19 @@
   "figures/isgis-logo.png" 1777835071.17431 23481 367731e28342b70ad91fd857620db2e7 ""
   "figures/jobscane.png" 1777835071.17464 74877 9fb913685a8b3798a211ff603911573c ""
   "figures/scrum.png" 1777835071.17501 75268 03e71bbd7e35ebf53e76d5afadc3ced6 ""
-  "figures/Équipe et rôles-2 .png" 1779033493.49641 88341 683421f5cd9f651c3132e49d6f6f621d ""
+  "figures/Équipe et rôles-3.png" 1779097271.16805 88736 9a73e743462e323da418b6e3f779357d ""
   "frontmatter/abstract.tex" 1777835071.17538 1549 6cf0c3b1c36e2d11d28acbeb91aaf58e ""
   "frontmatter/acknowledgements.tex" 1777835071.17549 1084 de7096ed4339e9f53e76151f6c314753 ""
   "frontmatter/cover.tex" 1777835071.1756 1706 59a095496e114f1bd84a057ee607fd25 ""
   "frontmatter/dedication.tex" 1777835071.17572 578 b953f6e4bbf936e040cd23dd07b311f4 ""
-  "main.aux" 1779033818.73237 19971 832dbdd8919200d74c6d66ec0dd10ead "pdflatex"
+  "main.aux" 1779097406.87031 19971 832dbdd8919200d74c6d66ec0dd10ead "pdflatex"
   "main.bbl" 1777835906.24792 1707 829cff25c4a8652bc3403581481c0f9d "biber main"
-  "main.lof" 1779033818.7387 1632 68c3ee177f084b089a49565b453de67c "pdflatex"
-  "main.lot" 1779033818.73873 335 951f906e28d576bcccfab42f7a50cb87 "pdflatex"
-  "main.out" 1779033818.73603 11821 3c46e13d619c9e13ad7817f9d179d3d2 "pdflatex"
-  "main.run.xml" 1779033818.73855 2348 5b2d3b19c3758ad81fed95bad248ba53 "pdflatex"
+  "main.lof" 1779097406.87544 1632 68c3ee177f084b089a49565b453de67c "pdflatex"
+  "main.lot" 1779097406.87548 335 951f906e28d576bcccfab42f7a50cb87 "pdflatex"
+  "main.out" 1779097406.87329 11821 3c46e13d619c9e13ad7817f9d179d3d2 "pdflatex"
+  "main.run.xml" 1779097406.87531 2348 5b2d3b19c3758ad81fed95bad248ba53 "pdflatex"
   "main.tex" 1777836214.0923 6011 5f42a1e7fbba8e2fedd9e400f5e4be98 ""
-  "main.toc" 1779033818.73864 5187 7abc9ca51489b3a28ceb4abd44dc25cf "pdflatex"
+  "main.toc" 1779097406.87538 5187 7abc9ca51489b3a28ceb4abd44dc25cf "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"

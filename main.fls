@@ -724,11 +724,11 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/zptmcm7t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT ./figures/Équipe et rôles-2 .png
-INPUT ./figures/Équipe et rôles-2 .png
-INPUT ./figures/Équipe et rôles-2 .png
-INPUT ./figures/Équipe et rôles-2 .png
-INPUT ./figures/Équipe et rôles-2 .png
+INPUT ./figures/Équipe et rôles-3.png
+INPUT ./figures/Équipe et rôles-3.png
+INPUT ./figures/Équipe et rôles-3.png
+INPUT ./figures/Équipe et rôles-3.png
+INPUT ./figures/Équipe et rôles-3.png
 INPUT ./figures/ Décomposition du Projet en Sprints-2.png
 INPUT ./figures/ Décomposition du Projet en Sprints-2.png
 INPUT ./figures/ Décomposition du Projet en Sprints-2.png
