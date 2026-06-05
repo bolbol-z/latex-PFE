@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.24)  18 MAY 2026 10:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.24)  4 JUN 2026 15:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -392,6 +392,8 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@delta=\dimen259
 \TX@cols=\count322
 \TX@ftn=\toks33
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/needspace/needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@headwidth=\skip79
@@ -1322,11 +1324,12 @@ Package hyperref Info: Link coloring ON on input line 24.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 33.
+ (./frontmatter/cover.tex
+
+[1
+
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}]) (./frontmatter/dedication.tex
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 21.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
@@ -1334,15 +1337,15 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 33.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 21.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 33.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 21.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 33.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 21.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msa.cfg
@@ -1350,45 +1353,19 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 33.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 21.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
-
-Overfull \hbox (43.43846pt too wide) in paragraph at lines 41--42
-[]\T1/ptm/m/n/12 (-20) Le mod-�le Wa-ter-fall, [][]$\T1/cmtt/m/n/12 https : / / www . techtarget . com / searchsoftwarequality / definition /
- []
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
 
 
-Overfull \hbox (24.55751pt too wide) in paragraph at lines 45--46
-[]\T1/ptm/m/n/12 (-20) Les m�th-odes ag-iles, [][]$\T1/cmtt/m/n/12 https : / / web . maths . unsw . edu . au / ~lafaye / CCM / genie-[]logiciel /
- []
-
-(./frontmatter/cover.tex
-
-[1{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}
-
-{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.57 \end{titlepage}
-                     [1]) (./frontmatter/dedication.tex
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.27 \newpage
-              [1]) (./frontmatter/acknowledgements.tex
+[1]) (./frontmatter/acknowledgements.tex
 
 [2
 
@@ -1396,31 +1373,43 @@ l.27 \newpage
 
 [3
 
-]
+]) (./main.toc
 
 [4
 
-]) (./main.toc
-
-[5
-
 ]
 
-[6])
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 15.13202pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.13202pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.13202pt}.
+
+[5])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
 
 
-[7] (./main.lof)
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 15.13202pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.13202pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.13202pt}.
+
+[6] (./main.lof
+
+[7
+
+])
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
 
 
-[8
-
-] (./main.lot)
+[8] (./main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
@@ -1428,7 +1417,20 @@ l.27 \newpage
 
 [9
 
-] (./chapters/chapter1.tex
+] (./chapters/Introduction_generale.tex
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 16.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)) (./chapters/chapter1.tex
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.5 ...et Analyse du Système }{chap:cadre-projet}
+                                                   [1
+
+]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1470,69 +1472,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.60007> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
 
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.5 ...Introduction Générale}{chap:introduction}
-                                                   [1
-
-
-]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 13.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)) (./chapters/chapter2.tex
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.5 ...et Analyse du Système }{chap:cadre-projet}
-                                                   [2
-
-
-]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
-* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=455.24411pt
-* \textheight=731.23584pt
-* \oddsidemargin=-1.1381pt
-* \evensidemargin=-1.1381pt
-* \topmargin=-55.36449pt
-* \headheight=15.0pt
-* \headsep=25.0pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=35.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.5 ...et Analyse du Système }{chap:cadre-projet}
-                                                   [3
+[2
 
 
 ]
@@ -1540,170 +1480,142 @@ l.5 ...et Analyse du Système }{chap:cadre-projet}
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 13.
 
-<figures/Les programmes de la Fondation Djagora.png, id=451, 513.92pt x 255.95625pt>
+<figures/Les programmes de la Fondation Djagora.png, id=454, 513.92pt x 255.95625pt>
 File: figures/Les programmes de la Fondation Djagora.png Graphic file (type png)
 <use figures/Les programmes de la Fondation Djagora.png>
 Package pdftex.def Info: figures/Les programmes de la Fondation Djagora.png  used on input line 42.
 (pdftex.def)             Requested size: 386.96027pt x 192.72829pt.
 
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.54 
-      [4
+[3
 
 
  <./figures/Les programmes de la Fondation Djagora.png>]
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.82 
-      [5]
-<figures/fiche d'identite de la fondation .png, id=458, 963.6pt x 963.6pt>
-File: figures/fiche d'identite de la fondation .png Graphic file (type png)
-<use figures/fiche d'identite de la fondation .png>
-Package pdftex.def Info: figures/fiche d'identite de la fondation .png  used on input line 85.
-(pdftex.def)             Requested size: 250.38564pt x 250.38306pt.
-<figures/isgis-logo.png, id=459, 371.3875pt x 250.9375pt>
+[4]
+<figures/isgis-logo.png, id=465, 371.3875pt x 250.9375pt>
 File: figures/isgis-logo.png Graphic file (type png)
 <use figures/isgis-logo.png>
-Package pdftex.def Info: figures/isgis-logo.png  used on input line 96.
+Package pdftex.def Info: figures/isgis-logo.png  used on input line 90.
 (pdftex.def)             Requested size: 159.33821pt x 107.66362pt.
 
 
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 100.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.108 
-       [6 <./figures/fiche d'identite de la fondation .png> <./figures/isgis-logo.png>]
+
+
+[5 <./figures/isgis-logo.png>]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 127.
+(hyperref)                be the same. Added a new anchor on input line 135.
 
 
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.138 \subsection*{2.2 Etude de l'existence}
-                                             [7]
-<figures/Coursera.png, id=468, 513.92pt x 253.94875pt>
+[6]
+<figures/Coursera.png, id=477, 513.92pt x 253.94875pt>
 File: figures/Coursera.png Graphic file (type png)
 <use figures/Coursera.png>
-Package pdftex.def Info: figures/Coursera.png  used on input line 163.
+Package pdftex.def Info: figures/Coursera.png  used on input line 156.
 (pdftex.def)             Requested size: 341.43307pt x 168.7188pt.
 
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.167 
-       [8]
-<figures/forage.png, id=473, 513.92pt x 255.95625pt>
+[7 <./figures/Coursera.png>]
+<figures/forage.png, id=483, 513.92pt x 255.95625pt>
 File: figures/forage.png Graphic file (type png)
 <use figures/forage.png>
-Package pdftex.def Info: figures/forage.png  used on input line 184.
+Package pdftex.def Info: figures/forage.png  used on input line 176.
 (pdftex.def)             Requested size: 341.43307pt x 170.05254pt.
-
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.194 
-       [9 <./figures/Coursera.png> <./figures/forage.png>]
-<figures/jobscane.png, id=477, 513.92pt x 226.8475pt>
+<figures/jobscane.png, id=485, 513.92pt x 226.8475pt>
 File: figures/jobscane.png Graphic file (type png)
 <use figures/jobscane.png>
-Package pdftex.def Info: figures/jobscane.png  used on input line 203.
+Package pdftex.def Info: figures/jobscane.png  used on input line 194.
 (pdftex.def)             Requested size: 341.43307pt x 150.71323pt.
 
 
-[10 <./figures/jobscane.png>]
-<figures/1mentor.png, id=483, 513.92pt x 254.9525pt>
+[8 <./figures/forage.png>]
+<figures/1mentor.png, id=491, 513.92pt x 254.9525pt>
 File: figures/1mentor.png Graphic file (type png)
 <use figures/1mentor.png>
-Package pdftex.def Info: figures/1mentor.png  used on input line 225.
+Package pdftex.def Info: figures/1mentor.png  used on input line 215.
 (pdftex.def)             Requested size: 341.43307pt x 169.38565pt.
 
-Overfull \hbox (7.60558pt too wide) in paragraph at lines 237--239
+
+[9 <./figures/jobscane.png> <./figures/1mentor.png>]
+Overfull \hbox (7.60558pt too wide) in paragraph at lines 228--230
 \T1/ptm/b/n/12 (-20) Orientation ex-clu-sive-ment p�d-a-gogique : \T1/ptm/m/n/12 (-20) la plate-forme se con-cen-tre unique-ment sur l'acquisition
  []
 
 
-Overfull \hbox (0.85234pt too wide) in paragraph at lines 248--249
+Overfull \hbox (0.85234pt too wide) in paragraph at lines 239--240
 \T1/ptm/b/n/12 (-20) Approche tech-nique re-stric-tive : \T1/ptm/m/n/12 (-20) la plate-forme est quasi ex-clu-sive-ment cen-tr�e sur l'optimisation
  []
 
 
 
-[11 <./figures/1mentor.png>]
-Overfull \hbox (0.67227pt too wide) in paragraph at lines 311--311
+[10]
+Overfull \hbox (0.67227pt too wide) in paragraph at lines 302--302
  []|[]| 
  []
 
 
-Overfull \hbox (1.26587pt too wide) in paragraph at lines 311--311
+Overfull \hbox (1.26587pt too wide) in paragraph at lines 302--302
 []|  
  []
 
 
 
-[12]
+[11]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 334.
+(hyperref)                be the same. Added a new anchor on input line 323.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--344
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 340--344
+Underfull \hbox (badness 10000) in paragraph at lines 329--333
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 329--333
 
-[13]
+ []
 
-[14]
-<figures/scrum.png, id=501, 513.92pt x 266.9975pt>
-File: figures/scrum.png Graphic file (type png)
-<use figures/scrum.png>
-Package pdftex.def Info: figures/scrum.png  used on input line 371.
-(pdftex.def)             Requested size: 318.66948pt x 165.56117pt.
-<figures/Agil.png, id=502, 513.92pt x 513.92pt>
+
+
+[12]
+<figures/Agil.png, id=511, 513.92pt x 513.92pt>
 File: figures/Agil.png Graphic file (type png)
 <use figures/Agil.png>
-Package pdftex.def Info: figures/Agil.png  used on input line 381.
-(pdftex.def)             Requested size: 182.09486pt x 182.0939pt.
+Package pdftex.def Info: figures/Agil.png  used on input line 349.
+(pdftex.def)             Requested size: 295.90588pt x 295.90947pt.
 
 
-[15 <./figures/scrum.png> <./figures/Agil.png>]
+[13 <./figures/Agil.png>]
+<figures/scrum.png, id=517, 513.92pt x 266.9975pt>
+File: figures/scrum.png Graphic file (type png)
+<use figures/scrum.png>
+Package pdftex.def Info: figures/scrum.png  used on input line 367.
+(pdftex.def)             Requested size: 318.66948pt x 165.56117pt.
 
-[16]
-<figures/Déroulement des événements Scrum.png, id=512, 1361.085pt x 786.94pt>
+
+[14 <./figures/scrum.png>]
+
+[15]
+<figures/Déroulement des événements Scrum.png, id=528, 1361.085pt x 786.94pt>
 File: figures/Déroulement des événements Scrum.png Graphic file (type png)
 <use figures/Déroulement des événements Scrum.png>
-Package pdftex.def Info: figures/Déroulement des événements Scrum.png  used on input line 432.
-(pdftex.def)             Requested size: 318.66948pt x 184.24648pt.
+Package pdftex.def Info: figures/Déroulement des événements Scrum.png  used on input line 422.
+(pdftex.def)             Requested size: 364.19667pt x 210.56741pt.
 
 
-[17 <./figures/Déroulement des événements Scrum.png>]
+[16 <./figures/Déroulement des événements Scrum.png>]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 458.
+(hyperref)                be the same. Added a new anchor on input line 448.
 
 
+
+[17]
 
 [18]
 
@@ -1716,45 +1628,67 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 [22]
 
 [23]
-Overfull \hbox (14.94403pt too wide) in paragraph at lines 643--644
-[]\T1/ptm/m/n/12 (-20) L'int�gration avec le sys-t�me IS-GIS doit re-specter des m�-can-ismes s�curis�s d'authentification. 
- []
 
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 695.
+
+<figures/Équipe et rôles-3.png, id=565, 1220.56pt x 899.36pt>
+File: figures/Équipe et rôles-3.png Graphic file (type png)
+<use figures/Équipe et rôles-3.png>
+Package pdftex.def Info: figures/Équipe et rôles-3.png  used on input line 701.
+(pdftex.def)             Requested size: 386.96027pt x 285.12508pt.
 
 
 [24]
-
-[25]
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 712.
-
-<figures/Équipe et rôles-3.png, id=552, 1220.56pt x 899.36pt>
-File: figures/Équipe et rôles-3.png Graphic file (type png)
-<use figures/Équipe et rôles-3.png>
-Package pdftex.def Info: figures/Équipe et rôles-3.png  used on input line 718.
-(pdftex.def)             Requested size: 386.96027pt x 285.12508pt.
-<figures/ Décomposition du Projet en Sprints-2.png, id=553, 2055.68pt x 513.92pt>
+<figures/ Décomposition du Projet en Sprints-2.png, id=571, 481.8pt x 240.9pt>
 File: figures/ Décomposition du Projet en Sprints-2.png Graphic file (type png)
 <use figures/ Décomposition du Projet en Sprints-2.png>
-Package pdftex.def Info: figures/ Décomposition du Projet en Sprints-2.png  used on input line 731.
-(pdftex.def)             Requested size: 409.71692pt x 102.42929pt.
+Package pdftex.def Info: figures/ Décomposition du Projet en Sprints-2.png  used on input line 714.
+(pdftex.def)             Requested size: 364.19667pt x 182.10445pt.
 
 
-[26 <./figures/Équipe et rôles-3.png>]
-
-[27 <./figures/ Décomposition du Projet en Sprints-2.png>]
-Overfull \hbox (1.6277pt too wide) in paragraph at lines 827--827
- []|[]| 
+[25 <./figures/Équipe et rôles-3.png> <./figures/ Décomposition du Projet en Sprints-2.png>]
+Overfull \hbox (0.7673pt too wide) in paragraph at lines 738--738
+ []|\T1/ptm/b/n/10.95 (-20) Sprint| 
  []
 
 
+Overfull \hbox (0.7673pt too wide) in paragraph at lines 741--741
+ []|\T1/ptm/b/n/10.95 (-20) Sprint| 
+ []
 
-[28]
 
-[29]) (./chapters/chapter3.tex
+Underfull \hbox (badness 1142) in paragraph at lines 753--753
+[]|\T1/ptm/m/n/10.95 (+20) En tant que mo-teur IA, je veux dis-poser d'un map-ping 
+ []
 
-[30]
+
+Underfull \hbox (badness 1648) in paragraph at lines 780--780
+[]|\T1/ptm/m/n/10.95 (+20) En tant que ser-vice Python, je veux cal-culer un score 
+ []
+
+
+Underfull \hbox (badness 2564) in paragraph at lines 793--793
+[]|\T1/ptm/m/n/10.95 (+20) En tant que sys-t�me, je veux per-sis-ter la tra�a-bil-it� 
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 793--793
+\T1/ptm/m/n/10.95 (+20) com-pl�te du match-ing en SQL (cv_matching_analysis, 
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 821--821
+[]|\T1/ptm/m/n/10.95 (+20) En tant qu'ISGIS, je veux vi-su-aliser le score global 
+ []
+
+[26] [27] [28] [29] [30
+
+]) (./chapters/chapter2.tex
+
+[31
+
+]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1789,7 +1723,7 @@ Overfull \hbox (1.6277pt too wide) in paragraph at lines 827--827
 
 
 
-[31
+[32
 
 
 ]
@@ -1797,74 +1731,344 @@ Overfull \hbox (1.6277pt too wide) in paragraph at lines 827--827
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 12.
 
+) (./chapters/chapter3.tex
 
-
-[32
+[33
 
 
 ]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=731.23584pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-55.36449pt
+* \headheight=15.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-[33])
 
-[34]
+
+[34
+
+
+]
+File: figures/Gigabyte_Aorus.png Graphic file (type png)
+<use figures/Gigabyte_Aorus.png>
+Package pdftex.def Info: figures/Gigabyte_Aorus.png  used on input line 62.
+(pdftex.def)             Requested size: 71.13289pt x 71.13188pt.
+File: figures/macbook_air.png Graphic file (type png)
+<use figures/macbook_air.png>
+Package pdftex.def Info: figures/macbook_air.png  used on input line 62.
+(pdftex.def)             Requested size: 71.12737pt x 71.13188pt.
+File: figures/Lenovo _Loq .png Graphic file (type png)
+<use figures/Lenovo _Loq .png>
+Package pdftex.def Info: figures/Lenovo _Loq .png  used on input line 62.
+(pdftex.def)             Requested size: 71.12737pt x 71.13188pt.
+
 
 [35
 
-] (./appendices/appendixA.tex
+
+ <./figures/Gigabyte_Aorus.png> <./figures/macbook_air.png> <./figures/Lenovo _Loq .png>]
+<figures/VSC.png, id=627, 361.35pt x 361.35pt>
+File: figures/VSC.png Graphic file (type png)
+<use figures/VSC.png>
+Package pdftex.def Info: figures/VSC.png  used on input line 77.
+(pdftex.def)             Requested size: 113.81102pt x 113.80931pt.
+
+Overfull \hbox (7.70303pt too wide) in paragraph at lines 83--84
+\T1/ptm/m/n/12 (-20) GitHub est une plate-forme de d�veloppe-ment col-lab-o-ra-tive bas�e sur Git, per-me-t-tant l'h�bergement,
+ []
+
+<figures/github.png, id=628, 361.35pt x 361.35pt>
+File: figures/github.png Graphic file (type png)
+<use figures/github.png>
+Package pdftex.def Info: figures/github.png  used on input line 87.
+(pdftex.def)             Requested size: 113.81102pt x 113.80931pt.
+
+
+[36 <./figures/VSC.png>]
+<figures/angulair.png, id=635, 361.35pt x 361.35pt>
+File: figures/angulair.png Graphic file (type png)
+<use figures/angulair.png>
+Package pdftex.def Info: figures/angulair.png  used on input line 101.
+(pdftex.def)             Requested size: 159.33821pt x 159.33633pt.
+<figures/python.png, id=636, 361.35pt x 361.35pt>
+File: figures/python.png Graphic file (type png)
+<use figures/python.png>
+Package pdftex.def Info: figures/python.png  used on input line 113.
+(pdftex.def)             Requested size: 113.81102pt x 113.80931pt.
+
+
+[37 <./figures/github.png> <./figures/angulair.png>]
+Overfull \hbox (8.182pt too wide) in paragraph at lines 119--120
+\T1/ptm/m/n/12 (-20) NestJS est un frame-work open source bas� sur Node.js, util-is� pour le d�veloppe-ment d'applications
+ []
+
+<figures/nest.png, id=645, 361.35pt x 361.35pt>
+File: figures/nest.png Graphic file (type png)
+<use figures/nest.png>
+Package pdftex.def Info: figures/nest.png  used on input line 123.
+(pdftex.def)             Requested size: 159.33821pt x 159.33633pt.
+<figures/node.png, id=646, 361.35pt x 361.35pt>
+File: figures/node.png Graphic file (type png)
+<use figures/node.png>
+Package pdftex.def Info: figures/node.png  used on input line 133.
+(pdftex.def)             Requested size: 159.33821pt x 159.33633pt.
+
+
+[38 <./figures/python.png> <./figures/nest.png>]
+<figures/mongo.png, id=655, 361.35pt x 361.35pt>
+File: figures/mongo.png Graphic file (type png)
+<use figures/mongo.png>
+Package pdftex.def Info: figures/mongo.png  used on input line 145.
+(pdftex.def)             Requested size: 159.33821pt x 159.33633pt.
+<figures/PostgreSQL .png, id=656, 361.35pt x 361.35pt>
+File: figures/PostgreSQL .png Graphic file (type png)
+<use figures/PostgreSQL .png>
+Package pdftex.def Info: figures/PostgreSQL .png  used on input line 155.
+(pdftex.def)             Requested size: 113.81102pt x 113.80931pt.
+
+
+[39 <./figures/node.png> <./figures/mongo.png>]
+<figures/supabase.png, id=666, 361.35pt x 361.35pt>
+File: figures/supabase.png Graphic file (type png)
+<use figures/supabase.png>
+Package pdftex.def Info: figures/supabase.png  used on input line 165.
+(pdftex.def)             Requested size: 159.33821pt x 159.33633pt.
+<figures/digrammes.png, id=667, 361.35pt x 361.35pt>
+File: figures/digrammes.png Graphic file (type png)
+<use figures/digrammes.png>
+Package pdftex.def Info: figures/digrammes.png  used on input line 177.
+(pdftex.def)             Requested size: 113.81102pt x 113.80931pt.
+
+
+[40 <./figures/PostgreSQL .png> <./figures/supabase.png>]
+<figures/gemini.png, id=676, 361.35pt x 361.35pt>
+File: figures/gemini.png Graphic file (type png)
+<use figures/gemini.png>
+Package pdftex.def Info: figures/gemini.png  used on input line 189.
+(pdftex.def)             Requested size: 159.33821pt x 159.33633pt.
+
+
+[41 <./figures/digrammes.png> <./figures/gemini.png>]
+<figures/Interface_daacces_academique_et_professionnel.png, id=685, 832.5504pt x 361.35pt>
+File: figures/Interface_daacces_academique_et_professionnel.png Graphic file (type png)
+<use figures/Interface_daacces_academique_et_professionnel.png>
+Package pdftex.def Info: figures/Interface_daacces_academique_et_professionnel.png  used on input line 203.
+(pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
+<figures/Interface_daauthentification.png, id=686, 832.5504pt x 361.35pt>
+File: figures/Interface_daauthentification.png Graphic file (type png)
+<use figures/Interface_daauthentification.png>
+Package pdftex.def Info: figures/Interface_daauthentification.png  used on input line 212.
+(pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
+<figures/Interface_de_verification_daidentite.png, id=688, 832.5504pt x 361.35pt>
+File: figures/Interface_de_verification_daidentite.png Graphic file (type png)
+<use figures/Interface_de_verification_daidentite.png>
+Package pdftex.def Info: figures/Interface_de_verification_daidentite.png  used on input line 221.
+(pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
+
+
+[42 <./figures/Interface_daacces_academique_et_professionnel.png> <./figures/Interface_daauthentification.png>]
+<figures/Interface_de_creation_de_compte_societe.png, id=694, 832.5504pt x 361.35pt>
+File: figures/Interface_de_creation_de_compte_societe.png Graphic file (type png)
+<use figures/Interface_de_creation_de_compte_societe.png>
+Package pdftex.def Info: figures/Interface_de_creation_de_compte_societe.png  used on input line 230.
+(pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
+<figures/Interface_daauthentification_des_societes.png, id=695, 832.5504pt x 361.35pt>
+File: figures/Interface_daauthentification_des_societes.png Graphic file (type png)
+<use figures/Interface_daauthentification_des_societes.png>
+Package pdftex.def Info: figures/Interface_daauthentification_des_societes.png  used on input line 239.
+(pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
+
+
+[43 <./figures/Interface_de_verification_daidentite.png> <./figures/Interface_de_creation_de_compte_societe.png>]
+<figures/Interface_du_profil_etudiant.png, id=701, 832.5504pt x 361.35pt>
+File: figures/Interface_du_profil_etudiant.png Graphic file (type png)
+<use figures/Interface_du_profil_etudiant.png>
+Package pdftex.def Info: figures/Interface_du_profil_etudiant.png  used on input line 252.
+(pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
+<figures/Interface_de_generation_du_CV_ATS.png, id=703, 832.5504pt x 361.35pt>
+File: figures/Interface_de_generation_du_CV_ATS.png Graphic file (type png)
+<use figures/Interface_de_generation_du_CV_ATS.png>
+Package pdftex.def Info: figures/Interface_de_generation_du_CV_ATS.png  used on input line 265.
+(pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
+
+
+[44 <./figures/Interface_daauthentification_des_societes.png> <./figures/Interface_du_profil_etudiant.png>]
+<figures/Interface_de_validation_du_CV_ATS.png, id=711, 832.5504pt x 361.35pt>
+File: figures/Interface_de_validation_du_CV_ATS.png Graphic file (type png)
+<use figures/Interface_de_validation_du_CV_ATS.png>
+Package pdftex.def Info: figures/Interface_de_validation_du_CV_ATS.png  used on input line 274.
+(pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
+<figures/Interface_du_CV_ATS_genere.png, id=712, 832.5504pt x 361.35pt>
+File: figures/Interface_du_CV_ATS_genere.png Graphic file (type png)
+<use figures/Interface_du_CV_ATS_genere.png>
+Package pdftex.def Info: figures/Interface_du_CV_ATS_genere.png  used on input line 283.
+(pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
+
+
+[45 <./figures/Interface_de_generation_du_CV_ATS.png> <./figures/Interface_de_validation_du_CV_ATS.png>]
+<figures/Interface_du_tableau_de_bord_de_laetudiant.png, id=720, 832.5504pt x 361.35pt>
+File: figures/Interface_du_tableau_de_bord_de_laetudiant.png Graphic file (type png)
+<use figures/Interface_du_tableau_de_bord_de_laetudiant.png>
+Package pdftex.def Info: figures/Interface_du_tableau_de_bord_de_laetudiant.png  used on input line 294.
+(pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
+<figures/Interface_de_prediction_du_score_daemployabilite.png, id=722, 832.5504pt x 361.35pt>
+File: figures/Interface_de_prediction_du_score_daemployabilite.png Graphic file (type png)
+<use figures/Interface_de_prediction_du_score_daemployabilite.png>
+Package pdftex.def Info: figures/Interface_de_prediction_du_score_daemployabilite.png  used on input line 305.
+(pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
+
+
+[46 <./figures/Interface_du_CV_ATS_genere.png> <./figures/Interface_du_tableau_de_bord_de_laetudiant.png>]
+<figures/Interface_du_tableau_de_bord_de_laadministrateur.png, id=733, 832.5504pt x 361.35pt>
+File: figures/Interface_du_tableau_de_bord_de_laadministrateur.png Graphic file (type png)
+<use figures/Interface_du_tableau_de_bord_de_laadministrateur.png>
+Package pdftex.def Info: figures/Interface_du_tableau_de_bord_de_laadministrateur.png  used on input line 316.
+(pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
+<figures/Interface_du_tableau_de_bord_de_laadministrateur_2.png, id=734, 832.5504pt x 361.35pt>
+File: figures/Interface_du_tableau_de_bord_de_laadministrateur_2.png Graphic file (type png)
+<use figures/Interface_du_tableau_de_bord_de_laadministrateur_2.png>
+Package pdftex.def Info: figures/Interface_du_tableau_de_bord_de_laadministrateur_2.png  used on input line 323.
+(pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
+
+
+[47 <./figures/Interface_de_prediction_du_score_daemployabilite.png> <./figures/Interface_du_tableau_de_bord_de_laadministrateur.png>]
+<figures/Interface_du_score_daemployabilite.png, id=743, 832.5504pt x 361.35pt>
+File: figures/Interface_du_score_daemployabilite.png Graphic file (type png)
+<use figures/Interface_du_score_daemployabilite.png>
+Package pdftex.def Info: figures/Interface_du_score_daemployabilite.png  used on input line 332.
+(pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
+<figures/Interface_du_score_daemployabilite_2.png, id=744, 832.5504pt x 361.35pt>
+File: figures/Interface_du_score_daemployabilite_2.png Graphic file (type png)
+<use figures/Interface_du_score_daemployabilite_2.png>
+Package pdftex.def Info: figures/Interface_du_score_daemployabilite_2.png  used on input line 339.
+(pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
+
+
+[48 <./figures/Interface_du_tableau_de_bord_de_laadministrateur_2.png> <./figures/Interface_du_score_daemployabilite.png>]
+<figures/Interface_daadequation_Formation-Emploi.png, id=753, 832.5504pt x 361.35pt>
+File: figures/Interface_daadequation_Formation-Emploi.png Graphic file (type png)
+<use figures/Interface_daadequation_Formation-Emploi.png>
+Package pdftex.def Info: figures/Interface_daadequation_Formation-Emploi.png  used on input line 348.
+(pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
+<figures/Interface_du_referentiel_des_competences.png, id=755, 832.5504pt x 361.35pt>
+File: figures/Interface_du_referentiel_des_competences.png Graphic file (type png)
+<use figures/Interface_du_referentiel_des_competences.png>
+Package pdftex.def Info: figures/Interface_du_referentiel_des_competences.png  used on input line 357.
+(pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
+
+
+[49 <./figures/Interface_du_score_daemployabilite_2.png> <./figures/Interface_daadequation_Formation-Emploi.png>]
+<figures/Interface_de_suivi_des_etudiants_par_filiere.png, id=762, 832.5504pt x 361.35pt>
+File: figures/Interface_de_suivi_des_etudiants_par_filiere.png Graphic file (type png)
+<use figures/Interface_de_suivi_des_etudiants_par_filiere.png>
+Package pdftex.def Info: figures/Interface_de_suivi_des_etudiants_par_filiere.png  used on input line 366.
+(pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
+<figures/Interface_de_consultation_des_candidatures.png, id=763, 832.5504pt x 361.35pt>
+File: figures/Interface_de_consultation_des_candidatures.png Graphic file (type png)
+<use figures/Interface_de_consultation_des_candidatures.png>
+Package pdftex.def Info: figures/Interface_de_consultation_des_candidatures.png  used on input line 377.
+(pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
+
+
+[50 <./figures/Interface_du_referentiel_des_competences.png> <./figures/Interface_de_suivi_des_etudiants_par_filiere.png>])
+
+[51 <./figures/Interface_de_consultation_des_candidatures.png>]
+
+[52
+
+]
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Overfull \hbox (43.43846pt too wide) in paragraph at lines 116--117
+[]\T1/ptm/m/n/12 (-20) Le mod-�le Wa-ter-fall, [][]$\T1/cmtt/m/n/12 https : / / www . techtarget . com / searchsoftwarequality / definition /
+ []
+
+
+Overfull \hbox (14.68472pt too wide) in paragraph at lines 122--123
+[]\T1/ptm/m/n/12 (-20) Scrum, [][]$\T1/cmtt/m/n/12 https : / / scrumguides . org / docs / scrumguide / v2020 / 2020-[]Scrum-[]Guide-[]US .
+ []
+
+
+Overfull \hbox (112.83607pt too wide) in paragraph at lines 124--125
+[]\T1/ptm/m/n/12 (-20) Extreme Pro-gram-ming (XP), [][]$\T1/cmtt/m/n/12 https : / / www . techrepublic . com / article / what-[]is-[]extreme-[]programming/$[][] 
+ []
+
+
+Overfull \hbox (295.86061pt too wide) in paragraph at lines 126--127
+[]\T1/ptm/m/n/12 (-20) DSDM (Dy-namic Sys-tems De-vel-op-ment Method), [][]$\T1/cmtt/m/n/12 https : / / goodelearning . com / what-[]is-[]the-[]dynamic-[]systems-[]development-[]method-[]dsdm/$[][] 
+ []
+
+
+
+[53
+
+{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./appendices/appendixA.tex
 Appendix A.
 ) (./appendices/appendixB.tex
 
-[36
+[54
 
 ]
 Appendix B.
 )
 
-[37
+[55
 
 ]
 
-[38]
-Overfull \hbox (43.43846pt too wide) in paragraph at lines 135--136
-[]\T1/ptm/m/n/12 (-20) Le mod-�le Wa-ter-fall, [][]$\T1/cmtt/m/n/12 https : / / www . techtarget . com / searchsoftwarequality / definition /
- []
-
-
-Overfull \hbox (24.55751pt too wide) in paragraph at lines 139--140
-[]\T1/ptm/m/n/12 (-20) Les m�th-odes ag-iles, [][]$\T1/cmtt/m/n/12 https : / / web . maths . unsw . edu . au / ~lafaye / CCM / genie-[]logiciel /
- []
-
-
-
-[39
-
-] (./main.aux)
+[56] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3C46E13D619C9E13AD7817F9D179D3D2;11821.
+(rerunfilecheck)             Checksum: EECFE3028F8A61270A83FBA4A1CBBFDB;10857.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45840 strings out of 473190
- 908041 string characters out of 5715800
- 1835880 words of memory out of 5000000
- 67800 multiletter control sequences out of 15000+600000
- 683912 words of font info for 418 fonts, out of 8000000 for 9000
+ 45967 strings out of 473190
+ 915745 string characters out of 5715800
+ 1895040 words of memory out of 5000000
+ 67830 multiletter control sequences out of 15000+600000
+ 684061 words of font info for 438 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 93i,19n,99p,1251b,2321s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{cite.0@maurya2012} has been referenced but does not exist, replaced by a fixed one
-
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (50 pages, 7375062 bytes).
+ 93i,15n,99p,1251b,2321s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (66 pages, 26891768 bytes).
 PDF statistics:
- 695 PDF objects out of 1000 (max. 8388607)
- 585 compressed objects within 6 object streams
- 119 named destinations out of 1000 (max. 500000)
- 143057 words of extra memory for PDF output out of 154059 (max. 10000000)
+ 888 PDF objects out of 1000 (max. 8388607)
+ 701 compressed objects within 8 object streams
+ 177 named destinations out of 1000 (max. 500000)
+ 143161 words of extra memory for PDF output out of 154059 (max. 10000000)
 

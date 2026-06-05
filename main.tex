@@ -26,48 +26,34 @@
 % ─────────────────────────────────────────────────────────────────────────────
 % FRONT MATTER
 % ─────────────────────────────────────────────────────────────────────────────
-\section*{Bibliographie}
-\addcontentsline{toc}{chapter}{Bibliographie}
 
-\begin{enumerate}
-  \item Coursera for Campus, \url{https://www.coursera.org/campus}
-  
-  \item Forage, \url{https://www.theforage.com/}
-  
-  \item Jobscan, \url{https://www.jobscan.co/}
-  
-  \item 1Mentor, \url{https://www.1mentor.io/}
-  
-  \item Le modèle Waterfall, \url{https://www.techtarget.com/searchsoftwarequality/definition/waterfall-model?utm_source=openai}
-  
-  \item Le cycle en V, \url{https://improjet.fr/cycle-en-v-1/?utm_source=openai}
-  
-  \item Les méthodes agiles, \url{https://web.maths.unsw.edu.au/~lafaye/CCM/genie-logiciel/methodes-agiles.htm?utm_source=openai}
-  
-  \item Scrum, \url{https://scrumguides.org/scrum-guide.html}
-\end{enumerate}
-
-% --- Cover Page ---
+% --- Cover Page (no visible page number) ---
 \input{frontmatter/cover}
 
-% --- Dedication ---
+% --- Roman numbering starts from dedication ---
+\pagenumbering{roman}
+
+% --- Dedication (page i) ---
 \input{frontmatter/dedication}
 
-% --- Acknowledgements ---
+% --- Acknowledgements (page ii) ---
 \input{frontmatter/acknowledgements}
 
-% --- Abstract ---
+% --- Résumé (page iii) ---
 \input{frontmatter/abstract}
 
-% --- Table of Contents ---
+% --- Table des Matières (page iv) ---
+\renewcommand{\contentsname}{TABLE DES MATIÈRES}
 \tableofcontents
 \newpage
 
-% --- List of Figures ---
+% --- Table des figures ---
+\renewcommand{\listfigurename}{Table des figures}
 \listoffigures
 \newpage
 
-% --- List of Tables ---
+% --- Table des tableaux ---
+\renewcommand{\listtablename}{Table des tableaux}
 \listoftables
 \newpage
 
@@ -76,13 +62,16 @@
 % ─────────────────────────────────────────────────────────────────────────────
 \pagenumbering{arabic}
 
-% --- Chapter 1 - Introduction Générale ---
+% --- Introduction Générale (unnumbered) ---
+\input{chapters/Introduction_generale}
+
+% --- Chapter 1 - Présentation et Analyse du Système ---
 \input{chapters/chapter1}
 
-% --- Chapter 2 ---
+% --- Chapter 2 - Analyse et spécification des exigences ---
 \input{chapters/chapter2}
 
-% --- Chapter 3 ---
+% --- Chapter 3 - Étude Entrepreneuriale et Réalisation ---
 \input{chapters/chapter3}
 
 % ─────────────────────────────────────────────────────────────────────────────
@@ -110,14 +99,6 @@ Ce projet de fin d'études a permis de mettre en pratique les connaissances acqu
 \newpage
 
 % ─────────────────────────────────────────────────────────────────────────────
-% APPENDICES
-% ─────────────────────────────────────────────────────────────────────────────
-\appendix
-
-\input{appendices/appendixA}
-\input{appendices/appendixB}
-
-% ─────────────────────────────────────────────────────────────────────────────
 % BIBLIOGRAPHY
 % ─────────────────────────────────────────────────────────────────────────────
 \chapter*{Bibliographie}
@@ -128,17 +109,33 @@ Ce projet de fin d'études a permis de mettre en pratique les connaissances acqu
 
   \item Forage, \url{https://www.theforage.com/}
 
-  \item Jobscan, \url{https://www.jobscan.co/}
+  \item Jobscan, \url{https://www.jobscan.com/}
 
   \item 1Mentor, \url{https://www.1mentor.io/}
 
-  \item Le modèle Waterfall, \url{https://www.techtarget.com/searchsoftwarequality/definition/waterfall-model?utm_source=openai}
+  \item Le modèle Waterfall, \url{https://www.techtarget.com/searchsoftwarequality/definition/waterfall-model}
 
-  \item Le cycle en V, \url{https://improjet.fr/cycle-en-v-1/?utm_source=openai}
+  \item Le cycle en V, \url{https://improjet.fr/cycle-en-v-1/}
 
-  \item Les méthodes agiles, \url{https://web.maths.unsw.edu.au/~lafaye/CCM/genie-logiciel/methodes-agiles.htm?utm_source=openai}
+  \item Les méthodes agiles, \url{https://www.atlassian.com/agile}
 
-  \item Scrum, \url{https://scrumguides.org/scrum-guide.html}
+  \item Scrum, \url{https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf}
+
+  \item Extreme Programming (XP), \url{https://www.techrepublic.com/article/what-is-extreme-programming/}
+
+  \item DSDM (Dynamic Systems Development Method), \url{https://goodelearning.com/what-is-the-dynamic-systems-development-method-dsdm/}
+
+  \item AFT Développement, \url{https://www.aft-dev.com/}
 \end{enumerate}
+
+\newpage
+
+% ─────────────────────────────────────────────────────────────────────────────
+% APPENDICES
+% ─────────────────────────────────────────────────────────────────────────────
+\appendix
+
+\input{appendices/appendixA}
+\input{appendices/appendixB}
 
 \end{document}

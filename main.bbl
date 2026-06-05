@@ -16,38 +16,5 @@
   {}
 \endgroup
 
-
-\refsection{0}
-  \datalist[entry]{nyt/global//global/global/global}
-    \entry{maurya2012}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=e994f6041a42cfd05a1f0107a5777733}{%
-           family={Maurya},
-           familyi={M\bibinitperiod},
-           given={Ash},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {O'Reilly Media}%
-      }
-      \strng{namehash}{e994f6041a42cfd05a1f0107a5777733}
-      \strng{fullhash}{e994f6041a42cfd05a1f0107a5777733}
-      \strng{fullhashraw}{e994f6041a42cfd05a1f0107a5777733}
-      \strng{bibnamehash}{e994f6041a42cfd05a1f0107a5777733}
-      \strng{authorbibnamehash}{e994f6041a42cfd05a1f0107a5777733}
-      \strng{authornamehash}{e994f6041a42cfd05a1f0107a5777733}
-      \strng{authorfullhash}{e994f6041a42cfd05a1f0107a5777733}
-      \strng{authorfullhashraw}{e994f6041a42cfd05a1f0107a5777733}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{2nd}
-      \field{isbn}{978-1449305178}
-      \field{title}{Running Lean: Iterate from Plan A to a Plan That Works}
-      \field{year}{2012}
-    \endentry
-  \enddatalist
-\endrefsection
 \endinput
 
