@@ -4,7 +4,6 @@
 \contentsline {chapter}{Introduction Générale}{1}{chapter*.6}%
 \contentsline {chapter}{\numberline {1}Présentation et Analyse du Système }{3}{chapter*.6}%
 \contentsline {section}{1 Introduction}{3}{section*.7}%
-\contentsline {subsection}{1.1 Cadre du projet}{3}{section*.7}%
 \contentsline {subsection}{1.2 Présentation de centre d'accueil de stage}{3}{section*.7}%
 \contentsline {section}{2 Présentation du projet}{5}{figure.caption.9}%
 \contentsline {subsection}{2.1 Contexte général du projet}{5}{section*.10}%
@@ -14,58 +13,68 @@
 \contentsline {subsection}{3.1 Description de l’existant}{6}{section*.11}%
 \contentsline {subsection}{3.2 Critique de l’existant}{10}{figure.caption.15}%
 \contentsline {subsection}{3.3 Solution proposée}{11}{table.caption.16}%
-\contentsline {section}{4 Méthodologie de Management de Projet Agile}{12}{table.caption.16}%
-\contentsline {subsection}{4.1 Présentation des méthodologies de gestion de projet}{12}{section*.17}%
-\contentsline {subsection}{4.2 la méthodologie adoptée}{14}{figure.caption.18}%
-\contentsline {section}{5 Analyse et spécification des besoins}{17}{figure.caption.20}%
-\contentsline {subsection}{5.1 Exigences fonctionnelles}{17}{section*.21}%
-\contentsline {subsection}{5.2 Exigences non fonctionnelles}{22}{section*.21}%
-\contentsline {section}{6 Gestion de projet avec la méthode SCRUM}{24}{section*.21}%
-\contentsline {subsection}{6.1 Identification de l'équipe}{24}{section*.22}%
-\contentsline {subsection}{6.2 Décomposition du projet}{25}{figure.caption.23}%
-\contentsline {subsection}{6.3 Product Backlog}{26}{figure.caption.24}%
+\contentsline {subsection}{4.1 Présentation des méthodologies de gestion de projet}{12}{table.caption.16}%
+\contentsline {subsection}{4.2 la méthodologie adoptée}{13}{figure.caption.17}%
+\contentsline {section}{5 Analyse et spécification des besoins}{16}{figure.caption.19}%
+\contentsline {subsection}{5.1 Exigences fonctionnelles}{17}{section*.20}%
+\contentsline {subsection}{5.2 Exigences non fonctionnelles}{22}{section*.20}%
+\contentsline {section}{6 Gestion de projet avec la méthode SCRUM}{24}{section*.20}%
+\contentsline {subsection}{6.1 Identification de l'équipe}{24}{section*.21}%
+\contentsline {subsection}{6.2 Décomposition du projet}{25}{figure.caption.22}%
+\contentsline {subsection}{6.3 Product Backlog}{26}{figure.caption.23}%
 \contentsline {section}{7 Conclusion}{31}{table.1.2}%
-\contentsline {chapter}{\numberline {2}Analyse et spécification des exigences }{33}{table.1.2}%
-\contentsline {section}{Introduction}{33}{section*.25}%
-\contentsline {chapter}{\numberline {3}Realisation du systeme}{35}{section*.25}%
-\contentsline {section}{\numberline {1}Introduction}{35}{section.3.1}%
-\contentsline {section}{\numberline {2}Environnement de développement}{35}{section.3.2}%
-\contentsline {subsection}{\numberline {2.1}Environnement matériel}{35}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {2.2}Environnement logiciel}{36}{subsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Environnement de développement intégré:}{36}{subsubsection.3.2.2.1}%
-\contentsline {section}{\numberline {3}Technologies et langages de programmation utilisés}{37}{section.3.3}%
-\contentsline {subsection}{\numberline {3.1}Technologies de développement côté client}{37}{subsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Angular}{37}{subsubsection.3.3.1.1}%
-\contentsline {subsection}{\numberline {3.2}Technologies de développement côté serveur}{37}{subsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Python}{37}{subsubsection.3.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}NestJS}{38}{subsubsection.3.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Node.js}{38}{subsubsection.3.3.2.3}%
-\contentsline {subsection}{\numberline {3.3}Technologies de gestion des données}{39}{subsection.3.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}MongoDB}{39}{subsubsection.3.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}PostgreSQL}{39}{subsubsection.3.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Supabase}{40}{subsubsection.3.3.3.3}%
-\contentsline {subsection}{\numberline {3.4}Outil de conception et de modélisation}{40}{subsection.3.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Draw.io}{40}{subsubsection.3.3.4.1}%
-\contentsline {subsection}{\numberline {3.5}Service d'intelligence artificielle}{41}{subsection.3.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}Gemini API}{41}{subsubsection.3.3.5.1}%
-\contentsline {section}{\numberline {4}Principales interfaces graphiques}{41}{section.3.4}%
-\contentsline {subsection}{\numberline {4.1}Authentification}{42}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {4.2}Interfaces étudiant}{44}{subsection.3.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Profil étudiant}{44}{subsubsection.3.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Génération du CV ATS}{44}{subsubsection.3.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.3}Calcul du score ats et employabilité}{46}{subsubsection.3.4.2.3}%
-\contentsline {subsubsection}{\numberline {4.2.4}Calcul du score d'employabilité prévisionnel}{46}{subsubsection.3.4.2.4}%
-\contentsline {subsection}{\numberline {4.3}Interfaces admin}{47}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {4.4}Interfaces société}{50}{subsection.3.4.4}%
-\contentsline {section}{\numberline {5}Conclusion}{51}{section.3.5}%
-\contentsline {chapter}{Conclusion Générale}{52}{chapter*.57}%
-\contentsline {chapter}{Bibliographie}{53}{chapter*.58}%
-\contentsline {chapter}{\numberline {A}Documents Complémentaires}{54}{appendix.A}%
-\contentsline {section}{\numberline {1}Cahier des Charges}{54}{section.A.1}%
-\contentsline {section}{\numberline {2}Questionnaires et Sondages}{54}{section.A.2}%
-\contentsline {section}{\numberline {3}Captures d'Écran Supplémentaires}{54}{section.A.3}%
-\contentsline {chapter}{\numberline {B}Documentation Technique}{55}{appendix.B}%
-\contentsline {section}{\numberline {1}Architecture Technique}{55}{section.B.1}%
-\contentsline {section}{\numberline {2}Diagrammes UML}{55}{section.B.2}%
-\contentsline {section}{\numberline {3}Extraits de Code}{55}{section.B.3}%
-\contentsline {section}{\numberline {4}Guide d'Installation}{56}{section.B.4}%
+\contentsline {chapter}{\numberline {2}Conception du système}{33}{table.1.2}%
+\contentsline {section}{1 Introduction}{33}{section*.24}%
+\contentsline {section}{2 Choix de la modélisation conceptuelle}{33}{section*.24}%
+\contentsline {section}{3 Présentation des acteurs}{34}{figure.caption.25}%
+\contentsline {section}{4 Architecture logicielle}{35}{table.caption.26}%
+\contentsline {subsection}{4.1 Architecture globale du système}{36}{section*.27}%
+\contentsline {subsection}{4.2 Architecture logique de l'application}{36}{section*.27}%
+\contentsline {subsection}{4.3 Architecture physique de l'application}{36}{section*.27}%
+\contentsline {section}{5 Conception}{36}{section*.27}%
+\contentsline {subsection}{5.1 Diagramme de cas d'utilisation global}{37}{section*.28}%
+\contentsline {subsection}{5.2 Diagramme de classe}{42}{Item.56}%
+\contentsline {subsection}{5.3 Diagramme de séquence}{43}{Item.56}%
+\contentsline {section}{Conclusion}{43}{Item.56}%
+\contentsline {chapter}{\numberline {3}Realisation du systeme}{45}{Item.56}%
+\contentsline {section}{\numberline {1}Introduction}{45}{section.3.1}%
+\contentsline {section}{\numberline {2}Environnement de développement}{45}{section.3.2}%
+\contentsline {subsection}{\numberline {2.1}Environnement matériel}{45}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {2.2}Environnement logiciel}{46}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Environnement de développement intégré:}{46}{subsubsection.3.2.2.1}%
+\contentsline {section}{\numberline {3}Technologies et langages de programmation utilisés}{47}{section.3.3}%
+\contentsline {subsection}{\numberline {3.1}Technologies de développement côté client}{47}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Angular}{47}{subsubsection.3.3.1.1}%
+\contentsline {subsection}{\numberline {3.2}Technologies de développement côté serveur}{47}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Python}{47}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}NestJS}{48}{subsubsection.3.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Node.js}{48}{subsubsection.3.3.2.3}%
+\contentsline {subsection}{\numberline {3.3}Technologies de gestion des données}{49}{subsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}MongoDB}{49}{subsubsection.3.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}PostgreSQL}{49}{subsubsection.3.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Supabase}{50}{subsubsection.3.3.3.3}%
+\contentsline {subsection}{\numberline {3.4}Outil de conception et de modélisation}{50}{subsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Draw.io}{50}{subsubsection.3.3.4.1}%
+\contentsline {subsection}{\numberline {3.5}Service d'intelligence artificielle}{51}{subsection.3.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Gemini API}{51}{subsubsection.3.3.5.1}%
+\contentsline {section}{\numberline {4}Principales interfaces graphiques}{51}{section.3.4}%
+\contentsline {subsection}{\numberline {4.1}Authentification}{52}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {4.2}Interfaces étudiant}{54}{subsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Profil étudiant}{54}{subsubsection.3.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Génération du CV ATS}{54}{subsubsection.3.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Calcul du score ats et employabilité}{56}{subsubsection.3.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.4}Calcul du score d'employabilité prévisionnel}{56}{subsubsection.3.4.2.4}%
+\contentsline {subsection}{\numberline {4.3}Interfaces admin}{57}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {4.4}Interfaces société}{60}{subsection.3.4.4}%
+\contentsline {section}{\numberline {5}Conclusion}{61}{section.3.5}%
+\contentsline {chapter}{Conclusion Générale}{62}{chapter*.65}%
+\contentsline {chapter}{Bibliographie}{63}{chapter*.66}%
+\contentsline {chapter}{\numberline {A}Documents Complémentaires}{64}{appendix.A}%
+\contentsline {section}{\numberline {1}Cahier des Charges}{64}{section.A.1}%
+\contentsline {section}{\numberline {2}Questionnaires et Sondages}{64}{section.A.2}%
+\contentsline {section}{\numberline {3}Captures d'Écran Supplémentaires}{64}{section.A.3}%
+\contentsline {chapter}{\numberline {B}Documentation Technique}{65}{appendix.B}%
+\contentsline {section}{\numberline {1}Architecture Technique}{65}{section.B.1}%
+\contentsline {section}{\numberline {2}Diagrammes UML}{65}{section.B.2}%
+\contentsline {section}{\numberline {3}Extraits de Code}{65}{section.B.3}%
+\contentsline {section}{\numberline {4}Guide d'Installation}{66}{section.B.4}%

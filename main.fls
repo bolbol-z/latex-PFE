@@ -105,6 +105,26 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/pdfpages/pppdftex.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/pdfpages/pppdftex.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/pdfpages/pppdftex.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/lscape.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/lscape.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
@@ -113,6 +133,8 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/capt-of/capt-of.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/capt-of/capt-of.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
@@ -142,14 +164,6 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/mathptmx.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/microtype/letterspace.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tocbibind/tocbibind.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/dvipsnam.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/dvipsnam.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/dvipsnam.def
@@ -329,8 +343,6 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.def
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -432,6 +444,10 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/grfext/grfext.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/caption/ltcaption.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/caption/ltcaption.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-ptm.cfg
@@ -461,49 +477,27 @@ INPUT ./frontmatter/cover.tex
 INPUT ./frontmatter/cover.tex
 INPUT ./frontmatter/cover.tex
 INPUT frontmatter/cover.tex
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmrc8t.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmrc8t.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri8t.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmrc8t.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmrc8t.vf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT ./final garde.pdf
+INPUT ./final garde.pdf
+INPUT ./final garde.pdf
+INPUT ./final garde.pdf
+INPUT ./final garde.pdf
+INPUT ./final garde.pdf
+INPUT ./final garde.pdf
+INPUT ./final garde.pdf
+INPUT ./final garde.pdf
+INPUT ./final garde.pdf
+INPUT ./final garde.pdf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmrc8t.vf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmrc8t.vf
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT ./frontmatter/dedication.tex
 INPUT ./frontmatter/dedication.tex
 INPUT ./frontmatter/dedication.tex
 INPUT ./frontmatter/dedication.tex
 INPUT frontmatter/dedication.tex
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri8t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
@@ -557,6 +551,13 @@ INPUT ./frontmatter/acknowledgements.tex
 INPUT ./frontmatter/acknowledgements.tex
 INPUT ./frontmatter/acknowledgements.tex
 INPUT frontmatter/acknowledgements.tex
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT ./frontmatter/abstract.tex
 INPUT ./frontmatter/abstract.tex
 INPUT ./frontmatter/abstract.tex
@@ -626,6 +627,9 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT ./figures/Les programmes de la Fondation Djagora.png
 INPUT ./figures/Les programmes de la Fondation Djagora.png
 INPUT ./figures/Les programmes de la Fondation Djagora.png
@@ -633,6 +637,10 @@ INPUT ./figures/Les programmes de la Fondation Djagora.png
 INPUT ./figures/Les programmes de la Fondation Djagora.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
@@ -731,6 +739,18 @@ INPUT ./chapters/chapter2.tex
 INPUT ./chapters/chapter2.tex
 INPUT ./chapters/chapter2.tex
 INPUT chapters/chapter2.tex
+INPUT ./figures/Unified Modelling Language (UML).png
+INPUT ./figures/Unified Modelling Language (UML).png
+INPUT ./figures/Unified Modelling Language (UML).png
+INPUT ./figures/Unified Modelling Language (UML).png
+INPUT ./figures/Unified Modelling Language (UML).png
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf
+INPUT ./diagrammes/use-case-global.png
+INPUT ./diagrammes/use-case-global.png
+INPUT ./diagrammes/use-case-global.png
+INPUT ./diagrammes/use-case-global.png
+INPUT ./diagrammes/use-case-global.png
 INPUT ./chapters/chapter3.tex
 INPUT ./chapters/chapter3.tex
 INPUT ./chapters/chapter3.tex
