@@ -1,12 +1,11 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1781276370.78987 -1
-  "bibliography/references.bib" 1780933961.44668 2812 c02a2c0df306bcb4476d20011fbc824c ""
-  "main.bcf" 1781276370.40911 108104 ff36aa83e4121763d40d1ca27cc1169a "pdflatex"
+["biber main"] 1781277062.83951 "main.bcf" "main.bbl" "main" 1781291722.07994 0
+  "main.bcf" 1781291721.92139 108104 ff36aa83e4121763d40d1ca27cc1169a "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1781276347.40738 "/Users/bilelzghal/Desktop/Stage-PFE-2026/Rapport_final/latex-PFE-R2/main.tex" "main.pdf" "main" 1781276370.79041 0
+["pdflatex"] 1781291701.80048 "/Users/bilelzghal/Desktop/Stage-PFE-2026/Rapport_final/latex-PFE-R2/main.tex" "main.pdf" "main" 1781291722.08027 0
   "/Users/bilelzghal/Desktop/Stage-PFE-2026/Rapport_final/latex-PFE-R2/main.tex" 1781214042.05366 5944 610373e37022af101f612c8061dc0080 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
@@ -286,8 +285,8 @@
   "appendices/appendixB.tex" 1780934609.79221 0 d41d8cd98f00b204e9800998ecf8427e ""
   "chapters/Conclusion_generale.tex" 1780934922.52828 2998 37546ef49f1854f32133873b32fa8f8f ""
   "chapters/Introduction_generale.tex" 1781275934.89683 4642 bd583252713c8d6fb253cbbbd20c79d4 ""
-  "chapters/chapter1.tex" 1781276324.54971 63366 c32629cfd4f98a9a0073524b0eae2a69 ""
-  "chapters/chapter2.tex" 1781269769.00437 26887 4e83fa62c4b6276751b86d8b92d1c047 ""
+  "chapters/chapter1.tex" 1781285218.89965 63885 a158326cfa24fdf8d759f77faffd9d61 ""
+  "chapters/chapter2.tex" 1781291679.30301 26933 4e44f6cfb0c2f4d3e4f1c518e58d9833 ""
   "chapters/chapter3.tex" 1781265095.1376 19212 63bdf2203bdd4239c7d6f4a485948f80 ""
   "config/commands.tex" 1780933961.44901 6586 bd0fbff3c0ef13c94182fcdbe2f4daf9 ""
   "config/packages.tex" 1780935240.13249 1941 e4151a235b4a529cd836f69aeac4902c ""
@@ -343,7 +342,7 @@
   "figures/nest.png" 1780933966.26419 66919 db711b1d8e114017ca847f86402fbbc6 ""
   "figures/node.png" 1780933966.27006 115477 f05b8c689bb9e41dd77de3898f113d43 ""
   "figures/python.png" 1780933966.28046 138092 699e9ccb5f787a68fe44c4aa29a64438 ""
-  "figures/scrum.png" 1780933966.29533 75268 03e71bbd7e35ebf53e76d5afadc3ced6 ""
+  "figures/scrum.png" 1781283055.50488 736641 ed4c772b4b8d534f13b8cdae7019a662 ""
   "figures/supabase.png" 1780933966.3173 75109 0aaa81a22231a1cbb90decb1b7dae444 ""
   "figures/Équipe et rôles-3.png" 1780933966.33624 88736 9a73e743462e323da418b6e3f779357d ""
   "final garde.pdf" 1780933966.38963 349337 3977b50ec14020e2e5824565bb91bb19 ""
@@ -351,14 +350,14 @@
   "frontmatter/acknowledgements.tex" 1781274485.55733 1825 5ac95859e2ae2eef0dbf458e2836b03d ""
   "frontmatter/cover.tex" 1781273263.14561 76 a2dae028fd7cbc6dd38316ae8e70c416 ""
   "frontmatter/dedication.tex" 1781273861.09121 6370 e77e650faad2c6f8f1b286537a3350b4 ""
-  "main.aux" 1781276370.403 30175 80a3aad47c751aec704bf64448317f61 "pdflatex"
-  "main.bbl" 1780933966.44611 466 76d65a242ec496c9b4361af646ff12cb "biber main"
-  "main.lof" 1781276370.41021 5912 fee516f4a54770aa85bc8aeed804c52d "pdflatex"
-  "main.lot" 1781276370.41026 1057 a94b2dd44e6efb96a232e1935d6a947a "pdflatex"
-  "main.out" 1781276370.40769 10808 b90efa1a9b865a21638ed44d41eb0c5a "pdflatex"
-  "main.run.xml" 1781276370.41002 2348 5b2d3b19c3758ad81fed95bad248ba53 "pdflatex"
+  "main.aux" 1781291721.91618 30140 7349c8a82c8c34f117389630b2304e6d "pdflatex"
+  "main.bbl" 1781277074.51896 466 76d65a242ec496c9b4361af646ff12cb "biber main"
+  "main.lof" 1781291721.92221 5911 60ec91c2214af0530f9795d468aa98a3 "pdflatex"
+  "main.lot" 1781291721.92224 1043 847a16490045a46e23d7e74053d31a45 "pdflatex"
+  "main.out" 1781291721.92033 10785 0b99cbaaf6b0f4586c0322f0375dda69 "pdflatex"
+  "main.run.xml" 1781291721.92208 2348 5b2d3b19c3758ad81fed95bad248ba53 "pdflatex"
   "main.tex" 1781214042.05366 5944 610373e37022af101f612c8061dc0080 ""
-  "main.toc" 1781276370.41016 6419 c528e73e278e120e148cf63aef8ad4e2 "pdflatex"
+  "main.toc" 1781291721.92215 6414 4f4d795d3bfe78bd8a2a158271e6267d "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"

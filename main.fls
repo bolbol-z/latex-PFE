@@ -763,6 +763,9 @@ INPUT ./diagrammes/use-case-global.png
 INPUT ./diagrammes/use-case-global.png
 INPUT ./diagrammes/use-case-global.png
 INPUT ./diagrammes/use-case-global.png
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri8t.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT ./diagrammes/diagramme-classes_2.png
 INPUT ./diagrammes/diagramme-classes_2.png
 INPUT ./diagrammes/diagramme-classes_2.png
