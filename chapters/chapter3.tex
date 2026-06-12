@@ -12,10 +12,9 @@
 Ce chapitre est consacré à la présentation des environnements matériel et logiciel utilisés dans le cadre du projet, ainsi qu'aux technologies et langages de programmation adoptés pour son développement. Il présente également les différentes interfaces conçues et implémentées.
 
 \section{Environnement de développement}
-
 \subsection{Environnement matériel}
 
-Le tableau suivant illustre les différents composants matériels mis en œuvre lors du développement de notre système.
+Le tableau 3.1 suivant illustre les différents composants matériels mis en œuvre lors du développement de notre système.
 
 \begin{table}[H]
 \centering
@@ -81,7 +80,7 @@ Visual Studio Code est un éditeur de code open source, gratuit et multiplatefor
 
 \subsubsection*{GitHub}
 
-GitHub est une plateforme de développement collaborative basée sur Git, permettant l'hébergement, la gestion et le partage de code source. Elle facilite le travail en équipe grâce au contrôle de version, à la gestion des branches et aux outils de collaboration tels que les pull requests et le suivi des issues.
+GitHub est une plateforme de développement collaborative basée sur Git, permettant l'hébergement, la gestion et le partage de code source. Elle facilite le travail en équipe grâce au contrôle de version, à la gestion des branches et aux outils de collaboration tels que les pull-requests et le suivi des issues.
 
 \begin{figure}[H]
 	\centering
@@ -91,8 +90,10 @@ GitHub est une plateforme de développement collaborative basée sur Git, permet
 
 \section{Technologies et langages de programmation utilisés}
 
+Ce volet présente les principales technologies et langages de programmation utilisés dans le développement de la plateforme.
 \subsection{Technologies de développement côté client}
 
+Cette section présente les principales technologies utilisées pour le développement de la partie cliente de la plateforme.
 \subsubsection{Angular}
 
 Angular est un framework open source développé par Google, destiné à la création d'applications web côté client. Basé sur TypeScript, il permet de développer des applications robustes, évolutives et facilement maintenables.
@@ -104,6 +105,8 @@ Angular est un framework open source développé par Google, destiné à la cré
 \end{figure}
 
 \subsection{Technologies de développement côté serveur}
+
+Cette section présente les technologies utilisées pour le développement de la partie serveur de la plateforme. 
 
 \subsubsection{Python}
 
@@ -136,7 +139,7 @@ Node.js est une plateforme logicielle open source basée sur JavaScript, conçue
 \end{figure}
 
 \subsection{Technologies de gestion des données}
-
+Cette partie présente les technologies utilisées pour la gestion, le stockage et la manipulation des données au sein de la plateforme.
 \subsubsection{MongoDB}
 
 MongoDB est une base de données NoSQL orientée documents, conçue pour stocker et gérer des données de manière flexible et scalable. Elle utilise un format similaire au JSON (BSON), ce qui facilite le stockage de données non structurées et leur exploitation dans des applications modernes.
@@ -168,10 +171,11 @@ Supabase est une plateforme open source de type Backend-as-a-Service (BaaS) qui 
 \end{figure}
 
 \subsection{Outil de conception et de modélisation}
+Cette partie présente l’outil utilisé pour la conception et la modélisation du système. 
 
 \subsubsection{Draw.io}
 
-Draw.io est un logiciel de diagramme en ligne gratuit permettant de concevoir différents types de schémas, notamment des diagrammes UML, des diagrammes de processus, des modèles entité-association, des organigrammes et des diagrammes de réseau. Il est largement utilisé pour la modélisation et la documentation des systèmes informatiques.
+Draw.io est un logiciel de diagramme en ligne gratuit permettant de concevoir différents types de schémas, notamment des diagrammes UML, des diagrammes de processus, des modèles entités-associations, des organigrammes et des diagrammes de réseau. Il est largement utilisé pour la modélisation et la documentation des systèmes informatiques.
 
 \begin{figure}[H]
 	\centering
@@ -180,6 +184,7 @@ Draw.io est un logiciel de diagramme en ligne gratuit permettant de concevoir di
 \end{figure}
 
 \subsection{Service d'intelligence artificielle}
+Cette partie présente le service d’intelligence artificielle intégré à la plateforme. 
 
 \subsubsection{Gemini API}
 
@@ -193,11 +198,11 @@ Gemini API est une interface de programmation proposée par Google permettant d'
 
 \section{Principales interfaces graphiques}
 
-Cette section est dédiée à la présentation des interfaces graphiques développées au cours de notre projet. Ces interfaces permettent de visualiser de manière intuitive l'ensemble de nos modules fonctionnels : la génération du CV ATS, l'évaluation des scores actuels ATS et employabilité, ainsi que le score d'employabilité version 2 prévisionnel après l'obtention des certifications recommandées.
+Cette section est dédiée à la présentation des interfaces graphiques développées au cours de notre projet. Ces interfaces permettent de visualiser de manière intuitive l'ensemble de nos modules fonctionnels : la génération du CV ATS, l'évaluation des scores actuels ATS et employabilité, ainsi que le score d'employabilité prévisionnel après l'obtention des certifications recommandées.
 
 \subsection{Authentification}
 
-La Figure~\ref{fig:acces-academique-professionnel} ci-dessous illustre l'interface d'authentification de la plateforme, où l'étudiant et l'administrateur se connectent via l'accès académique, tandis que les sociétés utilisent l'accès professionnel.
+La figure~\ref{fig:acces-academique-professionnel} ci-dessous illustre l'interface d'authentification de la plateforme, où l'étudiant et l'administrateur se connectent via l'accès académique, tandis que les sociétés utilisent l'accès professionnel.
 
 \begin{figure}[H]
 \centering
@@ -206,7 +211,7 @@ La Figure~\ref{fig:acces-academique-professionnel} ci-dessous illustre l'interfa
 \label{fig:acces-academique-professionnel}
 \end{figure}
 
-Cette interface indique que pour s'authentifier, l'étudiant ou l'administrateur doit simplement saisir son identifiant et son mot de passe.
+\noindent La figure~\ref{fig:authentification} indique que pour s'authentifier, l'étudiant ou l'administrateur doit simplement saisir son identifiant et son mot de passe.
 
 \begin{figure}[H]
 \centering
@@ -215,7 +220,7 @@ Cette interface indique que pour s'authentifier, l'étudiant ou l'administrateur
 \label{fig:authentification}
 \end{figure}
 
-La Figure~\ref{fig:verification-identite} ci-dessous illustre l'étape de vérification de l'identité de l'étudiant. Après la saisie de son identifiant et de son mot de passe, un code de vérification à six chiffres est envoyé à son adresse e-mail afin de confirmer son identité.
+\noindent La figure~\ref{fig:verification-identite} ci-dessous illustre l'étape de vérification de l'identité de l'étudiant. Après la saisie de son identifiant et de son mot de passe, un code de vérification à six chiffres est envoyé à son adresse e-mail afin de confirmer son identité.
 
 \begin{figure}[H]
 \centering
@@ -224,7 +229,7 @@ La Figure~\ref{fig:verification-identite} ci-dessous illustre l'étape de vérif
 \label{fig:verification-identite}
 \end{figure}
 
-La Figure~\ref{fig:creation-compte-societe} ci-dessous illustre l'interface d'inscription permettant à une société de créer un compte en renseignant ses informations professionnelles.
+\noindent La figure~\ref{fig:creation-compte-societe} ci-dessous illustre l'interface d'inscription permettant à une société de créer un compte en renseignant ses informations professionnelles.
 
 \begin{figure}[H]
 \centering
@@ -233,7 +238,7 @@ La Figure~\ref{fig:creation-compte-societe} ci-dessous illustre l'interface d'in
 \label{fig:creation-compte-societe}
 \end{figure}
 
-Dans cette interface, il suffit à la société de saisir son adresse e-mail et son mot de passe pour s'authentifier.
+\noindent La figure~\ref{fig:authentification-societe} ci-dessous, il suffit à la société de saisir son adresse e-mail et son mot de passe pour s'authentifier.
 
 \begin{figure}[H]
 \centering
@@ -246,7 +251,7 @@ Dans cette interface, il suffit à la société de saisir son adresse e-mail et 
 
 \subsubsection{Profil étudiant}
 
-L'interface ci-dessous affiche les informations personnelles de l'étudiant.
+\noindent La figure~\ref{fig:profil-etudiant} ci-dessous affiche les informations personnelles de l'étudiant.
 
 \begin{figure}[H]
 \centering
@@ -257,7 +262,7 @@ L'interface ci-dessous affiche les informations personnelles de l'étudiant.
 
 \subsubsection{Génération du CV ATS}
 
-La Figure~\ref{fig:generation-cv-ats} ci-dessous illustre l'interface de génération du CV ATS, structurée en 11 étapes successives pour garantir un parcours utilisateur fluide. Pour optimiser la saisie, le système intègre un mécanisme d'importation automatique des données institutionnelles de l'ISGIS, pré-remplissant les informations personnelles et extrayant les Hard Skills directement depuis le relevé de notes en fonction du poste visé.
+La figure~\ref{fig:generation-cv-ats} ci-dessous illustre l'interface de génération du CV ATS, structurée en 11 étapes successives pour garantir un parcours utilisateur fluide. Pour optimiser la saisie, le système intègre un mécanisme d'importation automatique des données institutionnelles de l'ISGIS, pré-remplissant les informations personnelles et extrayant les Hard Skills directement depuis le relevé de notes en fonction du poste visé.
 Les autres sections (profil, diplômes, stages, soft skills, langues, projets, certifications et activités para-universitaires) sont complétées manuellement.
 De plus, un dispositif de restauration des données permet à l'utilisateur, lors de ses connexions ultérieures, de retrouver et de modifier instantanément ses informations.
 
@@ -268,7 +273,7 @@ De plus, un dispositif de restauration des données permet à l'utilisateur, lor
 \label{fig:generation-cv-ats}
 \end{figure}
 
-L'interface ci-dessous présente l'étape finale de validation, qui permet à l'étudiant de vérifier l'ensemble de ses données avant de générer son CV ATS.
+\noindent La figure \ref{fig:validation-cv-ats} présente l'étape finale de validation, qui permet à l'étudiant de vérifier l'ensemble de ses données avant de générer son CV ATS.
 
 \begin{figure}[H]
 \centering
@@ -277,7 +282,7 @@ L'interface ci-dessous présente l'étape finale de validation, qui permet à l'
 \label{fig:validation-cv-ats}
 \end{figure}
 
-Cette interface illustre le CV généré. Depuis cet espace, l'étudiant a la possibilité de modifier ses informations, de télécharger son document au format PDF ou de cliquer sur le bouton "Évaluer votre CV" afin de lancer le calcul de ses scores ATS et d'employabilité.
+\noindent La figure \ref{fig:cv-ats-genere} illustre le CV généré. Depuis cet espace, l'étudiant a la possibilité de modifier ses informations, de télécharger son document au format PDF et de cliquer sur le bouton "Évaluer votre CV" afin de stocker le CV, lancer le calcul de ses scores ATS et d'employabilité.
 
 \begin{figure}[H]
 \centering
@@ -288,7 +293,7 @@ Cette interface illustre le CV généré. Depuis cet espace, l'étudiant a la po
 
 \subsubsection{Calcul du score ats et employabilité}
 
-La figure ci-dessous présente le tableau de bord principal de l'étudiant. Cet espace regroupe les résultats d'analyse de la plateforme et affiche les scores ATS et d'employabilité.
+La figure \ref{fig:tableau-bord-etudiant} ci-dessous présente le tableau de bord principal de l'étudiant. Cet espace regroupe les résultats d'analyse de la plateforme et affiche les scores ATS et d'employabilité.
 
 \begin{figure}[H]
 \centering
@@ -299,7 +304,7 @@ La figure ci-dessous présente le tableau de bord principal de l'étudiant. Cet 
 
 \subsubsection{Calcul du score d'employabilité prévisionnel}
 
-La Figure~\ref{fig:prediction-score-employabilite} suivante montre que lorsque l'étudiant clique sur le bouton "Prédire votre nouveau score", un score d'employabilité prévisionnel est automatiquement généré en tenant compte des recommandations obtenues.
+\noindent La figure~\ref{fig:prediction-score-employabilite} suivante montre que lorsque l'étudiant clique sur le bouton "Prédire votre nouveau score", un score d'employabilité prévisionnel est automatiquement généré en tenant compte des recommandations obtenues.
 
 \begin{figure}[H]
 \centering
@@ -310,7 +315,7 @@ La Figure~\ref{fig:prediction-score-employabilite} suivante montre que lorsque l
 
 \subsection{Interfaces admin}
 
-Les Figures~\ref{fig:tableau-bord-admin}~et~\ref{fig:tableau-bord-admin-2} ci-dessous présentent le tableau de bord de l'administrateur, un espace de pilotage centralisant les indicateurs clés ainsi que des graphiques d'analyse. Elle permet de visualiser la répartition des étudiants par filière, d'observer la distribution des scores ATS et des scores d'employabilité, et de consulter une liste des étudiants les mieux classés selon le score d'employabilité.
+\noindent Les figures~\ref{fig:tableau-bord-admin}~et~\ref{fig:tableau-bord-admin-2} ci-dessous présentent le tableau de bord de l'administrateur, un espace de pilotage centralisant les indicateurs clés ainsi que des graphiques d'analyse. Elle permet de visualiser la répartition des étudiants par filière, d'observer la distribution des scores ATS et des scores d'employabilité, et de consulter une liste des étudiants les mieux classés selon le score d'employabilité.
 
 \begin{figure}[H]
 \centering
@@ -326,7 +331,7 @@ Les Figures~\ref{fig:tableau-bord-admin}~et~\ref{fig:tableau-bord-admin-2} ci-de
 \label{fig:tableau-bord-admin-2}
 \end{figure}
 
-Les Figures~\ref{fig:score-employabilite}~et~\ref{fig:score-employabilite-2} ci-dessous illustrent l'interface Score d'employabilité. Elle présente le nombre d'étudiants inscrits, le nombre d'étudiants classés parmi les meilleurs profils, ainsi que le score global d'employabilité. L'interface propose ensuite la distribution des scores, une analyse par filière et une comparaison par type de parcours (Licence, Master, Licence + Master).
+\noindent Les figures~\ref{fig:score-employabilite}~et~\ref{fig:score-employabilite-2} ci-dessous illustrent l'interface Score d'employabilité. Elle présente le nombre d'étudiants inscrits, le nombre d'étudiants classés parmi les meilleurs profils, ainsi que le score global d'employabilité. L'interface propose ensuite la distribution des scores, une analyse par filière et une comparaison par type de parcours (Licence, Master, Licence + Master).
 
 \begin{figure}[H]
 \centering
@@ -342,7 +347,7 @@ Les Figures~\ref{fig:score-employabilite}~et~\ref{fig:score-employabilite-2} ci-
 \label{fig:score-employabilite-2}
 \end{figure}
 
-La Figure~\ref{fig:adequation-formation-emploi} ci-dessous présente l'interface d'adéquation Formation-Emploi, qui permet d'analyser la correspondance entre les matières enseignées et les métiers ciblés. Elle intègre une matrice de couverture des compétences pouvant être filtrée par parcours et par filière. Chaque cellule de la matrice est associée à un coefficient variant de 0 à 1 (0 ; 0,2 ; 0,4 ; 0,6 ; 0,8 ; 1), indiquant le niveau de contribution de la matière au métier concerné.
+\noindent La figure~\ref{fig:adequation-formation-emploi} ci-dessous présente l'interface d'adéquation Formation-Emploi, qui permet d'analyser la correspondance entre les matières enseignées et les métiers. Elle intègre une matrice de couverture des compétences pouvant être filtrée par parcours et par filière. Chaque cellule de la matrice est associée à un coefficient variant de 0 à 1 (0 ; 0,2 ; 0,4 ; 0,6 ; 0,8 ; 1), indiquant le niveau de contribution de la matière au métier concerné.
 
 \begin{figure}[H]
 \centering
@@ -351,7 +356,7 @@ La Figure~\ref{fig:adequation-formation-emploi} ci-dessous présente l'interface
 \label{fig:adequation-formation-emploi}
 \end{figure}
 
-La Figure~\ref{fig:referentiel-competences} ci-dessous présente l'interface Référentiel Compétences, qui englobe l'ensemble des compétences par métiers dans le secteur Transport \& Logistique. Ces compétences sont classées par catégorie (techniques, organisationnelles, physiques et comportementales) ainsi que par domaine.
+\noindent La figure~\ref{fig:referentiel-competences} ci-dessous présente l'interface Référentiel Compétences, qui englobe l'ensemble des compétences par métiers dans le secteur Transport \& Logistique. Ces compétences sont classées par catégorie (techniques, organisationnelles, physiques et comportementales) ainsi que par domaine.
 
 \begin{figure}[H]
 \centering
@@ -360,7 +365,7 @@ La Figure~\ref{fig:referentiel-competences} ci-dessous présente l'interface Ré
 \label{fig:referentiel-competences}
 \end{figure}
 
-La figure ci-dessous présente l'interface Suivi des étudiants par filière, ainsi que leur score CV ATS et leur score d'employabilité.
+\noindent La figure~\ref{fig:suivi-etudiants-filiere} ci-dessous présente l'interface Suivi des étudiants, ainsi que leur score CV ATS et leur score d'employabilité.
 
 \begin{figure}[H]
 \centering
@@ -371,7 +376,7 @@ La figure ci-dessous présente l'interface Suivi des étudiants par filière, ai
 
 \subsection{Interfaces société}
 
-L'interface ci-dessous permet à la société de consulter le score d'employabilité ainsi que le CV ATS de l'étudiant ayant postulé à une offre.
+La figure~\ref{fig:consultation-candidatures} ci-dessous permet à la société de consulter le score d'employabilité ainsi que le CV ATS de l'étudiant ayant postulé à une offre.
 
 \begin{figure}[H]
 \centering
