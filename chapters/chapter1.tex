@@ -4,26 +4,23 @@
 
 \chapteropening{01}{Présentation et\\Analyse du\\Système }{Présentation et Analyse du Système }{chap:cadre-projet}
 
+\renewcommand{\thesection}{\arabic{section}}
+
 % --- Chapter Heading (for TOC and headers) ---
 
 % ============================================
 % INTRODUCTION
 % ============================================
-\section*{1 Introduction}
-\addcontentsline{toc}{section}{1 Introduction}
+\section{Introduction}
 
-Dans ce premier chapitre, nous présentons le cadre général dans lequel s'inscrit ce projet,
-l'organisme d'accueil et les concepts clés qui seront utilisés ultérieurement. Par la suite, nous
-donnerons un aperçu des grandes lignes de la méthodologie adoptée pour mener à bien la
-réalisation de ce travail.
+Dans ce premier chapitre, nous avons présenté le cadre général du projet, en décrivant le centre d’accueil de stage. Nous avons ensuite introduit le contexte du projet, la problématique, ainsi que l’étude de l’existant qui met en évidence les limites des solutions actuelles. Enfin, nous avons présenté notre solution, la méthodologie Agile adoptée, ainsi que les besoins fonctionnels et non fonctionnels qui structurent le développement du système. 
 
 
 
 
 
 % --------------------------------------------
-\subsection*{1.2 Présentation de centre d'accueil de stage}
-\addcontentsline{toc}{subsection}{1.2 Présentation de centre d'accueil de stage}
+\subsection{Présentation de centre d'accueil de stage}
 \label{sec:presentation-centre}
 % --------------------------------------------
 
@@ -84,19 +81,16 @@ L’Institut Supérieur de Gestion Industrielle de Sfax (ISGIS), dans le logo pr
   \label{fig:isgis-logo}
 \end{figure}
 
-\section*{2 Présentation du projet}
-\addcontentsline{toc}{section}{2 Présentation du projet}
+\section{Présentation du projet}
 
-Le présent projet s’inscrit dans le cadre du Programme d’encouragement des jeunes chercheurs (PEJC) au titre de l’année 2025. Mené en collaboration entre l’Institut supérieur de gestion industrielle de Sfax (ISGIS) et la Fondation Djagora, il est porté par M. Faiez Ghorbel, agissant en qualité de chercheur et chef de projet.
+Le présent projet s'inscrit dans le cadre du Programme d'encouragement des jeunes chercheurs (PEJC) au titre de l'année 2025. Mené en collaboration entre l'Institut supérieur de gestion industrielle de Sfax (ISGIS) et la Fondation Djagora, il est porté par M. Faiez Ghorbel, agissant en qualité de chercheur et chef de projet.
 % --------------------------------------------
-\subsection*{2.1 Contexte général du projet}
-\addcontentsline{toc}{subsection}{2.1 Contexte général du projet}
+\subsection{Contexte général du projet}
 \label{sec:contexte-general}
 % --------------------------------------------
 Le secteur des transports et de la logistique vit aujourd’hui une transformation profonde, portée par l’essor des technologies avancées. Cette évolution rapide génère un écart de plus en plus visible entre les compétences enseignées dans les établissements académiques et les exigences réelles des métiers de transport et de la logistique. Ce décalage impacte directement l’employabilité des jeunes diplômés et la capacité des institutions à piloter efficacement leurs formations. Pour répondre à ces enjeux, ce projet propose le développement d’une plateforme pilotée par des outils d’intelligence artificielle. Cette solution vise à mesurer l’adéquation entre la formation et les besoins du marché de l’emploi, à évaluer le niveau de développement des compétences et à fournir à l’établissement des indicateurs clairs pour ajuster ses programmes d’enseignement et améliorer ses démarches pédagogiques
 % --------------------------------------------
-\subsection*{2.2 Description du Domaine}
-\addcontentsline{toc}{subsection}{2.2 Description du Domaine}
+\subsection{Description du Domaine}
 \label{sec:description-domaine}
 % --------------------------------------------
 
@@ -105,8 +99,7 @@ Aujourd'hui, l’intégration de l’intelligence artificielle restructure en pr
 
 
 
-\subsection*{2.3 Problématique}
-\addcontentsline{toc}{subsection}{2.3 Problématique}
+\subsection{Problématique}
 
 Malgré la haute qualité des formations académiques dispensées par l’Institut Supérieur de Gestion Industrielle de Sfax (ISGIS), le processus de transition des étudiants vers le milieu professionnel révèle certaines limites critiques.
  Actuellement, les futurs diplômés font face à un manque de visibilité concernant les compétences réelles et émergentes exigées par le marché de l'emploi, ce qui engendre un décalage structurel entre les acquis universitaires et les besoins des recruteurs
@@ -116,11 +109,9 @@ Afin de mieux comprendre et analyser ces limites, une étude de l’existant est
 
 
 
-\section*{3 Etude de l’existant}
-\addcontentsline{toc}{section}{3 Etude de l’existant}
+\section{Etude de l’existant}
 
-\subsection*{3.1 Description de l’existant}
-\addcontentsline{toc}{subsection}{3.1 Description de l’existant}
+\subsection{Description de l’existant}
 
 L’analyse du marché international met en évidence l’existence de plateformes reconnues telles que Coursera for Campus, Forage, Jobscan ainsi que des plateformes de mentorat comme 1 Mentor, qui figurent aujourd’hui parmi les références majeures en matière d’insertion professionnelle.
 
@@ -207,8 +198,7 @@ La plateforme propose des fonctionnalités dédiées à l’accompagnement perso
 
 
 % --------------------------------------------
-\subsection*{3.2 Critique de l’existant}
-\addcontentsline{toc}{subsection}{3.2 Critique de l’existant}
+\subsection{Critique de l’existant}
 % --------------------------------------------
 
 \subsubsection*{3.2.1 Plateforme « Coursera for Campus »}
@@ -292,15 +282,14 @@ Manuel \\ \hline
 
 
 % --------------------------------------------
-\subsection*{3.3 Solution proposée}
-\addcontentsline{toc}{subsection}{3.3 Solution proposée}
+\subsection{Solution proposée}
 % --------------------------------------------
 
 Afin de répondre à ces insuffisances, nous proposons la solution \textbf{LogiLink}, une plateforme basée sur l’intelligence artificielle et spécifiquement destinée à l’administration de l’ISGIS, aux étudiants de troisième année de licence, aux étudiants de deuxième année de master et aux sociétés du secteur du transport et de la logistique. Ce système intelligent vise à réduire le décalage entre la formation académique et les exigences du marché. Plus précisément, LogiLink évalue les profils des étudiants à travers le calcul d’un score ATS avec les systèmes de tri automatisés, reposant sur des algorithmes de traitement du langage naturel (NLP) afin d’analyser en profondeur le CV par rapport au poste visé. En complément, la plateforme détermine un score d’employabilité, calculé de manière objective à partir des résultats académiques de l'étudiant en fonction des coefficients entre matières et métiers.  Ensuite, une analyse intelligente de correspondance \textit{(matching)} pour identifier les écarts de compétences \textit{(skills gap)}, déclenchant par la suite des recommandations stratégiques, notamment la suggestion de certificats ciblés, pour réduire ces lacunes et faciliter l’intégration sur le marché du travail. Par ailleurs, ces certifications contribuent à l’amélioration du score d’employabilité initial de l’étudiant, à travers une estimation prévisionnelle. Enfin, pour assurer un suivi complet, les résultats sont présentés via des tableaux de bord interactifs permettant d’une part aux étudiants de piloter leur progression individuelle, et d’autre part, aux responsables pédagogiques de disposer d’une visibilité globale afin d’assurer le pilotage académique des étudiants et de suivre leurs progrès professionnels, intégrant des mécanismes de retour d’expérience \textit{(feedback)}, afin d’améliorer continuellement la plateforme. Par ailleurs, la plateforme intègre un espace dédié aux sociétés, leur permettant de publier des offres d’emploi et de consulter les candidatures. Cela optimise le processus de recrutement, réduit le temps de sélection et améliore l’adéquation entre les candidats et les postes proposés. De plus, les étudiants bénéficient d’un accès direct à des offres ciblées, ce qui augmente leurs chances de trouver des opportunités correspondant à leurs profils et facilite leur insertion professionnelle.
 
+\section{Méthodologie de gestion de projet}
 % --------------------------------------------
-\subsection*{4.1 Présentation des méthodologies de gestion de projet}
-\addcontentsline{toc}{subsection}{4.1 Présentation des méthodologies de gestion de projet}
+\subsection{Présentation des méthodologies de gestion de projet}
 % --------------------------------------------
 
 Il existe deux grandes familles de méthodes de gestion de projet : les méthodes traditionnelles et les méthodes agiles.
@@ -332,9 +321,7 @@ Les méthodes agiles les plus connues sont :
 \end{figure}
 
 % --------------------------------------------
-\subsection*{4.2 Méthodologie adoptée 
-}
-\addcontentsline{toc}{subsection}{4.2 la méthodologie adoptée}  
+\subsection{Méthodologie adoptée}
 
 % --------------------------------------------
 
@@ -413,8 +400,7 @@ Ces rituels s'appuient sur trois supports clés, appelés artefacts :
 \end{itemize}
 
 
-\section*{5 spécification des besoins}
-\addcontentsline{toc}{section}{5 Analyse et spécification des besoins}
+\section{Spécification des besoins}
 
 La définition des besoins est une étape déterminante du cycle de vie du projet. Elle offre une vision claire des enjeux en traduisant les attentes des utilisateurs en objectifs techniques précis. Pour garantir la pertinence de la solution, nous avons structuré cette étude autour de deux axes :
 
@@ -424,8 +410,7 @@ La définition des besoins est une étape déterminante du cycle de vie du proje
 \end{itemize}
 
 
-\subsection*{5.1 Spécifications des besoins fonctionnels}
-\addcontentsline{toc}{subsection}{5.1 Exigences fonctionnelles}
+\subsection{Spécifications des besoins fonctionnels}
 
 Le système Logilink vise à améliorer l’employabilité des étudiants de l’ISGIS dans les filières Transport et Logistique à travers une plateforme intelligente intégrant des mécanismes d’analyse et d’aide à la décision. Les exigences fonctionnelles sont réparties selon trois modules principaux: le module Étudiant, le module Administrateur et le module Société.
 
@@ -484,7 +469,7 @@ Le système doit proposer une analyse de correspondance entre le profil de l'ét
 \end{itemize}
 
 \subsubsection*{Analyse des Gaps}
-Le système doit identifier automatiquement les insuffisances de compétences du profil de l’étudiant:
+Le système doit identifier automatiquement les insuffisances de compétences du profil de l’étudiant :
 
 \begin{itemize}
   \item Comparaison entre les compétences acquises et celles exigées par poste.
@@ -492,7 +477,7 @@ Le système doit identifier automatiquement les insuffisances de compétences du
 \end{itemize}
 
 \subsubsection*{Recommandations personnalisées}
-L’administrateur va générer des recommandations adaptées en fonction du matching et des gaps afin d’améliorer l’employabilité.
+Le système doit afficher à l'étudiant les recommandations de certifications générées par l'IA en fonction du matching et des gaps identifiés, uniquement après leur validation par l'admin, afin d’améliorer son employabilité. 
 \begin{itemize}
   \item Recommandation des compétences techniques et des certifications à acquérir.
 \end{itemize}
@@ -506,7 +491,7 @@ Le système doit calculer un score d’employabilité prévisionnel à l'aide de
 \end{itemize}
 
 \subsubsection*{Offres d’emploi}
-La société va proposer des offres d’emploi afin de recruter des profils adéquats:
+La société va proposer des offres d’emploi afin de recruter des profils adéquats :
  \begin{itemize}
 \item L’étudiant peut consulter les sociétés et leurs offres d’emploi proposées. 
 \item Les étudiants peuvent postuler à ces offres
@@ -516,11 +501,7 @@ La société va proposer des offres d’emploi afin de recruter des profils adé
 Ce module permet à l'administration de piloter et d'optimiser l'adéquation entre la formation et les besoins du marché.
 
 \subsubsection*{Adéquation Formation -- Emploi}
-Le système doit fournir des outils d'analyse stratégique :
-
-\begin{itemize}
-  \item Visualisation d’une matrice de couverture entre les matières enseignées et les métiers Transport \& Logistique existants dans le référentiel.
-\end{itemize}
+Le système doit fournir des outils d’analyse stratégique permettant la visualisation d’une matrice de couverture entre les matières enseignées et les métiers du domaine Transport \& Logistique existants dans le référentiel.
 
 \subsubsection*{Monitoring de l'employabilité}
 Le système doit afficher une analyse du score d’employabilité :
@@ -542,11 +523,7 @@ Le système doit afficher une analyse du score d’employabilité :
 \end{itemize}
 %--------------------------------
 \subsubsection*{Référentiel de Compétences}
-Le système doit permettre :
-\begin{itemize}
-  \item La consultation des guides de compétences métiers.
-\end{itemize}
-
+Le système doit permettre la consultation des guides de compétences associés aux différents métiers. 
 \subsubsection*{Recommandations}
 L’administrateur génère automatiquement des recommandations, et il peut les approuver, les modifier ou les rejeter.
 \subsubsection*{Suivi  des Étudiants}
@@ -567,6 +544,7 @@ Ce volet assure le suivi des diplômés et l’amélioration continue du systèm
 \end{itemize}
 
 \subsubsection*{Gestion des sociétés}
+Le système doit fournir à l’administrateur les outils nécessaires à la gestion et au suivi des sociétés partenaires de la plateforme, notamment :
 \begin{itemize}
   \item L’admin peut valider ou rejeter le compte des sociétés inscrites sur la plateforme. 
   \item Consultation des sociétés, de leurs offres d’emploi proposées ainsi que le nombre des étudiants ayant postulé à ces offres.
@@ -577,6 +555,7 @@ Ce volet assure le suivi des diplômés et l’amélioration continue du systèm
 Ce module permet à la société de proposer des offres d’emploi aux étudiants. 
 
 \subsubsection*{Création d'un compte sur la plateforme}
+Ce volet assure la création d’un compte sur la plateforme à partir des étapes suivantes : 
 \begin{itemize}
   \item Saisie des coordonnées de l'utilisateur
   \item Envoi de la demande d'inscription
@@ -584,12 +563,14 @@ Ce module permet à la société de proposer des offres d’emploi aux étudiant
 \end{itemize}
 
 \subsubsection*{Création des offres d'emploi}
+Ce volet permet la gestion des offres d’emploi : 
 \begin{itemize}
   \item Ajout d'un nouveau poste
   \item Suppression d'une offre existante
 \end{itemize}
 
 \subsubsection*{Consultation des candidatures}
+Ce volet permet de consulter et de suivre les candidatures reçues : 
 \begin{itemize}
   \item Consulter la liste des étudiants ayant soumis une candidature avec leurs scores et leurs CV ATS.
 \end{itemize}
@@ -597,8 +578,7 @@ Ce module permet à la société de proposer des offres d’emploi aux étudiant
 
 
 
-\subsection*{5.2 Spécifications des besoins non fonctionnels}
-\addcontentsline{toc}{subsection}{5.2 Exigences non fonctionnelles}
+\subsection{Spécifications des besoins non fonctionnels}
 
 Les exigences non fonctionnelles définissent les critères de qualité, de performance et de fiabilité que doit respecter la plateforme LogiLink afin d'assurer une expérience utilisateur optimale, une sécurité renforcée et une exploitation efficace du système. Elles constituent un pilier essentiel garantissant la viabilité et la robustesse de la solution.
 
@@ -669,20 +649,19 @@ Le système doit garantir la qualité des données ainsi que la pertinence des r
 \end{itemize}
 
 \subsubsection*{5.2.8 Scalabilité }
+Afin d’assurer la scalabilité du système, les exigences suivantes doivent être respectées : 
 \begin{itemize}
   \item Le système doit supporter un nombre élevé d’utilisateurs simultanés, notamment lors des périodes critiques.
   \item Une base de données capable de gérer un volume important de données académiques.
 \end{itemize}
 
-\section*{6 Planning prévisionnel}
-\addcontentsline{toc}{section}{6 Gestion de projet avec la méthode SCRUM}
+\section{Planning prévisionnel}
 
 
 La méthodologie Scrum repose sur un ensemble de concepts structurants pour garantir une gestion de projet efficace : les rôles, les artefacts, les sprints et les réunions.
 
 
-\subsection*{6.1 Identification de l'équipe}
-\addcontentsline{toc}{subsection}{6.1 Identification de l'équipe}
+\subsection{Identification de l'équipe}
 
 L’équipe constitue l’élément central du projet, garantissant la productivité et la flexibilité grâce à son auto-organisation et à la complémentarité des compétences nécessaires. Dans le cadre de notre projet LogiLink, l’équipe se compose comme illustré dans la figure~\ref{fig:equipe-roles}  ci-dessous :
 
@@ -694,8 +673,7 @@ L’équipe constitue l’élément central du projet, garantissant la productiv
 \end{figure}
 
 
-\subsection*{6.2 Déroulement du sprint de LogiLink}
-\addcontentsline{toc}{subsection}{6.2 Décomposition du projet}
+\subsection{Déroulement du sprint de LogiLink}
 
 La structuration consiste à diviser le projet en plusieurs lots d’activités distinctes. Cette approche permet de gérer des sous-composants dont la complexité est plus facile à maîtriser. La figure~\ref{fig:decomposition-sprints} suivante illustre la structure de notre projet :
 
@@ -707,8 +685,7 @@ La structuration consiste à diviser le projet en plusieurs lots d’activités 
 \end{figure}
 
 
-\subsection*{6.3 Product Backlog}
-\addcontentsline{toc}{subsection}{6.3 Product Backlog}
+\subsection{Product Backlog}
 
 Le Product Backlog permet de recenser et d'affiner les fonctionnalités du produit. Il regroupe les User Stories (besoins fonctionnels) nécessaires à la réalisation de l'application.
 
@@ -773,7 +750,7 @@ Pour chaque élément, nous identifions son EPIC (thématique), son ID et le num
 & 4.6 & En tant qu'étudiant, je veux consulter uniquement mon score final d'employabilité dans mon tableau de bord. & 2 \\ \hline
 
 % EPIC 5
-\needspace{6cm}
+\newpage
 \multirow{7}{3.0cm}{\centering\textbf{EPIC 5 - Matching Métiers \& Gaps de Compétences}}
 & 5.1 & En tant qu'étudiant, je veux voir les métiers compatibles avec mon profil avec un classement par score de couverture. & 3 \\* \cline{2-4}
 & 5.2 & En tant que système, je veux détecter les compétences manquantes pour chaque métier cible. & 3 \\* \cline{2-4}
@@ -831,7 +808,6 @@ Pour chaque élément, nous identifions son EPIC (thématique), son ID et le num
 
 \clearpage
 % EPIC 10
-\needspace{6cm}
 \multirow{7}{3.0cm}{\centering\textbf{EPIC 10 - Espace Société \& Offres Emploi}}
 & 10.1 & En tant que société, je veux m'inscrire sur la plateforme avec un compte entreprise dédié. & 4 \\* \cline{2-4}
 & 10.2 & En tant que société, je veux m'authentifier et réinitialiser mon mot de passe (login + forgot password). & 4 \\* \cline{2-4}
@@ -868,8 +844,7 @@ Pour chaque élément, nous identifions son EPIC (thématique), son ID et le num
     \item[Sprint :]Une période de travail courte et planifiée durant laquelle l’équipe développe une partie du produit.
 \end{description}
 
-\section*{7 Conclusion}
-\addcontentsline{toc}{section}{7 Conclusion}
+\section{Conclusion}
 
 Ce chapitre a permis de poser les bases essentielles du projet en présentant son contexte général ainsi que le domaine d’application, tout en mettant en évidence la problématique liée à l’inadéquation entre les compétences académiques et les exigences du marché.
 L’étude de l’existant, suivie d’une analyse critique, a permis d’identifier les limites des solutions actuelles et de justifier la nécessité d’une approche innovante. Dans ce cadre, la solution proposée, LogiLink, apporte une réponse intelligente basée sur l’intelligence artificielle pour améliorer l’employabilité des étudiants.

@@ -1,48 +1,52 @@
 \babel@toc {english}{}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Les programmes de la Fondation Djagora}}{3}{figure.caption.8}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Logo de l'ISGIS}}{5}{figure.caption.9}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Site officiel de « Coursera for Campus »}}{7}{figure.caption.12}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Site officiel de « Forage »}}{8}{figure.caption.13}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Site officiel de « Jobscan »}}{9}{figure.caption.14}%
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Site officiel de « 1Mentor »}}{9}{figure.caption.15}%
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Les méthodes agiles}}{13}{figure.caption.17}%
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Le processus Scrum}}{14}{figure.caption.18}%
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Déroulement des événements Scrum}}{16}{figure.caption.19}%
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Équipe et rôles}}{25}{figure.caption.22}%
-\contentsline {figure}{\numberline {1.11}{\ignorespaces Décomposition du Projet en Sprints}}{25}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Logo du langage de modélisation unifié (UML)}}{33}{figure.caption.25}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagramme Cas d'utilisation Global}}{38}{figure.caption.29}%
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Logo de Visual Studio Code}}{46}{figure.caption.35}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Logo de GitHub}}{47}{figure.caption.36}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Logo de Angular}}{47}{figure.caption.37}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Logo de Python}}{48}{figure.caption.38}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Logo de NestJS}}{48}{figure.caption.39}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Logo de Node.js}}{49}{figure.caption.40}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Logo de MongoDB}}{49}{figure.caption.41}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Logo de PostgreSQL}}{50}{figure.caption.42}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Logo de Supabase}}{50}{figure.caption.43}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Logo de Draw.io}}{51}{figure.caption.44}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Logo de Gemini API}}{51}{figure.caption.45}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Interface d'accès académique et professionnel}}{52}{figure.caption.46}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Interface d'authentification}}{52}{figure.caption.47}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Interface de vérification d'identité}}{53}{figure.caption.48}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Interface de création de compte société}}{53}{figure.caption.49}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Interface d'authentification des sociétés}}{54}{figure.caption.50}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Interface du profil étudiant}}{54}{figure.caption.51}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Interface de génération du CV ATS}}{55}{figure.caption.52}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Interface de validation du CV ATS}}{55}{figure.caption.53}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Interface du CV ATS généré}}{56}{figure.caption.54}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Interface du tableau de bord de l'étudiant}}{56}{figure.caption.55}%
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Interface de prédiction du score d'employabilité}}{57}{figure.caption.56}%
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Interface du tableau de bord de l'administrateur}}{57}{figure.caption.57}%
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Interface du tableau de bord de l'administrateur}}{58}{figure.caption.58}%
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Interface du score d'employabilité}}{58}{figure.caption.59}%
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Interface du score d'employabilité}}{59}{figure.caption.60}%
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Interface d'adéquation Formation-Emploi}}{59}{figure.caption.61}%
-\contentsline {figure}{\numberline {3.28}{\ignorespaces Interface du référentiel des compétences}}{60}{figure.caption.62}%
-\contentsline {figure}{\numberline {3.29}{\ignorespaces Interface de suivi des étudiants par filière}}{60}{figure.caption.63}%
-\contentsline {figure}{\numberline {3.30}{\ignorespaces Interface de consultation des candidatures}}{61}{figure.caption.64}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Capture d'écran supplémentaire}}{64}{figure.caption.67}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Architecture technique du système}}{65}{figure.caption.68}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Les programmes de la Fondation Djagora}}{4}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Logo de l'ISGIS}}{6}{figure.caption.10}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Site officiel de « Coursera for Campus »}}{8}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Site officiel de « Forage »}}{9}{figure.caption.12}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Site officiel de « Jobscan »}}{10}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Site officiel de « 1Mentor »}}{10}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Les méthodes agiles}}{14}{figure.caption.16}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Le processus Scrum}}{15}{figure.caption.17}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Déroulement des événements Scrum}}{17}{figure.caption.18}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Équipe et rôles}}{26}{figure.caption.19}%
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Décomposition du Projet en Sprints}}{27}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Logo du langage de modélisation unifié (UML)}}{35}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Architecture globale du système}}{38}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Architecture physique de l'application}}{39}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Diagramme Cas d'utilisation Global}}{41}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Diagramme de classes}}{47}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Diagramme de séquence 'génération du CV ATS'}}{49}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Diagramme de séquence 'Stockage d'un nouveau CV'}}{50}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Diagramme de séquence 'Calcul du score ATS'}}{51}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Diagramme de séquence 'Calcul du score d'employabilité'}}{52}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Diagramme de séquence 'Calcul du score d'employabilité prévisionnel'}}{53}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Logo de Visual Studio Code}}{56}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Logo de GitHub}}{57}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Logo de Angular}}{57}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Logo de Python}}{58}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Logo de NestJS}}{58}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Logo de Node.js}}{59}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Logo de MongoDB}}{59}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Logo de PostgreSQL}}{60}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Logo de Supabase}}{60}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Logo de Draw.io}}{61}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Logo de Gemini API}}{61}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Interface d'accès académique et professionnel}}{62}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Interface d'authentification}}{62}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Interface de vérification d'identité}}{63}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Interface de création de compte société}}{63}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Interface d'authentification des sociétés}}{64}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Interface du profil étudiant}}{64}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Interface de génération du CV ATS}}{65}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Interface de validation du CV ATS}}{65}{figure.caption.55}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Interface du CV ATS généré}}{66}{figure.caption.56}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Interface du tableau de bord de l'étudiant}}{66}{figure.caption.57}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Interface de prédiction du score d'employabilité}}{67}{figure.caption.58}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Interface du tableau de bord de l'administrateur}}{67}{figure.caption.59}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Interface du tableau de bord de l'administrateur}}{68}{figure.caption.60}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Interface du score d'employabilité}}{68}{figure.caption.61}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Interface du score d'employabilité}}{69}{figure.caption.62}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Interface d'adéquation Formation-Emploi}}{69}{figure.caption.63}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Interface du référentiel des compétences}}{70}{figure.caption.64}%
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Interface de suivi des étudiants par filière}}{70}{figure.caption.65}%
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Interface de consultation des candidatures}}{71}{figure.caption.66}%

@@ -4,18 +4,18 @@
 
 \chapteropening{02}{conception du \\système}{Conception du système}{chap:conception-systeme}
 
+\renewcommand{\thesection}{\arabic{section}}
+
 % --- Introduction ---
-\section*{1 Introduction}
-\addcontentsline{toc}{section}{1 Introduction}
+\section{Introduction}
 
 Ce chapitre est consacré à la conception du système. Cette étape vise à définir les différentes architectures de la plateforme et à modéliser son fonctionnement à travers des représentations adaptées. Les diagrammes de conception ainsi que les choix architecturaux retenus sont présentés afin de fournir une vision claire et structurée de la solution proposée.
 
 % --------------------------------------------
-\section*{2 Choix de la modélisation conceptuelle}
-\addcontentsline{toc}{section}{2 Choix de la modélisation conceptuelle}
+\section{Choix de la modélisation conceptuelle}
 % --------------------------------------------
 
-Nous avons opté pour le langage UML (Unified Modeling Language), devenu aujourd'hui le standard incontournable de la modélisation orientée objet dans le logo présenté dans la figure~\ref{fig:uml-logo}. L'objectif est de créer une représentation logicielle des éléments du monde réel, indépendamment de toute contrainte technique ou langage de programmation.
+Nous avons opté pour le langage UML (Unified Modeling Language), devenu aujourd'hui le standard incontournable de la modélisation orientée objet dans le logo présenté dans la figure~\ref{fig:uml-logo}. L'objectif est de créer une représentation logicielle des éléments du monde réel, indépendamment de toute contrainte technique ou langage de programmation~[12].
 
 \begin{figure}[H]
   \centering
@@ -34,15 +34,14 @@ Nous avons opté pour le langage UML (Unified Modeling Language), devenu aujourd
 Après avoir identifié le modèle conceptuel adopté, nous présentons à présent les acteurs du système ainsi que leurs responsabilités.
 
 % --------------------------------------------
-\section*{3 Présentation des acteurs}
-\addcontentsline{toc}{section}{3 Présentation des acteurs}
+\section{Présentation des acteurs}
 % --------------------------------------------
 
-Un acteur désigne toute entité externe, qu'il s'agisse d'un utilisateur, d'un équipement matériel ou d'une autre application, qui interagit directement avec l'application. En remplissant un rôle précis, chaque acteur participe à la performance globale du système. Pour garantir des échanges fluides la plateforme identifie trois acteurs principaux :
+Un acteur désigne toute entité externe, qu’il s’agisse d’un utilisateur, d’un équipement matériel ou d’une autre application, qui interagit directement avec l’application. En remplissant un rôle précis, chaque acteur participe à la performance globale du système. Pour garantir des échanges fluides la plateforme identifie trois acteurs principaux et un acteur externe API Gemini :\quad
 \\\textbf{L'Étudiant~:} Il s'agit des étudiants inscrits en 3ème année de Licence ou en 2ème année de Master dans les filières de Transport et Logistique, qui utilisent la plateforme.
 \\ \textbf{L'Admin~:} Ce rôle est attribué au directeur des stages de l'ISGIS, qui supervise le système et pilote le suivi des diplômés.
 \\\textbf{La Société~:} Elle représente les sociétés du domaine du transport et de la logistique qui interagissent avec le système pour proposer des opportunités.
-\\\textbf{API GEMINI~:} Service d'intelligence artificielle externe intégré à la plateforme via une API afin d'effectuer des analyses et des prédictions.
+\\\textbf{API Gemini~:} Service d'intelligence artificielle externe intégré à la plateforme via une API afin d'effectuer des analyses et des prédictions.\quad
 \\Le tableau suivant présente une description détaillée de chaque acteur, en précisant son rôle et ses caractéristiques principales~:
 
 \begin{table}[H]
@@ -111,54 +110,56 @@ API GEMINI
 \end{table}
 
 % --------------------------------------------
-\section*{4 Architecture logicielle}
-\addcontentsline{toc}{section}{4 Architecture logicielle}
+\section{Architecture logicielle}
 % --------------------------------------------
 
 Dans cette partie, nous décrivons l'architecture d'ensemble du système. Nous détaillerons ensuite, de façon plus approfondie, son organisation logique ainsi que son déploiement physique.
 
 % --------------------------------------------
-\subsection*{4.1 Architecture globale du système}
-\addcontentsline{toc}{subsection}{4.1 Architecture globale du système}
+\subsection{Architecture globale du système}
 % --------------------------------------------
 
 Le diagramme ci-dessus illustre la structure générale de l'application, dont les composants principaux sont détaillés ci-dessous~:
 
 \begin{itemize}
-  \item \textbf{Couche Présentation (Front-end)~:} Basée sur le framework \textbf{Angular}, cette couche constitue l'interface utilisateur. Elle prend en charge l'affichage dynamique ainsi que l'expérience utilisateur (UX), puis transmet les requêtes via le protocole \textbf{HTTP} vers la couche inférieure sous forme d'appels à une \textbf{API REST}.
+  \item \textbf{Couche Présentation (Front-end)~:} Basée sur le framework Angular, cette couche constitue l’interface utilisateur. Elle prend en charge l’affichage dynamique ainsi que l’expérience utilisateur (UX), puis transmet les requêtes via le protocole HTTP vers la couche inférieure sous forme d’appels à une API REST.
 
-  \item \textbf{Couche Métier (Back-end)~:} Développée avec le framework \textbf{NestJS}, cette couche sert de cœur applicatif et d'orchestrateur central. Elle réceptionne les requêtes issues du front-end, gère la logique métier globale et intègre un module de \textbf{calcul interne} spécifiquement dédié à l'évaluation et à la génération du \textbf{score ATS}.
+  \item \textbf{Couche Métier~:} Cette couche constitue le cœur applicatif et l’orchestrateur central du système. Elle réceptionne les requêtes provenant du front-end, intègre la partie back-end développée avec le framework NestJS et coordonne les interactions avec quatre microservices Python : score\_emp\_service, matching\_service, recommendation\_service et score\_emp\_prev\_service, dont certains exploitent l’API Google Gemini.
 
-  \item \textbf{Bases de données~:} Dédiée au stockage et à la gestion des données de l'application, cette couche s'appuie sur une architecture de stockage hybride combinant deux technologies complémentaires~: \textbf{Supabase} et \textbf{MongoDB}.
-
-  \item \textbf{Couche Microservices~:} Pour optimiser les performances, les traitements lourds sont exécutés par un conteneur de microservices Python autonome hébergeant quatre modules principaux~: \textbf{score\_emp\_service}, \textbf{matching\_service}, \textbf{recommendation\_service}, \textbf{score\_emp\_prv\_service}.
-
-  \item \textbf{Couche Intelligence Artificielle~:} Cette couche centralise les fonctionnalités intelligentes de la plateforme~: \textbf{Google Gemini API} et un module local basé sur sentence-transformers.
+  \item \textbf{Bases de données~:}  Dédiée au stockage et à la gestion des données de l’application, cette couche s’appuie sur une architecture de stockage hybride combinant deux technologies complémentaires : Supabase et MongoDB.
 \end{itemize}
 
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\textwidth]{figures/arch_global.png}
+\caption{Architecture globale du système}
+\label{fig:arch_globale}
+\end{figure}
+
 % --------------------------------------------
-\subsection*{4.2 Architecture logique de l'application}
-\addcontentsline{toc}{subsection}{4.2 Architecture logique de l'application}
+\subsection{Architecture physique de l'application}
+Afin de décrire l’architecture physique de l’application et de mettre en évidence la répartition des différents composants sur les nœuds d’exécution, nous avons recours à un diagramme de déploiement UML~[13]. Celui-ci permet de représenter l’infrastructure matérielle et logicielle du système, ainsi que les mécanismes de communication entre les différentes entités qui le composent, comme l’illustre la figure~\ref{fig:arch_physique}.
+
+\begin{figure}[h!]
+\centering
+\makebox[\textwidth][c]{\includegraphics[width=1.15\textwidth]{figures/arch_physique.png}}
+\caption{Architecture physique de l'application}
+\label{fig:arch_physique}
+\end{figure}
+
 % --------------------------------------------
 
 % --------------------------------------------
-\subsection*{4.3 Architecture physique de l'application}
-\addcontentsline{toc}{subsection}{4.3 Architecture physique de l'application}
-% --------------------------------------------
-
-% --------------------------------------------
-\section*{5 Conception}
-\addcontentsline{toc}{section}{5 Conception}
+\section{Conception}
 % --------------------------------------------
 
 La phase de conception formalise la solution logicielle à travers trois niveaux de modélisation complémentaires~: fonctionnel, dynamique et statique. La démarche débute par l'étude de l'aspect fonctionnel, illustrée par le diagramme de cas d'utilisation. Elle se poursuit par l'analyse de la dimension dynamique du système, illustrée au travers des diagrammes de séquence. Enfin, la modélisation statique est introduite par le diagramme de classes, qui met en évidence l'architecture interne du système ainsi que les relations structurelles entre ses différents composants.
 
 % --------------------------------------------
-\subsection*{5.1 Diagramme de cas d'utilisation global}
-\addcontentsline{toc}{subsection}{5.1 Diagramme de cas d'utilisation global}
+\subsection{Diagramme de cas d'utilisation global}
 % --------------------------------------------
 
-Les diagrammes de cas d'utilisation sont des diagrammes UML qui représentent le comportement fonctionnel du système afin d'en capturer les exigences clés. Outil central de l'analyse fonctionnelle, ils formalisent les interactions entre les acteurs et l'application. Chaque cas d'usage structure ainsi les besoins des utilisateurs en scénarios opérationnels, garantissant l'adéquation de la solution avec les objectifs attendus.
+Les diagrammes de cas d'utilisation sont des diagrammes UML~[14] qui représentent le comportement fonctionnel du système afin d'en capturer les exigences clés. Outil central de l'analyse fonctionnelle, ils formalisent les interactions entre les acteurs et l'application. Chaque cas d'usage structure ainsi les besoins des utilisateurs en scénarios opérationnels, garantissant l'adéquation de la solution avec les objectifs attendus comme présenté dans la figure~\ref{fig:use-case-global}.
 
 \begin{figure}[H]
     \centering
@@ -178,32 +179,34 @@ Les diagrammes de cas d'utilisation sont des diagrammes UML qui représentent le
 \label{tab:uc-gerer-cv-ats}
 \small
 \renewcommand{\arraystretch}{1.2}
-\begin{tabularx}{\textwidth}{|>{\bfseries\centering\arraybackslash}m{3cm}|X|}
+\begin{tabularx}{\textwidth}{|>{\bfseries\centering\arraybackslash}m{3cm}|X|X|}
 \hline
-\textbf{Titre}         & gérer CV ATS \\
+\textbf{Titre}         & \multicolumn{2}{X|}{gérer CV ATS} \\
 \hline
-\textbf{Acteur}        & Étudiant \\
+\textbf{Acteur}        & \multicolumn{2}{X|}{Étudiant} \\
 \hline
-\textbf{Pré-conditions} & 
+\textbf{Description}   & \multicolumn{2}{X|}{L'étudiant accède à l'interface de génération de CV ATS et renseigne les informations nécessaires à la génération du CV.} \\
+\hline
+\textbf{Pré-conditions} & \multicolumn{2}{X|}{%
   \begin{minipage}[t]{\linewidth}\vspace{4pt}
-  \begin{enumerate}[nosep,leftmargin=*]
+  \begin{itemize}[nosep,leftmargin=*]
     \item L'étudiant est authentifié sur la plateforme.
     \item Le système a déjà importé ses informations personnelles depuis la base de données.
     \item L'étudiant accède à l'interface \guillemotleft~CV ATS~\guillemotright.
-  \end{enumerate}
+  \end{itemize}
   \vspace{4pt}
-  \end{minipage} \\
+  \end{minipage}} \\
 \hline
-\textbf{Post-conditions} &
+\textbf{Post-conditions} & \multicolumn{2}{X|}{%
   \begin{minipage}[t]{\linewidth}\vspace{4pt}
-  \begin{enumerate}[nosep,leftmargin=*]
+  \begin{itemize}[nosep,leftmargin=*]
     \item Un CV au format PDF est généré.
     \item Les données sont stockées dans la base de données. 
-  \end{enumerate}
+  \end{itemize}
   \vspace{4pt}
-  \end{minipage} \\
+  \end{minipage}} \\
 \hline
-\textbf{Scénario nominal} &
+\textbf{Scénario nominal} & \multicolumn{2}{X|}{%
   \begin{minipage}[t]{\linewidth}\vspace{4pt}
   \begin{enumerate}[nosep,leftmargin=*]
     \item L'étudiant se connecte à la plateforme.
@@ -216,9 +219,9 @@ Les diagrammes de cas d'utilisation sont des diagrammes UML qui représentent le
     \item Le système génère le CV.
   \end{enumerate}
   \vspace{4pt}
-  \end{minipage} \\
+  \end{minipage}} \\
 \hline
-\textbf{Scénario alternatif} &
+\textbf{Scénario alternatifs} & \multicolumn{2}{X|}{%
   \begin{minipage}[t]{\linewidth}\vspace{4pt}
   \textbf{Cas 1~: Informations manquantes}
   \begin{enumerate}[nosep,leftmargin=*]
@@ -229,7 +232,7 @@ Les diagrammes de cas d'utilisation sont des diagrammes UML qui représentent le
         \item Les données du CV sont restaurées et remplies dans le formulaire. 
     \end{enumerate}
   \vspace{4pt}
-  \end{minipage} \\
+  \end{minipage}} \\
 \hline
 \end{tabularx}
 \end{table}
@@ -245,33 +248,35 @@ Les diagrammes de cas d'utilisation sont des diagrammes UML qui représentent le
 \label{tab:uc-consulter-score-ats}
 \small
 \renewcommand{\arraystretch}{1.2}
-\begin{tabularx}{\textwidth}{|>{\bfseries\centering\arraybackslash}m{3cm}|X|}
+\begin{tabularx}{\textwidth}{|>{\bfseries\centering\arraybackslash}m{3cm}|X|X|}
 \hline
-\textbf{Titre}         & Consulter score ATS et employabilité \\
+\textbf{Titre}         & \multicolumn{2}{X|}{Consulter score ATS et employabilité} \\
 \hline
-\textbf{Acteur}        & Étudiant \\
+\textbf{Acteur}        & \multicolumn{2}{X|}{Étudiant} \\
 \hline
-\textbf{Pré-conditions} &
+\textbf{Description}   & \multicolumn{2}{X|}{L'étudiant consulte son score ATS et son score d'employabilité depuis son tableau de bord.} \\
+\hline
+\textbf{Pré-conditions} & \multicolumn{2}{X|}{%
   \begin{minipage}[t]{\linewidth}\vspace{4pt}
-  \begin{enumerate}[nosep,leftmargin=*]
+  \begin{itemize}[nosep,leftmargin=*]
     \item L'étudiant est authentifié sur la plateforme.
     \item L'étudiant a déjà généré son CV.
     \item Le système a déjà calculé et stocké les scores ATS et employabilité dans la base de données.
     \item L'étudiant accède à l'interface \guillemotleft~Tableau de bord~\guillemotright.
-  \end{enumerate}
+  \end{itemize}
   \vspace{4pt}
-  \end{minipage} \\
+  \end{minipage}} \\
 \hline
-\textbf{Post-conditions} &
+\textbf{Post-conditions} & \multicolumn{2}{X|}{%
   \begin{minipage}[t]{\linewidth}\vspace{4pt}
-  \begin{enumerate}[nosep,leftmargin=*]
+  \begin{itemize}[nosep,leftmargin=*]
     \item L'étudiant visualise son score ATS.
     \item L'étudiant visualise son score d'employabilité.
-  \end{enumerate}
+  \end{itemize}
   \vspace{4pt}
-  \end{minipage} \\
+  \end{minipage}} \\
 \hline
-\textbf{Scénario nominal} &
+\textbf{Scénario nominal} & \multicolumn{2}{X|}{%
   \begin{minipage}[t]{\linewidth}\vspace{4pt}
   \begin{enumerate}[nosep,leftmargin=*]
     \item L'étudiant se connecte à la plateforme.
@@ -279,9 +284,9 @@ Les diagrammes de cas d'utilisation sont des diagrammes UML qui représentent le
     \item Le système affiche le score ATS et le score d'employabilité.
   \end{enumerate}
   \vspace{4pt}
-  \end{minipage} \\
+  \end{minipage}} \\
 \hline
-\textbf{Scénario alternatif} &
+\textbf{Scénario alternatifs} & \multicolumn{2}{X|}{%
   \begin{minipage}[t]{\linewidth}\vspace{4pt}
   \textbf{Cas 1~: Scores non disponibles}
   \begin{enumerate}[nosep,leftmargin=*]
@@ -296,7 +301,7 @@ Les diagrammes de cas d'utilisation sont des diagrammes UML qui représentent le
     \item Le système affiche le score d'employabilité et 0 pour le score ATS.
   \end{enumerate}
   \vspace{4pt}
-  \end{minipage} \\
+  \end{minipage}} \\
 \hline
 \end{tabularx}
 \end{table}
@@ -312,34 +317,36 @@ Les diagrammes de cas d'utilisation sont des diagrammes UML qui représentent le
 \label{tab:uc-consulter-score-prev}
 \small
 \renewcommand{\arraystretch}{1.2}
-\begin{tabularx}{\textwidth}{|>{\bfseries\centering\arraybackslash}m{3cm}|X|}
+\begin{tabularx}{\textwidth}{|>{\bfseries\centering\arraybackslash}m{3cm}|X|X|}
 \hline
-\textbf{Titre}         & Consulter score d'employabilité prévisionnel \\
+\textbf{Titre}         & \multicolumn{2}{X|}{Consulter score d'employabilité prévisionnel} \\
 \hline
-\textbf{Acteur}        & Étudiant \\
+\textbf{Acteur}        & \multicolumn{2}{X|}{Étudiant} \\
 \hline
-\textbf{Pré-conditions} &
+\textbf{Description}   & \multicolumn{2}{X|}{L'étudiant accède à l'interface de recommandation afin de consulter son score d'employabilité prévisionnel après l'obtention des certifications recommandées.} \\
+\hline
+\textbf{Pré-conditions} & \multicolumn{2}{X|}{%
   \begin{minipage}[t]{\linewidth}\vspace{4pt}
-  \begin{enumerate}[nosep,leftmargin=*]
+  \begin{itemize}[nosep,leftmargin=*]
     \item L'étudiant est authentifié sur la plateforme.
     \item Le système a déjà calculé le score d'employabilité.
     \item Le système a déjà généré des recommandations de certifications.
     \item L'admin a déjà validé les recommandations de l'étudiant.
     \item Le système a déjà calculé le score prévisionnel et l'a stocké en base.
     \item L'étudiant accède à l'interface \guillemotleft~Recommandations~\guillemotright.
-  \end{enumerate}
+  \end{itemize}
   \vspace{4pt}
-  \end{minipage} \\
+  \end{minipage}} \\
 \hline
-\textbf{Post-conditions} &
+\textbf{Post-conditions} & \multicolumn{2}{X|}{%
   \begin{minipage}[t]{\linewidth}\vspace{4pt}
-  \begin{enumerate}[nosep,leftmargin=*]
+  \begin{itemize}[nosep,leftmargin=*]
     \item L'étudiant visualise son score d'employabilité prévisionnelle dans l'interface des recommandations.
-  \end{enumerate}
+  \end{itemize}
   \vspace{4pt}
-  \end{minipage} \\
+  \end{minipage}} \\
 \hline
-\textbf{Scénario nominal} &
+\textbf{Scénario nominal} & \multicolumn{2}{X|}{%
   \begin{minipage}[t]{\linewidth}\vspace{4pt}
   \begin{enumerate}[nosep,leftmargin=*]
     \item L'étudiant se connecte à la plateforme.
@@ -347,9 +354,9 @@ Les diagrammes de cas d'utilisation sont des diagrammes UML qui représentent le
     \item Le système affiche le score d'employabilité prévisionnelle.
   \end{enumerate}
   \vspace{4pt}
-  \end{minipage} \\
+  \end{minipage}} \\
 \hline
-\textbf{Scénario alternatif} &
+\textbf{Scénario alternatifs} & \multicolumn{2}{X|}{%
   \begin{minipage}[t]{\linewidth}\vspace{4pt}
   \textbf{Cas 1~: Aucune recommandation validée}
   \begin{enumerate}[nosep,leftmargin=*]
@@ -368,7 +375,7 @@ Les diagrammes de cas d'utilisation sont des diagrammes UML qui représentent le
     \item Le système affiche un message d'erreur.
   \end{enumerate}
   \vspace{4pt}
-  \end{minipage} \\
+  \end{minipage}} \\
 \hline
 \end{tabularx}
 \end{table}
@@ -384,33 +391,35 @@ Les diagrammes de cas d'utilisation sont des diagrammes UML qui représentent le
 \label{tab:uc-suivre-score-emp}
 \small
 \renewcommand{\arraystretch}{1.2}
-\begin{tabularx}{\textwidth}{|>{\bfseries\centering\arraybackslash}m{3cm}|X|}
+\begin{tabularx}{\textwidth}{|>{\bfseries\centering\arraybackslash}m{3cm}|X|X|}
 \hline
-\textbf{Titre}         & Suivre Score Employabilité \\
+\textbf{Titre}         & \multicolumn{2}{X|}{Suivre Score Employabilité} \\
 \hline
-\textbf{Acteur}        & Admin \\
+\textbf{Acteur}        & \multicolumn{2}{X|}{Admin} \\
 \hline
-\textbf{Pré-conditions} &
+\textbf{Description}   & \multicolumn{2}{X|}{L'admin accède à l'interface du score d'employabilité afin de suivre les indicateurs relatifs aux scores d'employabilité des étudiants.} \\
+\hline
+\textbf{Pré-conditions} & \multicolumn{2}{X|}{%
   \begin{minipage}[t]{\linewidth}\vspace{4pt}
-  \begin{enumerate}[nosep,leftmargin=*]
+  \begin{itemize}[nosep,leftmargin=*]
     \item L'admin est authentifié sur la plateforme.
     \item Les scores d'employabilité des étudiants ont déjà été calculés et stockés en base.
     \item L'admin accède à l'interface \guillemotleft~Score d'employabilité~\guillemotright.
-  \end{enumerate}
+  \end{itemize}
   \vspace{4pt}
-  \end{minipage} \\
+  \end{minipage}} \\
 \hline
-\textbf{Post-conditions} &
+\textbf{Post-conditions} & \multicolumn{2}{X|}{%
   \begin{minipage}[t]{\linewidth}\vspace{4pt}
-  \begin{enumerate}[nosep,leftmargin=*]
+  \begin{itemize}[nosep,leftmargin=*]
     \item L'admin visualise le nombre d'étudiants inscrits, le nombre d'étudiants classés parmi les meilleurs profils (selon leur score d'employabilité), ainsi que le score global d'employabilité.
     \item L'admin visualise la distribution des scores d'employabilité et une analyse par filière.
     \item L'admin visualise une comparaison des scores d'employabilité par type de parcours (Licence, Master, Licence + Master).
-  \end{enumerate}
+  \end{itemize}
   \vspace{4pt}
-  \end{minipage} \\
+  \end{minipage}} \\
 \hline
-\textbf{Scénario nominal} &
+\textbf{Scénario nominal} & \multicolumn{2}{X|}{%
   \begin{minipage}[t]{\linewidth}\vspace{4pt}
   \begin{enumerate}[nosep,leftmargin=*]
     \item L'admin se connecte à la plateforme.
@@ -421,9 +430,9 @@ Les diagrammes de cas d'utilisation sont des diagrammes UML qui représentent le
     \item Le système affiche la comparaison par type de parcours.
   \end{enumerate}
   \vspace{4pt}
-  \end{minipage} \\
+  \end{minipage}} \\
 \hline
-\textbf{Scénario alternatif} &
+\textbf{Scénario alternatifs} & \multicolumn{2}{X|}{%
   \begin{minipage}[t]{\linewidth}\vspace{4pt}
   \textbf{Cas 1~: Aucun étudiant n'a calculé son score d'employabilité}
   \begin{enumerate}[nosep,leftmargin=*]
@@ -435,40 +444,88 @@ Les diagrammes de cas d'utilisation sont des diagrammes UML qui représentent le
     \item Cet étudiant n'est pas pris en compte dans aucun indicateur.
   \end{enumerate}
   \vspace{4pt}
-  \end{minipage} \\
+  \end{minipage}} \\
 \hline
 \end{tabularx}
 \end{table}
 
 % --------------------------------------------
-\subsection*{5.2 Diagramme de classe}
-\addcontentsline{toc}{subsection}{5.2 Diagramme de classe}
+\subsection{Diagramme de classe}
 % --------------------------------------------
 
-Les diagrammes de classes constituent une composante majeure de la conception orientée objet, fournissant une vue globale et statique du système à travers la définition des classes, de leurs propriétés, de leurs opérations et des relations qui les lient. Dans la section suivante, nous exposons le diagramme de classes de notre projet.
+Les diagrammes de classes constituent une composante majeure de la conception orientée objet, fournissant une vue globale et statique du système à travers la définition des classes, de leurs attributs, de leurs opérations et des relations qui les lient. Comme l'illustre la figure~\ref{fig:diagramme-classes}, le diagramme de classes de notre projet présente les différentes entités du système ainsi que les associations qui existent entre elles~[15].
 %-------------------------------
-\newpage
-%\includepdf[
-    %pages=1,
-    %fitpaper=true,
-    %landscape=true,
-    %pagecommand={}
-%]{diagrammes/d_class.pdf}
-%\newpage
-%\thispagestyle{empty}
-%\begin{center}
-    %\vspace*{2cm}
-    %\textbf{Figure 2.3 — Diagramme de classes}
-    %\addcontentsline{lof}{figure}{2.3 Diagramme de classes}
-%\end{center}
-%\newpage
+\clearpage
+\newgeometry{a3paper, landscape, top=1cm, bottom=1cm, left=1cm, right=1cm}
+\thispagestyle{empty}
+\begin{figure}[H]
+\centering
+\includegraphics[angle=90, width=\textwidth, height=\textheight, keepaspectratio]{diagrammes/diagramme-classes_2.png}
+\caption{Diagramme de classes}
+\label{fig:diagramme-classes-2}
+\end{figure}
+\restoregeometry
+\clearpage 
+
+
 
 % --------------------------------------------
-\subsection*{5.3 Diagramme de séquence}
-\addcontentsline{toc}{subsection}{5.3 Diagramme de séquence}
+\subsection{Diagramme de séquence}
 % --------------------------------------------
 
-Les diagrammes de séquence sont des diagrammes comportementaux d'UML qui modélisent l'aspect dynamique d'un système. Ils formalisent, de manière chronologique, les interactions et les échanges de messages entre différents objets ou acteurs (utilisateurs, composants logiciels, bases de données) lors de l'exécution d'un scénario ou d'un cas d'utilisation spécifique.
+Les diagrammes de séquence sont des diagrammes comportementaux d'UML qui modélisent l'aspect dynamique d'un système. Ils formalisent, de manière chronologique, les interactions et les échanges de messages entre différents objets ou acteurs (utilisateurs, composants logiciels, bases de données) lors de l'exécution d'un scénario ou d'un cas d'utilisation spécifique~[16].
+
+\subsubsection*{Diagramme de séquence 'génération du CV ATS':}
+La figure~\ref{fig:ds_cree_cv} suivante présente le diagramme de séquence associé au processus de génération d'un CV ATS. L'étudiant saisit les informations nécessaires à la création de son document, puis a la possibilité de le télécharger au format PDF. De plus, le système lui permet de modifier ou de reconfigurer ses données à tout moment.
+
+\vspace{-0.8cm}
+\begin{figure}[H]
+\centering
+\setlength{\abovecaptionskip}{-60pt}
+\makebox[\textwidth][c]{\includegraphics[width=1.1\textwidth]{diagrammes/d_s_cree_cv.png}}
+\caption{Diagramme de séquence 'génération du CV ATS'}
+\label{fig:ds_cree_cv}
+\end{figure}
+
+\subsubsection*{Diagramme de séquence 'Stockage d'un nouveau CV':}
+La figure~\ref{fig:ds_stock_ats} suivante présente le diagramme de séquence détaillant le processus d'enregistrement d'un nouveau CV.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{diagrammes/d_s_stock_ats.png}
+\caption{Diagramme de séquence 'Stockage d'un nouveau CV'}
+\label{fig:ds_stock_ats}
+\end{figure}
+
+\subsubsection*{Diagramme de séquence 'Calcul du score ATS':}
+Ce diagramme de séquence illustre le processus de calcul du score ATS, comme le montre la figure~\ref{fig:ds_ats} suivante :
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{diagrammes/d_s_ats.png}
+\caption{Diagramme de séquence 'Calcul du score ATS'}
+\label{fig:ds_ats}
+\end{figure}
+
+\subsubsection*{Diagramme de séquence 'Calcul du score d'employabilité':}
+La figure~\ref{fig:ds_score_emp} suivante présente le diagramme de séquence détaillant le processus de calcul du score d'employabilité.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{diagrammes/d_s_score_emp.png}
+\caption{Diagramme de séquence 'Calcul du score d'employabilité'}
+\label{fig:ds_score_emp}
+\end{figure}
+
+\subsubsection*{Diagramme de séquence 'Calcul du score d'employabilité prévisionnel':}
+Le processus de calcul du score d'employabilité prévisionnel après l'obtention des certifications recommandées est illustré par la figure~\ref{fig:ds_score_pre} suivante :
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{diagrammes/d_s_score_pre.png}
+\caption{Diagramme de séquence 'Calcul du score d'employabilité prévisionnel'}
+\label{fig:ds_score_pre}
+\end{figure}
 
 % --- Conclusion ---
 \section*{Conclusion}

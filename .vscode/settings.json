@@ -10,7 +10,7 @@
   "latex-workshop.latex.tools": [
     {
       "name": "latexmk",
-      "command": "latexmk",
+      "command": "/Library/TeX/texbin/latexmk",
       "args": [
         "-synctex=1",
         "-interaction=nonstopmode",
@@ -19,7 +19,9 @@
         "-outdir=%OUTDIR%",
         "%DOC%"
       ],
-      "env": {}
+      "env": {
+        "PATH": "/Library/TeX/texbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
+      }
     }
   ],
   "latex-workshop.synctex.afterBuild.enabled": true,
