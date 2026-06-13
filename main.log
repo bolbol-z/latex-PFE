@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.24)  13 JUN 2026 18:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.24)  13 JUN 2026 20:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1365,12 +1365,12 @@ Package hyperref Info: Link coloring ON on input line 24.
 \openout5 = `main.out'.
 
  (./frontmatter/cover.tex
-<final garde.pdf, id=273, 597.55246pt x 845.07724pt>
+<final garde.pdf, id=490, 597.55246pt x 845.07724pt>
 File: final garde.pdf Graphic file (type pdf)
 <use final garde.pdf>
 Package pdftex.def Info: final garde.pdf  used on input line 2.
 (pdftex.def)             Requested size: 597.551pt x 845.07518pt.
-<final garde.pdf, id=275, page=1, 597.55246pt x 845.07724pt>
+<final garde.pdf, id=492, page=1, 597.55246pt x 845.07724pt>
 File: final garde.pdf Graphic file (type pdf)
 <use final garde.pdf, page 1>
 Package pdftex.def Info: final garde.pdf , page1 used on input line 2.
@@ -1465,7 +1465,30 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.13202pt}.
 
-[7])
+[7]
+Overfull \hbox (16.76982pt too wide) in paragraph at lines 71--71
+ [][] [][][]\T1/ptm/m/n/12 (-20) Raffinement du cas d'utilisation ^^S Con-sul-ter score d'employabilit� 
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 15.13202pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.13202pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.13202pt}.
+
+[8]
+
+
+Package fancyhdr Warning: \headheight is too small (15.0pt): 
+(fancyhdr)                Make it at least 15.13202pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.13202pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-0.13202pt}.
+
+[9])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
@@ -1478,9 +1501,9 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-0.13202pt}.
 
-[8] (./main.lof
+[10] (./main.lof
 
-[9
+[11
 
 ])
 \tf@lof=\write7
@@ -1488,13 +1511,13 @@ Package fancyhdr Warning: \headheight is too small (15.0pt):
 
 
 
-[10] (./main.lot)
+[12] (./main.lot)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
 
 
-[11
+[13
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 64.
@@ -1502,7 +1525,7 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 64
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
-[12
+[14
 
 ] (./chapters/Introduction_generale.tex
 
@@ -1561,7 +1584,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.60007> not available
 
 
 ]
-<figures/Les programmes de la Fondation Djagora.png, id=572, 513.92pt x 255.95625pt>
+<figures/Les programmes de la Fondation Djagora.png, id=856, 513.92pt x 255.95625pt>
 File: figures/Les programmes de la Fondation Djagora.png Graphic file (type png)
 <use figures/Les programmes de la Fondation Djagora.png>
 Package pdftex.def Info: figures/Les programmes de la Fondation Djagora.png  used on input line 31.
@@ -1574,7 +1597,7 @@ Package pdftex.def Info: figures/Les programmes de la Fondation Djagora.png  use
  <./figures/Les programmes de la Fondation Djagora.png>]
 
 [5]
-<figures/isgis-logo.png, id=582, 371.3875pt x 250.9375pt>
+<figures/isgis-logo.png, id=867, 371.3875pt x 250.9375pt>
 File: figures/isgis-logo.png Graphic file (type png)
 <use figures/isgis-logo.png>
 Package pdftex.def Info: figures/isgis-logo.png  used on input line 79.
@@ -1584,7 +1607,7 @@ Package pdftex.def Info: figures/isgis-logo.png  used on input line 79.
 [6 <./figures/isgis-logo.png>]
 
 [7]
-<figures/Coursera.png, id=595, 513.92pt x 253.94875pt>
+<figures/Coursera.png, id=879, 513.92pt x 253.94875pt>
 File: figures/Coursera.png Graphic file (type png)
 <use figures/Coursera.png>
 Package pdftex.def Info: figures/Coursera.png  used on input line 136.
@@ -1592,12 +1615,12 @@ Package pdftex.def Info: figures/Coursera.png  used on input line 136.
 
 
 [8 <./figures/Coursera.png>]
-<figures/forage.png, id=601, 513.92pt x 255.95625pt>
+<figures/forage.png, id=885, 513.92pt x 255.95625pt>
 File: figures/forage.png Graphic file (type png)
 <use figures/forage.png>
 Package pdftex.def Info: figures/forage.png  used on input line 156.
 (pdftex.def)             Requested size: 341.43307pt x 170.05254pt.
-<figures/jobscane.png, id=603, 513.92pt x 226.8475pt>
+<figures/jobscane.png, id=887, 513.92pt x 226.8475pt>
 File: figures/jobscane.png Graphic file (type png)
 <use figures/jobscane.png>
 Package pdftex.def Info: figures/jobscane.png  used on input line 174.
@@ -1605,7 +1628,7 @@ Package pdftex.def Info: figures/jobscane.png  used on input line 174.
 
 
 [9 <./figures/forage.png>]
-<figures/1mentor.png, id=609, 513.92pt x 254.9525pt>
+<figures/1mentor.png, id=893, 513.92pt x 254.9525pt>
 File: figures/1mentor.png Graphic file (type png)
 <use figures/1mentor.png>
 Package pdftex.def Info: figures/1mentor.png  used on input line 195.
@@ -1649,7 +1672,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 300--304
 
 
 [13]
-<figures/Agil.png, id=628, 513.92pt x 513.92pt>
+<figures/Agil.png, id=912, 513.92pt x 513.92pt>
 File: figures/Agil.png Graphic file (type png)
 <use figures/Agil.png>
 Package pdftex.def Info: figures/Agil.png  used on input line 320.
@@ -1657,7 +1680,7 @@ Package pdftex.def Info: figures/Agil.png  used on input line 320.
 
 
 [14 <./figures/Agil.png>]
-<figures/scrum.png, id=634, 421.3341pt x 227.6505pt>
+<figures/scrum.png, id=918, 421.3341pt x 227.6505pt>
 File: figures/scrum.png Graphic file (type png)
 <use figures/scrum.png>
 Package pdftex.def Info: figures/scrum.png  used on input line 336.
@@ -1667,7 +1690,7 @@ Package pdftex.def Info: figures/scrum.png  used on input line 336.
 [15 <./figures/scrum.png>]
 
 [16]
-<figures/Déroulement des événements Scrum.png, id=646, 1361.085pt x 786.94pt>
+<figures/Déroulement des événements Scrum.png, id=930, 1361.085pt x 786.94pt>
 File: figures/Déroulement des événements Scrum.png Graphic file (type png)
 <use figures/Déroulement des événements Scrum.png>
 Package pdftex.def Info: figures/Déroulement des événements Scrum.png  used on input line 391.
@@ -1691,12 +1714,12 @@ Package pdftex.def Info: figures/Déroulement des événements Scrum.png  used o
 [24]
 
 [25]
-<figures/Équipe et rôles-3.png, id=688, 1220.56pt x 899.36pt>
+<figures/Équipe et rôles-3.png, id=972, 1220.56pt x 899.36pt>
 File: figures/Équipe et rôles-3.png Graphic file (type png)
 <use figures/Équipe et rôles-3.png>
 Package pdftex.def Info: figures/Équipe et rôles-3.png  used on input line 666.
 (pdftex.def)             Requested size: 386.96027pt x 285.12508pt.
-<figures/ Décomposition du Projet en Sprints-2.png, id=690, 481.8pt x 240.9pt>
+<figures/ Décomposition du Projet en Sprints-2.png, id=974, 481.8pt x 240.9pt>
 File: figures/ Décomposition du Projet en Sprints-2.png Graphic file (type png)
 <use figures/ Décomposition du Projet en Sprints-2.png>
 Package pdftex.def Info: figures/ Décomposition du Projet en Sprints-2.png  used on input line 678.
@@ -1779,7 +1802,7 @@ Underfull \hbox (badness 2302) in paragraph at lines 784--784
 
 
 ]
-<figures/Unified Modelling Language (UML).png, id=727, 513.92pt x 513.92pt>
+<figures/Unified Modelling Language (UML).png, id=1011, 513.92pt x 513.92pt>
 File: figures/Unified Modelling Language (UML).png Graphic file (type png)
 <use figures/Unified Modelling Language (UML).png>
 Package pdftex.def Info: figures/Unified Modelling Language (UML).png  used on input line 22.
@@ -1794,7 +1817,7 @@ Package pdftex.def Info: figures/Unified Modelling Language (UML).png  used on i
 [35]
 
 [36]
-<figures/arch_global.png, id=743, 1540.75626pt x 1027.84pt>
+<figures/arch_global.png, id=1027, 1540.75626pt x 1027.84pt>
 File: figures/arch_global.png Graphic file (type png)
 <use figures/arch_global.png>
 Package pdftex.def Info: figures/arch_global.png  used on input line 134.
@@ -1802,7 +1825,7 @@ Package pdftex.def Info: figures/arch_global.png  used on input line 134.
 
 
 [37 <./figures/arch_global.png>]
-<figures/arch_physique.png, id=749, 3605.5503pt x 3614.7045pt>
+<figures/arch_physique.png, id=1033, 3605.5503pt x 3614.7045pt>
 File: figures/arch_physique.png Graphic file (type png)
 <use figures/arch_physique.png>
 Package pdftex.def Info: figures/arch_physique.png  used on input line 145.
@@ -1810,7 +1833,7 @@ Package pdftex.def Info: figures/arch_physique.png  used on input line 145.
 
 
 [38 <./figures/arch_physique.png>]
-<diagrammes/use-case-global.png, id=756, 597.432pt x 845.0772pt>
+<diagrammes/use-case-global.png, id=1040, 597.432pt x 845.0772pt>
 File: diagrammes/use-case-global.png Graphic file (type png)
 <use diagrammes/use-case-global.png>
 Package pdftex.def Info: diagrammes/use-case-global.png  used on input line 166.
@@ -1868,7 +1891,7 @@ Package geometry Warning: `landscape': not available in `\newgeometry'; skipped.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<diagrammes/diagramme-classes_2.png, id=822, 1195.1049pt x 845.0772pt>
+<diagrammes/diagramme-classes_2.png, id=1106, 1195.1049pt x 845.0772pt>
 File: diagrammes/diagramme-classes_2.png Graphic file (type png)
 <use diagrammes/diagramme-classes_2.png>
 Package pdftex.def Info: diagrammes/diagramme-classes_2.png  used on input line 462.
@@ -1879,7 +1902,7 @@ Package pdftex.def Info: diagrammes/diagramme-classes_2.png  used on input line 
 
 
  <./diagrammes/diagramme-classes_2.png>]
-<diagrammes/d_s_cree_cv.png, id=829, 597.6729pt x 845.0772pt>
+<diagrammes/d_s_cree_cv.png, id=1114, 597.6729pt x 845.0772pt>
 File: diagrammes/d_s_cree_cv.png Graphic file (type png)
 <use diagrammes/d_s_cree_cv.png>
 Package pdftex.def Info: diagrammes/d_s_cree_cv.png  used on input line 484.
@@ -1890,7 +1913,7 @@ Package pdftex.def Info: diagrammes/d_s_cree_cv.png  used on input line 484.
 
 
 ]
-<diagrammes/d_s_stock_ats.png, id=835, 597.6729pt x 421.3341pt>
+<diagrammes/d_s_stock_ats.png, id=1120, 597.6729pt x 421.3341pt>
 File: diagrammes/d_s_stock_ats.png Graphic file (type png)
 <use diagrammes/d_s_stock_ats.png>
 Package pdftex.def Info: diagrammes/d_s_stock_ats.png  used on input line 494.
@@ -1898,7 +1921,7 @@ Package pdftex.def Info: diagrammes/d_s_stock_ats.png  used on input line 494.
 
 
 [48 <./diagrammes/d_s_cree_cv.png>]
-<diagrammes/d_s_ats.png, id=843, 597.6729pt x 421.3341pt>
+<diagrammes/d_s_ats.png, id=1127, 597.6729pt x 421.3341pt>
 File: diagrammes/d_s_ats.png Graphic file (type png)
 <use diagrammes/d_s_ats.png>
 Package pdftex.def Info: diagrammes/d_s_ats.png  used on input line 504.
@@ -1906,7 +1929,7 @@ Package pdftex.def Info: diagrammes/d_s_ats.png  used on input line 504.
 
 
 [49 <./diagrammes/d_s_stock_ats.png>]
-<diagrammes/d_s_score_emp.png, id=850, 597.6729pt x 421.3341pt>
+<diagrammes/d_s_score_emp.png, id=1134, 597.6729pt x 421.3341pt>
 File: diagrammes/d_s_score_emp.png Graphic file (type png)
 <use diagrammes/d_s_score_emp.png>
 Package pdftex.def Info: diagrammes/d_s_score_emp.png  used on input line 514.
@@ -1914,7 +1937,7 @@ Package pdftex.def Info: diagrammes/d_s_score_emp.png  used on input line 514.
 
 
 [50 <./diagrammes/d_s_ats.png>]
-<diagrammes/d_s_score_pre.png, id=857, 597.6729pt x 421.3341pt>
+<diagrammes/d_s_score_pre.png, id=1141, 597.6729pt x 421.3341pt>
 File: diagrammes/d_s_score_pre.png Graphic file (type png)
 <use diagrammes/d_s_score_pre.png>
 Package pdftex.def Info: diagrammes/d_s_score_pre.png  used on input line 524.
@@ -1980,7 +2003,7 @@ Package pdftex.def Info: figures/Lenovo _Loq .png  used on input line 64.
 
 
  <./figures/Gigabyte_Aorus.png> <./figures/macbook_air.png> <./figures/Lenovo _Loq .png>]
-<figures/VSC.png, id=884, 361.35pt x 361.35pt>
+<figures/VSC.png, id=1168, 361.35pt x 361.35pt>
 File: figures/VSC.png Graphic file (type png)
 <use figures/VSC.png>
 Package pdftex.def Info: figures/VSC.png  used on input line 79.
@@ -1990,7 +2013,7 @@ Overfull \hbox (7.70303pt too wide) in paragraph at lines 85--86
 \T1/ptm/m/n/12 (-20) GitHub est une plate-forme de d�veloppe-ment col-lab-o-ra-tive bas�e sur Git, per-me-t-tant l'h�bergement,
  []
 
-<figures/github.png, id=885, 361.35pt x 361.35pt>
+<figures/github.png, id=1169, 361.35pt x 361.35pt>
 File: figures/github.png Graphic file (type png)
 <use figures/github.png>
 Package pdftex.def Info: figures/github.png  used on input line 89.
@@ -1998,7 +2021,7 @@ Package pdftex.def Info: figures/github.png  used on input line 89.
 
 
 [55 <./figures/VSC.png>]
-<figures/angulair.png, id=892, 361.35pt x 361.35pt>
+<figures/angulair.png, id=1175, 361.35pt x 361.35pt>
 File: figures/angulair.png Graphic file (type png)
 <use figures/angulair.png>
 Package pdftex.def Info: figures/angulair.png  used on input line 105.
@@ -2006,7 +2029,7 @@ Package pdftex.def Info: figures/angulair.png  used on input line 105.
 
 
 [56 <./figures/github.png> <./figures/angulair.png>]
-<figures/python.png, id=900, 361.35pt x 361.35pt>
+<figures/python.png, id=1182, 361.35pt x 361.35pt>
 File: figures/python.png Graphic file (type png)
 <use figures/python.png>
 Package pdftex.def Info: figures/python.png  used on input line 119.
@@ -2016,7 +2039,7 @@ Overfull \hbox (8.182pt too wide) in paragraph at lines 125--126
 \T1/ptm/m/n/12 (-20) NestJS est un frame-work open source bas� sur Node.js, util-is� pour le d�veloppe-ment d'applications
  []
 
-<figures/nest.png, id=901, 361.35pt x 361.35pt>
+<figures/nest.png, id=1183, 361.35pt x 361.35pt>
 File: figures/nest.png Graphic file (type png)
 <use figures/nest.png>
 Package pdftex.def Info: figures/nest.png  used on input line 129.
@@ -2024,12 +2047,12 @@ Package pdftex.def Info: figures/nest.png  used on input line 129.
 
 
 [57 <./figures/python.png> <./figures/nest.png>]
-<figures/node.png, id=910, 361.35pt x 361.35pt>
+<figures/node.png, id=1190, 361.35pt x 361.35pt>
 File: figures/node.png Graphic file (type png)
 <use figures/node.png>
 Package pdftex.def Info: figures/node.png  used on input line 139.
 (pdftex.def)             Requested size: 159.33821pt x 159.33633pt.
-<figures/mongo.png, id=911, 361.35pt x 361.35pt>
+<figures/mongo.png, id=1191, 361.35pt x 361.35pt>
 File: figures/mongo.png Graphic file (type png)
 <use figures/mongo.png>
 Package pdftex.def Info: figures/mongo.png  used on input line 151.
@@ -2037,12 +2060,12 @@ Package pdftex.def Info: figures/mongo.png  used on input line 151.
 
 
 [58 <./figures/node.png> <./figures/mongo.png>]
-<figures/PostgreSQL .png, id=920, 361.35pt x 361.35pt>
+<figures/PostgreSQL .png, id=1199, 361.35pt x 361.35pt>
 File: figures/PostgreSQL .png Graphic file (type png)
 <use figures/PostgreSQL .png>
 Package pdftex.def Info: figures/PostgreSQL .png  used on input line 161.
 (pdftex.def)             Requested size: 113.81102pt x 113.80931pt.
-<figures/supabase.png, id=921, 361.35pt x 361.35pt>
+<figures/supabase.png, id=1200, 361.35pt x 361.35pt>
 File: figures/supabase.png Graphic file (type png)
 <use figures/supabase.png>
 Package pdftex.def Info: figures/supabase.png  used on input line 171.
@@ -2050,12 +2073,12 @@ Package pdftex.def Info: figures/supabase.png  used on input line 171.
 
 
 [59 <./figures/PostgreSQL .png> <./figures/supabase.png>]
-<figures/digrammes.png, id=931, 361.35pt x 361.35pt>
+<figures/digrammes.png, id=1207, 361.35pt x 361.35pt>
 File: figures/digrammes.png Graphic file (type png)
 <use figures/digrammes.png>
 Package pdftex.def Info: figures/digrammes.png  used on input line 184.
 (pdftex.def)             Requested size: 113.81102pt x 113.80931pt.
-<figures/gemini.png, id=932, 361.35pt x 361.35pt>
+<figures/gemini.png, id=1208, 361.35pt x 361.35pt>
 File: figures/gemini.png Graphic file (type png)
 <use figures/gemini.png>
 Package pdftex.def Info: figures/gemini.png  used on input line 197.
@@ -2063,17 +2086,17 @@ Package pdftex.def Info: figures/gemini.png  used on input line 197.
 
 
 [60 <./figures/digrammes.png> <./figures/gemini.png>]
-<figures/Interface_daacces_academique_et_professionnel.png, id=942, 832.5504pt x 361.35pt>
+<figures/Interface_daacces_academique_et_professionnel.png, id=1216, 832.5504pt x 361.35pt>
 File: figures/Interface_daacces_academique_et_professionnel.png Graphic file (type png)
 <use figures/Interface_daacces_academique_et_professionnel.png>
 Package pdftex.def Info: figures/Interface_daacces_academique_et_professionnel.png  used on input line 211.
 (pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
-<figures/Interface_daauthentification.png, id=944, 832.5504pt x 361.35pt>
+<figures/Interface_daauthentification.png, id=1218, 832.5504pt x 361.35pt>
 File: figures/Interface_daauthentification.png Graphic file (type png)
 <use figures/Interface_daauthentification.png>
 Package pdftex.def Info: figures/Interface_daauthentification.png  used on input line 220.
 (pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
-<figures/Interface_de_verification_daidentite.png, id=946, 832.5504pt x 361.35pt>
+<figures/Interface_de_verification_daidentite.png, id=1220, 832.5504pt x 361.35pt>
 File: figures/Interface_de_verification_daidentite.png Graphic file (type png)
 <use figures/Interface_de_verification_daidentite.png>
 Package pdftex.def Info: figures/Interface_de_verification_daidentite.png  used on input line 229.
@@ -2081,12 +2104,12 @@ Package pdftex.def Info: figures/Interface_de_verification_daidentite.png  used 
 
 
 [61 <./figures/Interface_daacces_academique_et_professionnel.png> <./figures/Interface_daauthentification.png>]
-<figures/Interface_de_creation_de_compte_societe.png, id=952, 832.5504pt x 361.35pt>
+<figures/Interface_de_creation_de_compte_societe.png, id=1226, 832.5504pt x 361.35pt>
 File: figures/Interface_de_creation_de_compte_societe.png Graphic file (type png)
 <use figures/Interface_de_creation_de_compte_societe.png>
 Package pdftex.def Info: figures/Interface_de_creation_de_compte_societe.png  used on input line 238.
 (pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
-<figures/Interface_daauthentification_des_societes.png, id=954, 832.5504pt x 361.35pt>
+<figures/Interface_daauthentification_des_societes.png, id=1228, 832.5504pt x 361.35pt>
 File: figures/Interface_daauthentification_des_societes.png Graphic file (type png)
 <use figures/Interface_daauthentification_des_societes.png>
 Package pdftex.def Info: figures/Interface_daauthentification_des_societes.png  used on input line 247.
@@ -2094,7 +2117,7 @@ Package pdftex.def Info: figures/Interface_daauthentification_des_societes.png  
 
 
 [62 <./figures/Interface_de_verification_daidentite.png> <./figures/Interface_de_creation_de_compte_societe.png>]
-<figures/Interface_du_profil_etudiant.png, id=961, 832.5504pt x 361.35pt>
+<figures/Interface_du_profil_etudiant.png, id=1235, 832.5504pt x 361.35pt>
 File: figures/Interface_du_profil_etudiant.png Graphic file (type png)
 <use figures/Interface_du_profil_etudiant.png>
 Package pdftex.def Info: figures/Interface_du_profil_etudiant.png  used on input line 260.
@@ -2102,17 +2125,17 @@ Package pdftex.def Info: figures/Interface_du_profil_etudiant.png  used on input
 
 
 [63 <./figures/Interface_daauthentification_des_societes.png> <./figures/Interface_du_profil_etudiant.png>]
-<figures/Interface_de_generation_du_CV_ATS.png, id=970, 832.5504pt x 361.35pt>
+<figures/Interface_de_generation_du_CV_ATS.png, id=1242, 832.5504pt x 361.35pt>
 File: figures/Interface_de_generation_du_CV_ATS.png Graphic file (type png)
 <use figures/Interface_de_generation_du_CV_ATS.png>
 Package pdftex.def Info: figures/Interface_de_generation_du_CV_ATS.png  used on input line 273.
 (pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
-<figures/Interface_de_validation_du_CV_ATS.png, id=972, 832.5504pt x 361.35pt>
+<figures/Interface_de_validation_du_CV_ATS.png, id=1244, 832.5504pt x 361.35pt>
 File: figures/Interface_de_validation_du_CV_ATS.png Graphic file (type png)
 <use figures/Interface_de_validation_du_CV_ATS.png>
 Package pdftex.def Info: figures/Interface_de_validation_du_CV_ATS.png  used on input line 282.
 (pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
-<figures/Interface_du_CV_ATS_genere.png, id=974, 832.5504pt x 361.35pt>
+<figures/Interface_du_CV_ATS_genere.png, id=1246, 832.5504pt x 361.35pt>
 File: figures/Interface_du_CV_ATS_genere.png Graphic file (type png)
 <use figures/Interface_du_CV_ATS_genere.png>
 Package pdftex.def Info: figures/Interface_du_CV_ATS_genere.png  used on input line 291.
@@ -2120,12 +2143,12 @@ Package pdftex.def Info: figures/Interface_du_CV_ATS_genere.png  used on input l
 
 
 [64 <./figures/Interface_de_generation_du_CV_ATS.png> <./figures/Interface_de_validation_du_CV_ATS.png>]
-<figures/Interface_du_tableau_de_bord_de_laetudiant.png, id=982, 832.5504pt x 361.35pt>
+<figures/Interface_du_tableau_de_bord_de_laetudiant.png, id=1255, 832.5504pt x 361.35pt>
 File: figures/Interface_du_tableau_de_bord_de_laetudiant.png Graphic file (type png)
 <use figures/Interface_du_tableau_de_bord_de_laetudiant.png>
 Package pdftex.def Info: figures/Interface_du_tableau_de_bord_de_laetudiant.png  used on input line 302.
 (pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
-<figures/Interface_de_prediction_du_score_daemployabilite.png, id=984, 832.5504pt x 361.35pt>
+<figures/Interface_de_prediction_du_score_daemployabilite.png, id=1257, 832.5504pt x 361.35pt>
 File: figures/Interface_de_prediction_du_score_daemployabilite.png Graphic file (type png)
 <use figures/Interface_de_prediction_du_score_daemployabilite.png>
 Package pdftex.def Info: figures/Interface_de_prediction_du_score_daemployabilite.png  used on input line 313.
@@ -2133,12 +2156,12 @@ Package pdftex.def Info: figures/Interface_de_prediction_du_score_daemployabilit
 
 
 [65 <./figures/Interface_du_CV_ATS_genere.png> <./figures/Interface_du_tableau_de_bord_de_laetudiant.png>]
-<figures/Interface_du_tableau_de_bord_de_laadministrateur.png, id=995, 832.5504pt x 361.35pt>
+<figures/Interface_du_tableau_de_bord_de_laadministrateur.png, id=1267, 832.5504pt x 361.35pt>
 File: figures/Interface_du_tableau_de_bord_de_laadministrateur.png Graphic file (type png)
 <use figures/Interface_du_tableau_de_bord_de_laadministrateur.png>
 Package pdftex.def Info: figures/Interface_du_tableau_de_bord_de_laadministrateur.png  used on input line 324.
 (pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
-<figures/Interface_du_tableau_de_bord_de_laadministrateur_2.png, id=996, 832.5504pt x 361.35pt>
+<figures/Interface_du_tableau_de_bord_de_laadministrateur_2.png, id=1268, 832.5504pt x 361.35pt>
 File: figures/Interface_du_tableau_de_bord_de_laadministrateur_2.png Graphic file (type png)
 <use figures/Interface_du_tableau_de_bord_de_laadministrateur_2.png>
 Package pdftex.def Info: figures/Interface_du_tableau_de_bord_de_laadministrateur_2.png  used on input line 331.
@@ -2146,12 +2169,12 @@ Package pdftex.def Info: figures/Interface_du_tableau_de_bord_de_laadministrateu
 
 
 [66 <./figures/Interface_de_prediction_du_score_daemployabilite.png> <./figures/Interface_du_tableau_de_bord_de_laadministrateur.png>]
-<figures/Interface_du_score_daemployabilite.png, id=1007, 832.5504pt x 361.35pt>
+<figures/Interface_du_score_daemployabilite.png, id=1277, 832.5504pt x 361.35pt>
 File: figures/Interface_du_score_daemployabilite.png Graphic file (type png)
 <use figures/Interface_du_score_daemployabilite.png>
 Package pdftex.def Info: figures/Interface_du_score_daemployabilite.png  used on input line 340.
 (pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
-<figures/Interface_du_score_daemployabilite_2.png, id=1008, 832.5504pt x 361.35pt>
+<figures/Interface_du_score_daemployabilite_2.png, id=1278, 832.5504pt x 361.35pt>
 File: figures/Interface_du_score_daemployabilite_2.png Graphic file (type png)
 <use figures/Interface_du_score_daemployabilite_2.png>
 Package pdftex.def Info: figures/Interface_du_score_daemployabilite_2.png  used on input line 347.
@@ -2159,17 +2182,17 @@ Package pdftex.def Info: figures/Interface_du_score_daemployabilite_2.png  used 
 
 
 [67 <./figures/Interface_du_tableau_de_bord_de_laadministrateur_2.png> <./figures/Interface_du_score_daemployabilite.png> <./figures/Interface_du_score_daemployabilite_2.png>]
-<figures/Interface_daadequation_Formation-Emploi.png, id=1017, 832.5504pt x 361.35pt>
+<figures/Interface_daadequation_Formation-Emploi.png, id=1287, 832.5504pt x 361.35pt>
 File: figures/Interface_daadequation_Formation-Emploi.png Graphic file (type png)
 <use figures/Interface_daadequation_Formation-Emploi.png>
 Package pdftex.def Info: figures/Interface_daadequation_Formation-Emploi.png  used on input line 356.
 (pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
-<figures/Interface_du_referentiel_des_competences.png, id=1019, 832.5504pt x 361.35pt>
+<figures/Interface_du_referentiel_des_competences.png, id=1289, 832.5504pt x 361.35pt>
 File: figures/Interface_du_referentiel_des_competences.png Graphic file (type png)
 <use figures/Interface_du_referentiel_des_competences.png>
 Package pdftex.def Info: figures/Interface_du_referentiel_des_competences.png  used on input line 365.
 (pdftex.def)             Requested size: 386.96027pt x 167.95433pt.
-<figures/Interface_de_suivi_des_etudiants_par_filiere.png, id=1021, 832.5504pt x 361.35pt>
+<figures/Interface_de_suivi_des_etudiants_par_filiere.png, id=1291, 832.5504pt x 361.35pt>
 File: figures/Interface_de_suivi_des_etudiants_par_filiere.png Graphic file (type png)
 <use figures/Interface_de_suivi_des_etudiants_par_filiere.png>
 Package pdftex.def Info: figures/Interface_de_suivi_des_etudiants_par_filiere.png  used on input line 374.
@@ -2177,7 +2200,7 @@ Package pdftex.def Info: figures/Interface_de_suivi_des_etudiants_par_filiere.pn
 
 
 [68 <./figures/Interface_daadequation_Formation-Emploi.png> <./figures/Interface_du_referentiel_des_competences.png>]
-<figures/Interface_de_consultation_des_candidatures.png, id=1029, 832.5504pt x 361.35pt>
+<figures/Interface_de_consultation_des_candidatures.png, id=1299, 832.5504pt x 361.35pt>
 File: figures/Interface_de_consultation_des_candidatures.png Graphic file (type png)
 <use figures/Interface_de_consultation_des_candidatures.png>
 Package pdftex.def Info: figures/Interface_de_consultation_des_candidatures.png  used on input line 385.
@@ -2220,24 +2243,24 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0B99CBAAF6B0F4586C0322F0375DDA69;10785.
+(rerunfilecheck)             Checksum: 326398293FF761AA031A71282E605D85;22725.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47123 strings out of 473190
- 937585 string characters out of 5715800
- 1911190 words of memory out of 5000000
- 68772 multiletter control sequences out of 15000+600000
+ 47220 strings out of 473190
+ 939689 string characters out of 5715800
+ 1911567 words of memory out of 5000000
+ 68826 multiletter control sequences out of 15000+600000
  677658 words of font info for 502 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  93i,17n,99p,2619b,2321s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Users/bilelzghal/Library/texmf/fonts/truetype/lcdftools/AlexBrush/AlexBrush-Regular.ttf></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (88 pages, 37233642 bytes).
+Output written on main.pdf (90 pages, 36552776 bytes).
 PDF statistics:
- 1199 PDF objects out of 1200 (max. 8388607)
- 947 compressed objects within 10 object streams
- 267 named destinations out of 1000 (max. 500000)
- 139146 words of extra memory for PDF output out of 154059 (max. 10000000)
+ 1478 PDF objects out of 1728 (max. 8388607)
+ 1221 compressed objects within 13 object streams
+ 310 named destinations out of 1000 (max. 500000)
+ 139578 words of extra memory for PDF output out of 154059 (max. 10000000)
 
