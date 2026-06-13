@@ -1,0 +1,102 @@
+
+
+############################################################################
+
+
+[2026-06-13 12:08:59]  /Library/TeX/texbin/autoinst, version 20250107
+
+Command was:
+
+    "/Library/TeX/texbin/autoinst /Users/bilelzghal/Library/Fonts/AlexBrush-Regular.ttf --encoding=OT1,T1 --verbose"
+
+----------------------------------------------------------------------------
+
+I'm using the following options:
+
+    encoding(s):        OT1, T1
+    NFSS:               rm (serif)
+
+    lining:             yes
+    oldstyle:           yes
+    proportional:       yes
+    tabular:            yes
+    ts1:                yes
+    smallcaps:          yes
+    swash:              yes
+    titling:            yes
+    superiors:          yes
+    inferiors:          none
+    ornaments:          yes
+    fractions:          no
+    ligatures:          yes
+
+    target:             /Users/bilelzghal/Desktop/Stage-PFE-2026/Rapport_final/latex-PFE-R2/autoinst_output
+    extra:              
+
+    figurekern:         keep
+
+    nfssweight:         
+    nfsswidth:          
+
+    math:               no
+    mathspacing:        0
+
+    auto/manual:        auto
+    fontname suffix:    (none)
+
+----------------------------------------------------------------------------
+
+Results of font info parsing:
+
+    /Users/bilelzghal/Library/Fonts/AlexBrush-Regular.ttf
+        Name:       AlexBrush-Regular
+        Family:     AlexBrush
+        Subfamily:  
+        Weight:     regular (400)
+        Width:      regular (5)
+        Shape:      roman 
+        Size:       0-0
+        Features:   kern
+
+----------------------------------------------------------------------------
+
+NFSS mappings:
+
+    ul  =>  
+    el  =>  
+    l   =>  
+    sl  =>  
+    m   =>  regular
+    sb  =>  
+    b   =>  
+    eb  =>  
+    ub  =>  
+
+    uc  =>  
+    ec  =>  
+    c   =>  
+    sc  =>  
+    m   =>  regular
+    sx  =>  
+    x   =>  
+    ex  =>  
+    ux  =>  
+
+    ------------------------------------------------------------------------
+
+    /Users/bilelzghal/Library/Fonts/AlexBrush-Regular.ttf
+
+        Generating these encodings, figure styles and shapes:
+
+            ENC     STYLE   SHAPE   FEATURES USED
+
+            OT1     TLF     n       kern
+            T1      TLF     n       kern
+            TS1     TLF     n       
+
+
+otftotfm --automatic --encoding=fontools_ot1 --tfm-directory="/Users/bilelzghal/Desktop/Stage-PFE-2026/Rapport_final/latex-PFE-R2/autoinst_output/fonts/tfm/lcdftools/AlexBrush" --vf-directory="/Users/bilelzghal/Desktop/Stage-PFE-2026/Rapport_final/latex-PFE-R2/autoinst_output/fonts/vf/lcdftools/AlexBrush" --truetype-directory="/Users/bilelzghal/Desktop/Stage-PFE-2026/Rapport_final/latex-PFE-R2/autoinst_output/fonts/truetype/lcdftools/AlexBrush" --encoding-directory="/Users/bilelzghal/Desktop/Stage-PFE-2026/Rapport_final/latex-PFE-R2/autoinst_output/fonts/enc/dvips/AlexBrush" --map-file="/Users/bilelzghal/Desktop/Stage-PFE-2026/Rapport_final/latex-PFE-R2/autoinst_output/fonts/map/dvips/AlexBrush/AlexBrush.map" --no-updmap --force --coding-scheme="TEX TEXT" --feature=kern     "/Users/bilelzghal/Library/Fonts/AlexBrush-Regular.ttf" AlexBrush-Regular-tlf-ot1
+
+otftotfm --automatic --encoding=fontools_t1 --tfm-directory="/Users/bilelzghal/Desktop/Stage-PFE-2026/Rapport_final/latex-PFE-R2/autoinst_output/fonts/tfm/lcdftools/AlexBrush" --vf-directory="/Users/bilelzghal/Desktop/Stage-PFE-2026/Rapport_final/latex-PFE-R2/autoinst_output/fonts/vf/lcdftools/AlexBrush" --truetype-directory="/Users/bilelzghal/Desktop/Stage-PFE-2026/Rapport_final/latex-PFE-R2/autoinst_output/fonts/truetype/lcdftools/AlexBrush" --encoding-directory="/Users/bilelzghal/Desktop/Stage-PFE-2026/Rapport_final/latex-PFE-R2/autoinst_output/fonts/enc/dvips/AlexBrush" --map-file="/Users/bilelzghal/Desktop/Stage-PFE-2026/Rapport_final/latex-PFE-R2/autoinst_output/fonts/map/dvips/AlexBrush/AlexBrush.map" --no-updmap --force --coding-scheme="EXTENDED TEX FONT ENCODING - LATIN" --feature=kern     "/Users/bilelzghal/Library/Fonts/AlexBrush-Regular.ttf" AlexBrush-Regular-tlf-t1
+
+otftotfm --automatic --encoding=fontools_ts1 --tfm-directory="/Users/bilelzghal/Desktop/Stage-PFE-2026/Rapport_final/latex-PFE-R2/autoinst_output/fonts/tfm/lcdftools/AlexBrush" --vf-directory="/Users/bilelzghal/Desktop/Stage-PFE-2026/Rapport_final/latex-PFE-R2/autoinst_output/fonts/vf/lcdftools/AlexBrush" --truetype-directory="/Users/bilelzghal/Desktop/Stage-PFE-2026/Rapport_final/latex-PFE-R2/autoinst_output/fonts/truetype/lcdftools/AlexBrush" --encoding-directory="/Users/bilelzghal/Desktop/Stage-PFE-2026/Rapport_final/latex-PFE-R2/autoinst_output/fonts/enc/dvips/AlexBrush" --map-file="/Users/bilelzghal/Desktop/Stage-PFE-2026/Rapport_final/latex-PFE-R2/autoinst_output/fonts/map/dvips/AlexBrush/AlexBrush.map" --no-updmap --force --coding-scheme="TEX TEXT COMPANION SYMBOLS 1---TS1"     "/Users/bilelzghal/Library/Fonts/AlexBrush-Regular.ttf" AlexBrush-Regular-tlf-ts1
