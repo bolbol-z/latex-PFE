@@ -12,6 +12,7 @@
 Ce chapitre est consacré à la présentation des environnements matériel et logiciel utilisés dans le cadre du projet, ainsi qu'aux technologies et langages de programmation adoptés pour son développement. Il présente également les différentes interfaces conçues et implémentées.
 
 \section{Environnement de développement}
+Ce volet présente l’environnement matériel et logiciel utilisé pour le développement de la plateforme, ainsi que les outils nécessaires à sa mise en œuvre. 
 \subsection{Environnement matériel}
 
 Le tableau 3.1 suivant illustre les différents composants matériels mis en œuvre lors du développement de notre système.
@@ -20,9 +21,10 @@ Le tableau 3.1 suivant illustre les différents composants matériels mis en œu
 \centering
 \caption{Composants matériels utilisés}
 \label{tab:composants-materiels}
-\small
-\renewcommand{\arraystretch}{1.5}
-\setlength{\tabcolsep}{6pt}
+\footnotesize
+\renewcommand{\arraystretch}{1.15}
+\setlength{\tabcolsep}{4pt}
+\resizebox{\textwidth}{!}{
 \begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}m{2.8cm}|>{\centering\arraybackslash}m{3.2cm}|>{\RaggedRight\arraybackslash}X|}
 \hline
 \multicolumn{1}{|c|}{\textbf{Image}} &
@@ -59,15 +61,15 @@ Système d'exploitation : Windows 11 Pro
 
 Carte graphique : NVIDIA GeForce RTX 3050 6GB Laptop GPU (6 Go) \\ \hline
 
-\end{tabularx}
+\end{tabularx}}%
 \end{table}
 
 \subsection{Environnement logiciel}
 
 Afin d'assurer le développement et le test efficaces de notre solution, nous avons utilisé un ensemble d'outils, de technologies et d'environnements adaptés aux besoins du projet. Cette section présente les principaux logiciels, bibliothèques et environnements de développement mobilisés tout au long de la réalisation du projet.
 
-\subsubsection{Environnement de développement intégré:}
-
+\subsubsection{Environnement de développement utilisé}
+  L’environnement de développement utilisé est un ensemble d’outils permettant l’écriture, la gestion et le débogage du code source de la plateforme.
 \subsubsection*{Visual Studio Code}
 
 Visual Studio Code est un éditeur de code open source, gratuit et multiplateforme développé par Microsoft pour Windows, macOS et Linux. Il prend en charge plusieurs langages et technologies de développement, notamment JavaScript, TypeScript, Python, Java, C++, HTML et CSS, grâce à un vaste écosystème d'extensions. Il offre également des fonctionnalités avancées, telles que le débogage, l'intégration avec Git et diverses options de personnalisation, à travers une interface intuitive et ergonomique.
@@ -248,7 +250,7 @@ La figure~\ref{fig:acces-academique-professionnel} ci-dessous illustre l'interfa
 \end{figure}
 
 \subsection{Interfaces étudiant}
-
+Cette section présente les différentes interfaces dédiées à l’étudiant.
 \subsubsection{Profil étudiant}
 
 \noindent La figure~\ref{fig:profil-etudiant} ci-dessous affiche les informations personnelles de l'étudiant.
@@ -304,7 +306,7 @@ La figure \ref{fig:tableau-bord-etudiant} ci-dessous présente le tableau de bor
 
 \subsubsection{Calcul du score d'employabilité prévisionnel}
 
-\noindent La figure~\ref{fig:prediction-score-employabilite} suivante montre que lorsque l'étudiant clique sur le bouton "Prédire votre nouveau score", un score d'employabilité prévisionnel est automatiquement généré en tenant compte des recommandations obtenues.
+\noindent La figure~\ref{fig:prediction-score-employabilite} suivante montre que lorsque l'étudiant clique sur le bouton ``Prédire votre nouveau score", un score d'employabilité prévisionnel est automatiquement généré en tenant compte des recommandations obtenues.
 
 \begin{figure}[H]
 \centering
