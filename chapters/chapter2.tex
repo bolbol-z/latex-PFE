@@ -37,7 +37,7 @@ Après avoir identifié le modèle conceptuel adopté, nous présentons à prés
 \section{Présentation des acteurs}
 % --------------------------------------------
 
-Un acteur désigne toute entité externe, qu’il s’agisse d’un utilisateur, d’un équipement matériel ou d’une autre application, qui interagit directement avec l’application. En remplissant un rôle précis, chaque acteur participe à la performance globale du système. Pour garantir des échanges fluides la plateforme identifie trois acteurs principaux et un acteur externe API Gemini :\quad
+Un acteur désigne toute entité externe, qu’il s’agisse d’un utilisateur, d’un équipement matériel ou d’une autre application, qui interagit directement avec l’application. En remplissant un rôle précis, chaque acteur participe à la performance globale du système. Pour garantir des échanges fluides, la plateforme identifie trois acteurs principaux et un acteur externe API Gemini :\quad
 \\\textbf{L'Étudiant~:} Il s'agit des étudiants inscrits en 3ème année de Licence ou en 2ème année de Master dans les filières de Transport et Logistique, qui utilisent la plateforme.
 \\ \textbf{L'Admin~:} Ce rôle est attribué au directeur des stages de l'ISGIS, qui est responsable de la gestion et du suivi de l’ensemble des fonctionnalités de la plateforme.
 \\\textbf{La Société~:} Elle représente les sociétés du domaine du transport et de la logistique qui interagissent avec le système pour proposer des opportunités.
@@ -142,7 +142,7 @@ Afin de décrire l’architecture physique de la plateforme et de mettre en évi
 
 \begin{figure}[h!]
 \centering
-\makebox[\textwidth][c]{\includegraphics[width=1.15\textwidth]{figures/arch_physique.png}}
+\makebox[\textwidth][c]{\includegraphics[width=1.15\textwidth]{figures/arch_physique_2.png}}
 \caption{Diagramme de déploiement de LogiLink} 
 \label{fig:arch_physique}
 \end{figure}
@@ -227,7 +227,7 @@ Les diagrammes de cas d'utilisation sont des diagrammes UML~[14] qui représente
   \begin{minipage}[t]{\linewidth}\vspace{4pt}
   \textbf{Cas 1~: Informations manquantes}
   \begin{enumerate}[nosep,leftmargin=*]
-    \item Le bouton \guillemotleft~Continuer~\guillemotright~reste bloqué tant qu'un champ obligatoire dans la section actuelle du formulaire n'est pas rempli.
+    \item Le bouton \guillemotleft~Continuer~\guillemotright~reste désactivé tant que tous les champs obligatoires de la section actuelle du formulaire ne sont pas remplis.
   \end{enumerate}
 
   \vspace{4pt}
@@ -449,7 +449,8 @@ Les diagrammes de cas d'utilisation sont des diagrammes UML~[14] qui représente
 \end{table}
 
 % --------------------------------------------
-\subsection{Diagramme de classe}
+\pagebreak
+\subsection{Diagramme de classes}
 % --------------------------------------------
 
 Les diagrammes de classes constituent une composante majeure de la conception orientée objet, fournissant une vue globale et statique du système à travers la définition des classes, de leurs attributs, de leurs opérations et des relations qui les lient. Comme l'illustre la figure~\ref{fig:diagramme-classes-2}, le diagramme de classes de notre projet présente les différentes entités du système ainsi que les associations qui existent entre elles~[15].
@@ -474,7 +475,7 @@ Les diagrammes de classes constituent une composante majeure de la conception or
 
 Les diagrammes de séquence sont des diagrammes comportementaux d'UML qui modélisent l'aspect dynamique d'un système. Ils formalisent, de manière chronologique, les interactions et les échanges de messages entre différents objets ou acteurs (utilisateurs, composants logiciels, bases de données) lors de l'exécution d'un scénario ou d'un cas d'utilisation spécifique~[16].
 
-\subsubsection{Diagramme de séquence `génération du CV ATS':}
+\subsubsection{Diagramme de séquence `génération du CV ATS'}
 La figure~\ref{fig:ds_cree_cv} suivante présente le diagramme de séquence associé au processus de génération d'un CV ATS. L'étudiant saisit les informations nécessaires à la création de son CV, puis a la possibilité de le télécharger au format PDF. De plus, le système lui permet de modifier ou de reconfigurer ses données à tout moment.
 
 \vspace{-0.8cm}
@@ -486,7 +487,7 @@ La figure~\ref{fig:ds_cree_cv} suivante présente le diagramme de séquence asso
 \label{fig:ds_cree_cv}
 \end{figure}
 
-\subsubsection{Diagramme de séquence `Stockage d'un nouveau CV':}
+\subsubsection{Diagramme de séquence `Stockage d'un nouveau CV'}
 La figure~\ref{fig:ds_stock_ats} suivante présente le diagramme de séquence détaillant le processus d'enregistrement d'un nouveau CV.
 
 \begin{figure}[H]
@@ -496,7 +497,7 @@ La figure~\ref{fig:ds_stock_ats} suivante présente le diagramme de séquence d�
 \label{fig:ds_stock_ats}
 \end{figure}
 
-\subsubsection{Diagramme de séquence `Calcul du score ATS':}
+\subsubsection{Diagramme de séquence `Calcul du score ATS'}
 Ce diagramme de séquence illustre le processus de calcul du score ATS, comme le montre la figure~\ref{fig:ds_ats} suivante :
 
 \begin{figure}[H]
@@ -506,17 +507,17 @@ Ce diagramme de séquence illustre le processus de calcul du score ATS, comme le
 \label{fig:ds_ats}
 \end{figure}
 
-\subsubsection{Diagramme de séquence `Calcul du score d'employabilité':}
+\subsubsection{Diagramme de séquence `Calcul du score d'employabilité'}
 La figure~\ref{fig:ds_score_emp} suivante présente le diagramme de séquence détaillant le processus de calcul du score d'employabilité.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{diagrammes/d_s_score_emp.png}
-\caption{Diagramme de séquence `Calcul du score d'employabilité'"}
+\caption{Diagramme de séquence `Calcul du score d'employabilité'}
 \label{fig:ds_score_emp}
 \end{figure}
 
-\subsubsection{Diagramme de séquence `Calcul du score d'employabilité prévisionnel':}
+\subsubsection{Diagramme de séquence `Calcul du score d'employabilité prévisionnel'}
 Le processus de calcul du score d'employabilité prévisionnel après l'obtention des certifications recommandées est illustré par la figure~\ref{fig:ds_score_pre} suivante :
 
 \begin{figure}[H]

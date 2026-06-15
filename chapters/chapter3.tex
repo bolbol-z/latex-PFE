@@ -2,7 +2,7 @@
 % CHAPTER 3 — Réalisation du système
 % =============================================================================
 
-\chapteropening{03}{Realisation du\\systeme}{Realisation du systeme}{chap:realisation-systeme}
+\chapteropening{03}{Réalisation du\\système}{Réalisation du système}{chap:realisation-systeme}
 
 \renewcommand{\thesection}{\arabic{section}}
 
@@ -217,7 +217,7 @@ La figure~\ref{fig:acces-academique-professionnel} ci-dessous illustre l'interfa
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.85\textwidth]{figures/Interface_daauthentification.png}
+\includegraphics[width=0.90\textwidth]{figures/Interface_d’authentification.png}
 \caption{Interface d'authentification}
 \label{fig:authentification}
 \end{figure}
@@ -226,7 +226,7 @@ La figure~\ref{fig:acces-academique-professionnel} ci-dessous illustre l'interfa
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.85\textwidth]{figures/Interface_de_verification_daidentite.png}
+\includegraphics[width=0.85\textwidth]{figures/Interface_de_vérification_d’identité.png}
 \caption{Interface de vérification d'identité}
 \label{fig:verification-identite}
 \end{figure}
@@ -240,11 +240,11 @@ La figure~\ref{fig:acces-academique-professionnel} ci-dessous illustre l'interfa
 \label{fig:creation-compte-societe}
 \end{figure}
 
-\noindent La figure~\ref{fig:authentification-societe} ci-dessous, il suffit à la société de saisir son adresse e-mail et son mot de passe pour s'authentifier.
+\noindent La figure~\ref{fig:authentification-societe} ci-dessous illustre l’interface d’authentification, dans laquelle la société doit simplement saisir son adresse e-mail et son mot de passe pour se connecter.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.85\textwidth]{figures/Interface_daauthentification_des_societes.png}
+\includegraphics[width=0.85\textwidth]{figures/Interface_daauthentification.png}
 \caption{Interface d'authentification des sociétés}
 \label{fig:authentification-societe}
 \end{figure}
@@ -257,7 +257,7 @@ Cette section présente les différentes interfaces dédiées à l’étudiant.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.85\textwidth]{figures/Interface_du_profil_etudiant.png}
+\includegraphics[width=0.95\textwidth]{figures/Interface_du_profil_etudiant.png}
 \caption{Interface du profil étudiant}
 \label{fig:profil-etudiant}
 \end{figure}
@@ -270,7 +270,7 @@ De plus, un dispositif de restauration des données permet à l'utilisateur, lor
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.85\textwidth]{figures/Interface_de_generation_du_CV_ATS.png}
+\includegraphics[width=0.95\textwidth]{figures/Interface_de_generation_du_CV_ATS.png}
 \caption{Interface de génération du CV ATS}
 \label{fig:generation-cv-ats}
 \end{figure}
@@ -279,16 +279,16 @@ De plus, un dispositif de restauration des données permet à l'utilisateur, lor
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.85\textwidth]{figures/Interface_de_validation_du_CV_ATS.png}
+\includegraphics[width=0.95\textwidth]{figures/Interface_de_validation_du_CV_ATS.png}
 \caption{Interface de validation du CV ATS}
 \label{fig:validation-cv-ats}
 \end{figure}
 
-\noindent La figure \ref{fig:cv-ats-genere} illustre le CV généré. Depuis cet espace, l'étudiant a la possibilité de modifier ses informations, de télécharger son document au format PDF et de cliquer sur le bouton "Évaluer votre CV" afin de stocker le CV, lancer le calcul de ses scores ATS et d'employabilité.
+\noindent La figure \ref{fig:cv-ats-genere} illustre le CV généré. Depuis cet espace, l'étudiant a la possibilité de modifier ses informations, de télécharger son CV au format PDF et de cliquer sur le bouton "Évaluer votre CV" afin de stocker le CV, lancer le calcul de ses scores ATS et d'employabilité.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.85\textwidth]{figures/Interface_du_CV_ATS_genere.png}
+\includegraphics[width=0.95\textwidth]{figures/Interface_du_CV_ATS_genere.png}
 \caption{Interface du CV ATS généré}
 \label{fig:cv-ats-genere}
 \end{figure}
@@ -299,7 +299,7 @@ La figure \ref{fig:tableau-bord-etudiant} ci-dessous présente le tableau de bor
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.85\textwidth]{figures/Interface_du_tableau_de_bord_de_laetudiant.png}
+\includegraphics[width=0.95\textwidth]{figures/Interface_du_tableau_de_bord_de_laetudiant.png}
 \caption{Interface du tableau de bord de l'étudiant}
 \label{fig:tableau-bord-etudiant}
 \end{figure}
@@ -310,42 +310,44 @@ La figure \ref{fig:tableau-bord-etudiant} ci-dessous présente le tableau de bor
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.85\textwidth]{figures/Interface_de_prediction_du_score_daemployabilite.png}
-\caption{Interface de prédiction du score d'employabilité}
+\includegraphics[width=0.95\textwidth]{figures/Interface_de_prediction_du_score_daemployabilite.png}
+\caption{Interface de recommandation}
 \label{fig:prediction-score-employabilite}
 \end{figure}
 
 \subsection{Interfaces admin}
 
-\noindent Les figures~\ref{fig:tableau-bord-admin}~et~\ref{fig:tableau-bord-admin-2} ci-dessous présentent le tableau de bord de l'administrateur, un espace de pilotage centralisant les indicateurs clés ainsi que des graphiques d'analyse. Elle permet de visualiser la répartition des étudiants par filière, d'observer la distribution des scores ATS et des scores d'employabilité, et de consulter une liste des étudiants les mieux classés selon le score d'employabilité.
+\noindent Les figures~\ref{fig:tableau-bord-admin}~et~\ref{fig:tableau-bord-admin-2} ci-dessous présentent le tableau de bord de l'administrateur, un espace de pilotage centralisant les indicateurs clés ainsi que des graphiques d'analyse. Elles permettent de visualiser la répartition des étudiants par filière, d’observer la distribution des scores ATS et des scores d’employabilité, ainsi que de consulter la liste des cinq étudiants les mieux classés selon leur score d’employabilité.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.85\textwidth]{figures/Interface_du_tableau_de_bord_de_laadministrateur.png}
-\caption{Interface du tableau de bord de l'administrateur}
+\includegraphics[width=0.95\textwidth]{figures/Interface_du_tableau_de_bord_de_laadministrateur.png}
+\captionsetup{skip=0.75cm}
+\caption{Partie supérieure de l’interface du tableau de bord de l'administrateur}
 \label{fig:tableau-bord-admin}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.85\textwidth]{figures/Interface_du_tableau_de_bord_de_laadministrateur_2.png}
-\caption{Interface du tableau de bord de l'administrateur}
+\includegraphics[width=0.95\textwidth]{figures/Interface_du_tableau_de_bord_de_laadministrateur_2.png}
+\captionsetup{skip=0.75cm}
+\caption{Partie inférieure de l’interface du tableau de bord de l'administrateur}
 \label{fig:tableau-bord-admin-2}
 \end{figure}
-
+%Partie inférieure de l’interface
 \noindent Les figures~\ref{fig:score-employabilite}~et~\ref{fig:score-employabilite-2} ci-dessous illustrent l'interface Score d'employabilité. Elle présente le nombre d'étudiants inscrits, le nombre d'étudiants classés parmi les meilleurs profils, ainsi que le score global d'employabilité. L'interface propose ensuite la distribution des scores, une analyse par filière et une comparaison par type de parcours (Licence, Master, Licence + Master).
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.85\textwidth]{figures/Interface_du_score_daemployabilite.png}
-\caption{Interface du score d'employabilité}
+\includegraphics[width=0.95\textwidth]{figures/Interface_du_score_daemployabilite.png}
+\caption{Partie supérieure de l’interface du score d'employabilité}
 \label{fig:score-employabilite}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.85\textwidth]{figures/Interface_du_score_daemployabilite_2.png}
-\caption{Interface du score d'employabilité}
+\includegraphics[width=0.95\textwidth]{figures/Interface_du_score_daemployabilite_2.png}
+\caption{Partie inférieure de l’interface du score d'employabilité}
 \label{fig:score-employabilite-2}
 \end{figure}
 
@@ -353,7 +355,7 @@ La figure \ref{fig:tableau-bord-etudiant} ci-dessous présente le tableau de bor
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.85\textwidth]{figures/Interface_daadequation_Formation-Emploi.png}
+\includegraphics[width=0.95\textwidth]{figures/Interface_daadequation_Formation-Emploi.png}
 \caption{Interface d'adéquation Formation-Emploi}
 \label{fig:adequation-formation-emploi}
 \end{figure}
@@ -362,17 +364,17 @@ La figure \ref{fig:tableau-bord-etudiant} ci-dessous présente le tableau de bor
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.85\textwidth]{figures/Interface_du_referentiel_des_competences.png}
+\includegraphics[width=0.95\textwidth]{figures/Interface_du_referentiel_des_competences.png}
 \caption{Interface du référentiel des compétences}
 \label{fig:referentiel-competences}
 \end{figure}
 
-\noindent La figure~\ref{fig:suivi-etudiants-filiere} ci-dessous présente l'interface Suivi des étudiants, ainsi que leur score CV ATS et leur score d'employabilité.
+\noindent La figure~\ref{fig:suivi-etudiants-filiere} ci-dessous présente l'interface Suivi des étudiants par filière, ainsi que leur score CV ATS et leur score d'employabilité.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.85\textwidth]{figures/Interface_de_suivi_des_etudiants_par_filiere.png}
-\caption{Interface de suivi des étudiants par filière}
+\includegraphics[width=0.95\textwidth]{figures/Interface_de_suivi_des_etudiants_par_filiere.png}
+\caption{Interface de suivi des étudiants}
 \label{fig:suivi-etudiants-filiere}
 \end{figure}
 
@@ -382,7 +384,7 @@ La figure~\ref{fig:consultation-candidatures} ci-dessous permet à la société 
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.85\textwidth]{figures/Interface_de_consultation_des_candidatures.png}
+\includegraphics[width=0.95\textwidth]{figures/Interface_de_consultation_des_candidatures.png}
 \caption{Interface de consultation des candidatures}
 \label{fig:consultation-candidatures}
 \end{figure}
