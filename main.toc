@@ -65,10 +65,10 @@
 \contentsline {subsection}{\numberline {4.2}Architecture physique de LogiLink}{38}{subsection.2.4.2}%
 \contentsline {section}{\numberline {5}Conception}{39}{section.2.5}%
 \contentsline {subsection}{\numberline {5.1}Diagramme de cas d'utilisation global}{39}{subsection.2.5.1}%
-\contentsline {subsubsection}{\numberline {5.1.1}Raffinement du cas d'utilisation \guillemotleft ~gérer CV ATS~\guillemotright }{41}{subsubsection.2.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.2}Raffinement du cas d'utilisation \guillemotleft ~Consulter score ATS et employabilité~\guillemotright }{42}{subsubsection.2.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.3}Raffinement du cas d'utilisation \guillemotleft ~Consulter score d'employabilité prévisionnel~\guillemotright }{43}{subsubsection.2.5.1.3}%
-\contentsline {subsubsection}{\numberline {5.1.4}Raffinement du cas d'utilisation \guillemotleft ~Suivre Score Employabilité~\guillemotright }{44}{subsubsection.2.5.1.4}%
+\contentsline {subsubsection}{\numberline {5.1.1}Raffinement du cas d'utilisation \guillemotleft ~Gérer CV ATS~\guillemotright }{41}{subsubsection.2.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Raffinement du cas d'utilisation \guillemotleft ~Consulter score ATS et employabilité~\guillemotright }{41}{subsubsection.2.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.3}Raffinement du cas d'utilisation \guillemotleft ~Consulter score d'employabilité prévisionnel~\guillemotright }{42}{subsubsection.2.5.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.4}Raffinement du cas d'utilisation \guillemotleft ~Suivre Score Employabilité~\guillemotright }{43}{subsubsection.2.5.1.4}%
 \contentsline {subsection}{\numberline {5.2}Diagramme de classes}{45}{subsection.2.5.2}%
 \contentsline {subsection}{\numberline {5.3}Diagramme de séquence}{47}{subsection.2.5.3}%
 \contentsline {subsubsection}{\numberline {5.3.1}Diagramme de séquence `génération du CV ATS'}{47}{subsubsection.2.5.3.1}%

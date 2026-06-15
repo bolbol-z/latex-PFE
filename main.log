@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.24)  14 JUN 2026 23:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.24)  15 JUN 2026 14:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1857,7 +1857,7 @@ Package geometry Warning: `landscape': not available in `\newgeometry'; skipped.
 <diagrammes/diagramme-classes_2.png, id=1096, 1195.1049pt x 845.0772pt>
 File: diagrammes/diagramme-classes_2.png Graphic file (type png)
 <use diagrammes/diagramme-classes_2.png>
-Package pdftex.def Info: diagrammes/diagramme-classes_2.png  used on input line 463.
+Package pdftex.def Info: diagrammes/diagramme-classes_2.png  used on input line 467.
 (pdftex.def)             Requested size: 1195.10199pt x 845.07513pt.
 
 
@@ -1868,7 +1868,7 @@ Package pdftex.def Info: diagrammes/diagramme-classes_2.png  used on input line 
 <diagrammes/d_s_cree_cv.png, id=1103, 597.6729pt x 845.0772pt>
 File: diagrammes/d_s_cree_cv.png Graphic file (type png)
 <use diagrammes/d_s_cree_cv.png>
-Package pdftex.def Info: diagrammes/d_s_cree_cv.png  used on input line 485.
+Package pdftex.def Info: diagrammes/d_s_cree_cv.png  used on input line 489.
 (pdftex.def)             Requested size: 500.77129pt x 708.08052pt.
 
 
@@ -1879,7 +1879,7 @@ Package pdftex.def Info: diagrammes/d_s_cree_cv.png  used on input line 485.
 <diagrammes/d_s_stock_ats.png, id=1110, 597.6729pt x 421.3341pt>
 File: diagrammes/d_s_stock_ats.png Graphic file (type png)
 <use diagrammes/d_s_stock_ats.png>
-Package pdftex.def Info: diagrammes/d_s_stock_ats.png  used on input line 495.
+Package pdftex.def Info: diagrammes/d_s_stock_ats.png  used on input line 499.
 (pdftex.def)             Requested size: 455.24411pt x 320.93086pt.
 
 
@@ -1887,7 +1887,7 @@ Package pdftex.def Info: diagrammes/d_s_stock_ats.png  used on input line 495.
 <diagrammes/d_s_ats.png, id=1117, 597.6729pt x 421.3341pt>
 File: diagrammes/d_s_ats.png Graphic file (type png)
 <use diagrammes/d_s_ats.png>
-Package pdftex.def Info: diagrammes/d_s_ats.png  used on input line 505.
+Package pdftex.def Info: diagrammes/d_s_ats.png  used on input line 509.
 (pdftex.def)             Requested size: 455.24411pt x 320.93086pt.
 
 
@@ -1895,7 +1895,7 @@ Package pdftex.def Info: diagrammes/d_s_ats.png  used on input line 505.
 <diagrammes/d_s_score_emp.png, id=1124, 597.6729pt x 421.3341pt>
 File: diagrammes/d_s_score_emp.png Graphic file (type png)
 <use diagrammes/d_s_score_emp.png>
-Package pdftex.def Info: diagrammes/d_s_score_emp.png  used on input line 515.
+Package pdftex.def Info: diagrammes/d_s_score_emp.png  used on input line 519.
 (pdftex.def)             Requested size: 455.24411pt x 320.93086pt.
 
 
@@ -1903,7 +1903,7 @@ Package pdftex.def Info: diagrammes/d_s_score_emp.png  used on input line 515.
 <diagrammes/d_s_score_pre.png, id=1131, 597.6729pt x 421.3341pt>
 File: diagrammes/d_s_score_pre.png Graphic file (type png)
 <use diagrammes/d_s_score_pre.png>
-Package pdftex.def Info: diagrammes/d_s_score_pre.png  used on input line 525.
+Package pdftex.def Info: diagrammes/d_s_score_pre.png  used on input line 529.
 (pdftex.def)             Requested size: 455.24411pt x 320.93086pt.
 
 
@@ -2208,7 +2208,7 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B5463CF0F54BC7EF946EB86AB46B055A;22630.
+(rerunfilecheck)             Checksum: 82FC05B9E7ADA026F79897FC6A3302E5;22630.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -2222,7 +2222,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  93i,17n,99p,2614b,2346s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (91 pages, 38917604 bytes).
+Output written on main.pdf (91 pages, 38918241 bytes).
 PDF statistics:
  1476 PDF objects out of 1728 (max. 8388607)
  1217 compressed objects within 13 object streams
